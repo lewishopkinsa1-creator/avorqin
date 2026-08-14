@@ -18,10 +18,7 @@ export function CSVToJSONTool() {
   const handleConvert = useCallback(() => {
     setError("");
 
-    const result = csvToJSON(input, {
-      delimiter,
-      hasHeader,
-    });
+    const result = csvToJSON(input, delimiter, hasHeader);
 
     if (result.success) {
       setOutput(JSON.stringify(result.data, null, 2));
@@ -58,10 +55,7 @@ export function CSVToJSONTool() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="space-y-2">
-          <label
-            htmlFor="delimiter"
-            className="text-sm font-medium"
-          >
+          <label htmlFor="delimiter" className="text-sm font-medium">
             Delimiter
           </label>
 
