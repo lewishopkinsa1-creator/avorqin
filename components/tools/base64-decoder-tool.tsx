@@ -8,18 +8,20 @@ import { CopyButton } from "@/components/shared/copy-button";
 import { decodeBase64 } from "@/lib/tool-utils/base64-utils";
 
 export function Base64DecoderTool() {
-  const [input, setInput] = useState('');
-  const [output, setOutput] = useState('');
-  const [error, setError] = useState('');
+  const [input, setInput] = useState("");
+  const [output, setOutput] = useState("");
+  const [error, setError] = useState("");
 
   const handleDecode = useCallback(() => {
-    setError('');
+    setError("");
+
     const result = decodeBase64(input);
-    if (result.success) {
-      setOutput(result.data);
-    } else {
+
+    if ("error" in result) {
       setError(result.error);
-      setOutput('');
+      setOutput("");
+    } else {
+      setOutput(result.data);
     }
   }, [input]);
 
@@ -32,6 +34,7 @@ export function Base64DecoderTool() {
         aria-label="Base64 input"
         className="font-mono text-sm break-all"
       />
+
       <Button onClick={handleDecode}>Decode Base64</Button>
 
       {error && (
@@ -46,6 +49,7 @@ export function Base64DecoderTool() {
             <span className="text-sm font-medium">Decoded Output</span>
             <CopyButton text={output} />
           </div>
+
           <Textarea
             value={output}
             readOnly
