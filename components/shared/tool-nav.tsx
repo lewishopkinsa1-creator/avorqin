@@ -13,10 +13,19 @@ export function ToolNav({ currentSlug }: ToolNavProps) {
       <h3 className="font-semibold text-sm uppercase tracking-wider text-muted-foreground">
         All Tools
       </h3>
+
       <nav className="space-y-1" aria-label="Tool navigation">
         {tools.map((tool) => {
-          const Icon = (LucideIcons as Record<string, React.ComponentType<{ className?: string }>>)[tool.icon] || LucideIcons.Circle;
+          const Icon =
+            (
+              LucideIcons as unknown as Record<
+                string,
+                React.ComponentType<{ className?: string }>
+              >
+            )[tool.icon] || LucideIcons.Circle;
+
           const isActive = tool.slug === currentSlug;
+
           return (
             <Link
               key={tool.slug}
