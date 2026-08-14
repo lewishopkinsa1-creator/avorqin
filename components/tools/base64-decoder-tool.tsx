@@ -17,13 +17,27 @@ export function Base64DecoderTool() {
 
     const result = decodeBase64(input);
 
-    if ("error" in result) {
-      setError(result.error);
-      setOutput("");
-    } else {
+    if (result.success) {
       setOutput(result.data);
+      return;
     }
+
+    const resultError = (result as { error?: unknown }).error;
+
+    setError(
+      typeof resultError === "string"
+        ? resultError
+        : "Unable to decode Base64."
+    );
+
+    setOutput("");
   }, [input]);
+
+  const handleClear = () => {
+    setInput("");
+    setOutput("");
+    setError("");
+  };
 
   return (
     <div className="space-y-4">
@@ -35,7 +49,13 @@ export function Base64DecoderTool() {
         className="font-mono text-sm break-all"
       />
 
-      <Button onClick={handleDecode}>Decode Base64</Button>
+      <div className="flex flex-wrap gap-2">
+        <Button onClick={handleDecode}>Decode Base64</Button>
+
+        <Button variant="outline" onClick={handleClear}>
+          Clear
+        </Button>
+      </div>
 
       {error && (
         <Alert variant="destructive" aria-live="polite">
@@ -45,7 +65,7 @@ export function Base64DecoderTool() {
 
       {output && (
         <div className="space-y-2">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4">
             <span className="text-sm font-medium">Decoded Output</span>
             <CopyButton text={output} />
           </div>
