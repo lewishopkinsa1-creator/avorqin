@@ -17,7 +17,8 @@ export function URLDecoderTool() {
   const handleDecode = useCallback(() => {
     setError("");
 
-    const result = decodeURL(input, mode);
+    const decodeAsComponent = mode === "component";
+    const result = decodeURL(input, decodeAsComponent);
 
     if (result.success) {
       setOutput(result.data);
