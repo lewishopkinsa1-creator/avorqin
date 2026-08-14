@@ -11,10 +11,12 @@ export interface ToolConfig {
   faq: { question: string; answer: string }[];
 }
 
-export interface ToolResult<T> {
-  success: true;
-  data: T;
-} | {
-  success: false;
-  error: string;
-};
+export type ToolResult<T> =
+  | {
+      success: true;
+      data: T;
+    }
+  | {
+      success: false;
+      error: string;
+    };
