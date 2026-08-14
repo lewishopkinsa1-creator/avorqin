@@ -6,8 +6,7 @@ export function formatHTML(input: string): ToolResult<string> {
     let indent = 0;
     const tab = "  ";
     const lines = input
-      .replace(/>\s*</g, ">
-<")
+      .replace(/>\s*</g, ">\n<")
       .replace(/\n\s*\n/g, "\n")
       .split("\n");
 
