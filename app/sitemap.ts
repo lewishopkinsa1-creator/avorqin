@@ -1,37 +1,38 @@
-import { MetadataRoute } from "next";
-import { SITE_URL } from "@/lib/config";
+import type { MetadataRoute } from "next";
 import { tools } from "@/lib/tools-data";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes: MetadataRoute.Sitemap = [
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
+  const toolUrls = tools.map((tool) => ({
+    url: `${siteUrl}/tools/${tool.slug}/`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [
     {
-      url: `${SITE_URL}/`,
+      url: `${siteUrl}/`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: `${SITE_URL}/privacy/`,
+      url: `${siteUrl}/privacy/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
-      priority: 0.3,
+      priority: 0.2,
     },
     {
-      url: `${SITE_URL}/terms/`,
+      url: `${siteUrl}/terms/`,
       lastModified: new Date(),
       changeFrequency: "yearly",
-      priority: 0.3,
+      priority: 0.2,
     },
+    ...toolUrls,
   ];
-
-  tools.forEach((tool) => {
-    routes.push({
-      url: `${SITE_URL}/tools/${tool.slug}/`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    });
-  });
-
-  return routes;
 }
