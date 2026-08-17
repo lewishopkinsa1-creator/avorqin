@@ -503,6 +503,53 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+  {
+    id: "json-to-csv",
+    name: "JSON to CSV Converter",
+    slug: "json-to-csv",
+    description:
+      "Convert JSON arrays into clean CSV data instantly in your browser. Choose comma, semicolon, or tab delimiters and include headers when needed.",
+    longDescription:
+      "The JSON to CSV Converter transforms JSON arrays into CSV text that can be opened in spreadsheet applications, imported into databases, or used in reporting workflows. It supports arrays of objects, automatically combines object keys into columns, handles missing values, safely quotes fields that contain delimiters or line breaks, and works entirely in your browser.",
+    keywords: [
+      "json to csv",
+      "convert json to csv",
+      "json csv converter",
+      "json to spreadsheet",
+      "json array to csv",
+    ],
+    category: "Developer",
+    icon: "FileSpreadsheet",
+    howToUse: [
+      "Paste a JSON array into the input area.",
+      "Choose a comma, semicolon, or tab delimiter.",
+      "Choose whether to include a header row.",
+      "Click 'Convert to CSV' and copy the generated CSV output.",
+    ],
+    faq: [
+      {
+        question: "What JSON format works best?",
+        answer:
+          "An array of objects works best because object keys become CSV columns. Arrays of simple values are also supported and are written as one value per row.",
+      },
+      {
+        question: "What happens if objects have different keys?",
+        answer:
+          "The converter combines all keys found across the array into the CSV header. Missing values are left blank for records that do not contain a particular key.",
+      },
+      {
+        question: "Does it handle commas and quotes inside values?",
+        answer:
+          "Yes. Fields containing the selected delimiter, double quotes, or line breaks are wrapped in quotes, and embedded double quotes are escaped according to CSV conventions.",
+      },
+      {
+        question: "Is my JSON uploaded anywhere?",
+        answer:
+          "No. Conversion happens locally in your browser, so Avorqin does not need to send your JSON to an external API.",
+      },
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
