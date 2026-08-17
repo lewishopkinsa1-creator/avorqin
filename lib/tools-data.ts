@@ -409,6 +409,53 @@ export const tools: ToolConfig[] = [
       },
     ],
   },
+  {
+    id: "uuid-generator",
+    name: "UUID Generator",
+    slug: "uuid-generator",
+    description:
+      "Generate secure random UUID v4 identifiers instantly in your browser. Create one UUID or generate up to 50 at once.",
+    longDescription:
+      "The UUID Generator creates version 4 universally unique identifiers using cryptographically secure browser APIs. Generate a single UUID or create batches of up to 50 identifiers for databases, APIs, test data, distributed systems, and application development. UUID generation happens locally in your browser and does not require an external service.",
+    keywords: [
+      "uuid generator",
+      "uuid v4 generator",
+      "guid generator",
+      "random uuid",
+      "generate uuid",
+    ],
+    category: "Developer",
+    icon: "Fingerprint",
+    howToUse: [
+      "Choose how many UUIDs you want to generate: 1, 5, 10, 25, or 50.",
+      "Click 'Generate UUID' or 'Generate UUIDs' to create secure random UUID v4 identifiers.",
+      "Review the generated identifiers, with one UUID displayed per line.",
+      "Use the Copy button to copy the complete output to your clipboard.",
+    ],
+    faq: [
+      {
+        question: "What is a UUID?",
+        answer:
+          "A UUID is a 128-bit identifier designed to be unique across systems without requiring a central coordinating service. UUIDs are commonly used as database keys, API identifiers, request IDs, and identifiers in distributed applications.",
+      },
+      {
+        question: "What is UUID v4?",
+        answer:
+          "UUID version 4 is generated primarily from random data. Its version and variant bits follow the UUID format, while the remaining bits are generated securely. A UUID v4 looks like 550e8400-e29b-41d4-a716-446655440000.",
+      },
+      {
+        question: "Can two generated UUIDs ever be the same?",
+        answer:
+          "A collision is theoretically possible, but extraordinarily unlikely when UUID v4 values are generated correctly with cryptographically secure randomness.",
+      },
+      {
+        question: "Are UUIDs generated on Avorqin sent to a server?",
+        answer:
+          "No. UUID generation happens locally in your browser using secure browser cryptography APIs. Avorqin does not need to send generated UUIDs to an external API.",
+      },
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
