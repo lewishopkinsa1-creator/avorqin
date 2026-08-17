@@ -550,6 +550,53 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+  {
+    id: "xml-formatter",
+    name: "XML Formatter",
+    slug: "xml-formatter",
+    description:
+      "Format, beautify, validate, and minify XML directly in your browser. Clean up compact XML with readable indentation and helpful syntax errors.",
+    longDescription:
+      "The XML Formatter makes XML documents easier to read by adding consistent indentation and line breaks while preserving document structure. It also validates XML syntax before formatting, reports malformed XML, supports 2-space and 4-space indentation, and can minify XML when compact output is needed. Processing happens entirely in your browser.",
+    keywords: [
+      "xml formatter",
+      "xml beautifier",
+      "format xml",
+      "xml pretty print",
+      "online xml formatter",
+    ],
+    category: "Developer",
+    icon: "FileCode2",
+    howToUse: [
+      "Paste XML into the input area.",
+      "Choose 2-space or 4-space indentation.",
+      "Click 'Format XML' to validate and beautify the document.",
+      "Use 'Minify' for compact XML or copy the formatted result.",
+    ],
+    faq: [
+      {
+        question: "Does the XML Formatter validate my XML?",
+        answer:
+          "Yes. The tool parses the XML before formatting and displays an error when the document is malformed.",
+      },
+      {
+        question: "Will formatting change my XML data?",
+        answer:
+          "The formatter is designed to preserve the XML document structure while making the serialized markup easier to read.",
+      },
+      {
+        question: "Can I minify XML too?",
+        answer:
+          "Yes. Use the Minify button to remove unnecessary whitespace between XML elements after the document has been validated.",
+      },
+      {
+        question: "Is my XML uploaded to a server?",
+        answer:
+          "No. XML parsing, formatting, validation, and minification happen locally in your browser.",
+      },
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
