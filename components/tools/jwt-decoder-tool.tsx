@@ -21,7 +21,13 @@ export function JWTDecoderTool() {
   const [error, setError] = useState("");
 
   const timestamps = useMemo(() => {
-    if (!decoded || !isRecord(decoded.payload)) {
+    if (!decoded) {
+      return [];
+    }
+
+    const payload = decoded.payload;
+
+    if (!isRecord(payload)) {
       return [];
     }
 
@@ -31,12 +37,19 @@ export function JWTDecoderTool() {
       ["nbf", "Not before"],
     ] as const)
       .map(([claim, label]) => {
-        const raw = decoded.payload[claim];
+        const raw = payload[claim];
         const formatted = formatJwtTimestamp(raw);
 
-        return formatted
-          ? { claim, label, raw: String(raw), formatted }
-          : null;
+        if (!formatted) {
+          return null;
+        }
+
+        return {
+          claim,
+          label,
+          raw: String(raw),
+          formatted,
+        };
       })
       .filter(
         (
@@ -104,6 +117,7 @@ export function JWTDecoderTool() {
         >
           Decode JWT
         </button>
+
         <button
           type="button"
           onClick={handleClear}
@@ -126,6 +140,7 @@ export function JWTDecoderTool() {
               <h3 className="font-semibold">Header</h3>
               <CopyButton text={formatJwtJson(decoded.header)} />
             </div>
+
             <pre className="overflow-x-auto whitespace-pre-wrap break-words rounded-lg border bg-slate-50 p-4 font-mono text-sm">
               {formatJwtJson(decoded.header)}
             </pre>
@@ -136,6 +151,7 @@ export function JWTDecoderTool() {
               <h3 className="font-semibold">Payload</h3>
               <CopyButton text={formatJwtJson(decoded.payload)} />
             </div>
+
             <pre className="overflow-x-auto whitespace-pre-wrap break-words rounded-lg border bg-slate-50 p-4 font-mono text-sm">
               {formatJwtJson(decoded.payload)}
             </pre>
@@ -144,15 +160,18 @@ export function JWTDecoderTool() {
           {timestamps.length > 0 && (
             <section className="space-y-3">
               <h3 className="font-semibold">Token timestamps</h3>
+
               <div className="grid gap-3 md:grid-cols-3">
                 {timestamps.map((item) => (
                   <div key={item.claim} className="rounded-lg border p-4">
                     <div className="text-sm font-semibold">
                       {item.label} ({item.claim})
                     </div>
+
                     <div className="mt-2 break-all text-sm text-slate-600">
                       {item.formatted}
                     </div>
+
                     <div className="mt-1 text-xs text-slate-500">
                       Unix: {item.raw}
                     </div>
@@ -167,9 +186,11 @@ export function JWTDecoderTool() {
               <h3 className="font-semibold">Signature section</h3>
               <CopyButton text={decoded.signature} />
             </div>
+
             <div className="break-all rounded-lg border bg-slate-50 p-4 font-mono text-sm">
               {decoded.signature}
             </div>
+
             <p className="text-sm text-slate-500">
               The signature is displayed as encoded text only and is not
               verified by this decoder.
