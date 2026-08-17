@@ -11,6 +11,13 @@ import {
 
 type JwtPayload = Record<string, unknown>;
 
+type JwtTimestampItem = {
+  claim: "exp" | "iat" | "nbf";
+  label: "Expires" | "Issued at" | "Not before";
+  raw: string;
+  formatted: string;
+};
+
 function isRecord(value: unknown): value is JwtPayload {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
@@ -20,7 +27,7 @@ export function JWTDecoderTool() {
   const [decoded, setDecoded] = useState<DecodedJwt | null>(null);
   const [error, setError] = useState("");
 
-  const timestamps = useMemo(() => {
+  const timestamps = useMemo<JwtTimestampItem[]>(() => {
     if (!decoded) {
       return [];
     }
@@ -31,36 +38,32 @@ export function JWTDecoderTool() {
       return [];
     }
 
-    return ([
-      ["exp", "Expires"],
-      ["iat", "Issued at"],
-      ["nbf", "Not before"],
-    ] as const)
-      .map(([claim, label]) => {
-        const raw = payload[claim];
-        const formatted = formatJwtTimestamp(raw);
+    const claims: Array<{
+      claim: JwtTimestampItem["claim"];
+      label: JwtTimestampItem["label"];
+    }> = [
+      { claim: "exp", label: "Expires" },
+      { claim: "iat", label: "Issued at" },
+      { claim: "nbf", label: "Not before" },
+    ];
 
-        if (!formatted) {
-          return null;
-        }
+    const items: JwtTimestampItem[] = [];
 
-        return {
+    for (const { claim, label } of claims) {
+      const raw = payload[claim];
+      const formatted = formatJwtTimestamp(raw);
+
+      if (formatted) {
+        items.push({
           claim,
           label,
           raw: String(raw),
           formatted,
-        };
-      })
-      .filter(
-        (
-          item
-        ): item is {
-          claim: "exp" | "iat" | "nbf";
-          label: string;
-          raw: string;
-          formatted: string;
-        } => item !== null
-      );
+        });
+      }
+    }
+
+    return items;
   }, [decoded]);
 
   const handleDecode = () => {
@@ -98,6 +101,7 @@ export function JWTDecoderTool() {
         <label htmlFor="jwt-input" className="text-sm font-medium">
           JSON Web Token
         </label>
+
         <textarea
           id="jwt-input"
           value={input}
