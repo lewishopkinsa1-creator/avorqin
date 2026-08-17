@@ -645,6 +645,366 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+  {
+    id: "yaml-formatter",
+    name: "YAML Formatter",
+    slug: "yaml-formatter",
+    description:
+      "Format and clean up YAML with consistent indentation directly in your browser.",
+    longDescription:
+      "Format and clean up YAML with consistent indentation directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["yaml formatter", "yaml formatter", "online yaml formatter"],
+    category: "Developer",
+    icon: "FileCode2",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "yaml-to-json",
+    name: "YAML to JSON Converter",
+    slug: "yaml-to-json",
+    description:
+      "Convert common YAML documents to formatted JSON directly in your browser.",
+    longDescription:
+      "Convert common YAML documents to formatted JSON directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["yaml to json converter", "yaml to json", "online yaml to json"],
+    category: "Developer",
+    icon: "ArrowRightLeft",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "json-to-yaml",
+    name: "JSON to YAML Converter",
+    slug: "json-to-yaml",
+    description:
+      "Convert JSON objects and arrays to readable YAML directly in your browser.",
+    longDescription:
+      "Convert JSON objects and arrays to readable YAML directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["json to yaml converter", "json to yaml", "online json to yaml"],
+    category: "Developer",
+    icon: "ArrowRightLeft",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "xml-to-json",
+    name: "XML to JSON Converter",
+    slug: "xml-to-json",
+    description:
+      "Convert XML documents to structured JSON directly in your browser.",
+    longDescription:
+      "Convert XML documents to structured JSON directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["xml to json converter", "xml to json", "online xml to json"],
+    category: "Developer",
+    icon: "ArrowRightLeft",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "json-to-xml",
+    name: "JSON to XML Converter",
+    slug: "json-to-xml",
+    description:
+      "Convert JSON objects and arrays to XML directly in your browser.",
+    longDescription:
+      "Convert JSON objects and arrays to XML directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["json to xml converter", "json to xml", "online json to xml"],
+    category: "Developer",
+    icon: "ArrowRightLeft",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "markdown-previewer",
+    name: "Markdown Previewer",
+    slug: "markdown-previewer",
+    description:
+      "Preview Markdown as rendered HTML instantly in your browser.",
+    longDescription:
+      "Preview Markdown as rendered HTML instantly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["markdown previewer", "markdown previewer", "online markdown previewer"],
+    category: "Developer",
+    icon: "FileText",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "html-encoder",
+    name: "HTML Encoder",
+    slug: "html-encoder",
+    description:
+      "Encode HTML special characters into safe entities directly in your browser.",
+    longDescription:
+      "Encode HTML special characters into safe entities directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["html encoder", "html encoder", "online html encoder"],
+    category: "Developer",
+    icon: "Code2",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "html-decoder",
+    name: "HTML Decoder",
+    slug: "html-decoder",
+    description:
+      "Decode HTML entities back into readable characters directly in your browser.",
+    longDescription:
+      "Decode HTML entities back into readable characters directly in your browser. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["html decoder", "html decoder", "online html decoder"],
+    category: "Developer",
+    icon: "Code2",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "hex-to-rgb",
+    name: "Hex to RGB Converter",
+    slug: "hex-to-rgb",
+    description:
+      "Convert hexadecimal colors to RGB and RGBA values instantly.",
+    longDescription:
+      "Convert hexadecimal colors to RGB and RGBA values instantly. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["hex to rgb converter", "hex to rgb", "online hex to rgb"],
+    category: "Developer",
+    icon: "Palette",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
+  {
+    id: "rgb-to-hex",
+    name: "RGB to Hex Converter",
+    slug: "rgb-to-hex",
+    description:
+      "Convert RGB color values to hexadecimal color codes instantly.",
+    longDescription:
+      "Convert RGB color values to hexadecimal color codes instantly. Avorqin processes the input locally in your browser so you can work quickly without sending the content to an external conversion service.",
+    keywords: ["rgb to hex converter", "rgb to hex", "online rgb to hex"],
+    category: "Developer",
+    icon: "Palette",
+    howToUse: [
+      "Enter or paste your input into the tool.",
+      "Run the conversion or formatting action.",
+      "Review the result for accuracy.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Can I use this tool for development work?",
+        answer:
+          "Yes. It is designed for quick formatting, conversion, debugging, and everyday developer workflows.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {

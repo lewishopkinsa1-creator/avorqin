@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { hexToRgb } from "@/lib/tool-utils/color-utils";
+export function HexToRGBTool(){const[input,setInput]=useState("#336699");const[output,setOutput]=useState("");const[error,setError]=useState("");const run=()=>{try{const c=hexToRgb(input);setOutput(`rgb(${c.r}, ${c.g}, ${c.b})`);setError("")}catch(e){setError(e instanceof Error?e.message:"Invalid color");setOutput("")}};return <div className="space-y-4"><input value={input} onChange={e=>setInput(e.target.value)} className="w-full rounded-lg border p-3 font-mono"/><button onClick={run} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Convert to RGB</button>{error&&<p className="text-sm text-red-600">{error}</p>}<input value={output} readOnly className="w-full rounded-lg border bg-slate-50 p-3 font-mono"/>{output&&<button onClick={()=>navigator.clipboard.writeText(output)} className="rounded-lg border px-4 py-2">Copy</button>}</div>}
