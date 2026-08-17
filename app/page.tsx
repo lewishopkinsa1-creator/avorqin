@@ -13,13 +13,16 @@ export default function HomePage() {
               {tools.length} free browser-based utility tools
             </div>
 
-            <h1 className="text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-              Simple tools.
-              <br />
-              <span className="text-muted-foreground">Done right.</span>
+            <h1 className="mx-auto w-full max-w-4xl text-center text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
+              <span className="block w-full text-center">
+                Simple tools.
+              </span>
+              <span className="block w-full text-center text-muted-foreground">
+                Done right.
+              </span>
             </h1>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
+            <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-relaxed text-muted-foreground md:text-xl">
               Fast, free developer tools for formatting, encoding, validating,
               converting, and everyday technical tasks. No signup. No clutter.
             </p>
@@ -46,10 +49,12 @@ export default function HomePage() {
                 <ShieldCheck className="h-4 w-4" />
                 Privacy focused
               </span>
+
               <span className="flex items-center gap-1.5">
                 <Zap className="h-4 w-4" />
                 Instant results
               </span>
+
               <span className="flex items-center gap-1.5">
                 <Smartphone className="h-4 w-4" />
                 Mobile friendly
@@ -68,6 +73,7 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold tracking-tight">
                 Built to stay out of your way
               </h2>
+
               <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
                 Avorqin focuses on useful tools that load quickly, work
                 immediately, and don't make simple tasks complicated.
@@ -79,7 +85,9 @@ export default function HomePage() {
                 <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-xl border bg-background">
                   <ShieldCheck className="h-5 w-5" />
                 </div>
+
                 <h3 className="font-semibold">Privacy focused</h3>
+
                 <p className="text-sm leading-relaxed text-muted-foreground">
                   Tool processing happens locally in your browser whenever
                   possible.
@@ -90,7 +98,9 @@ export default function HomePage() {
                 <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-xl border bg-background">
                   <Zap className="h-5 w-5" />
                 </div>
+
                 <h3 className="font-semibold">Fast by design</h3>
+
                 <p className="text-sm leading-relaxed text-muted-foreground">
                   No registration flow or unnecessary steps between you and the
                   result.
@@ -101,7 +111,9 @@ export default function HomePage() {
                 <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-xl border bg-background">
                   <Smartphone className="h-5 w-5" />
                 </div>
+
                 <h3 className="font-semibold">Works everywhere</h3>
+
                 <p className="text-sm leading-relaxed text-muted-foreground">
                   Responsive interfaces designed for desktop, tablet, and
                   mobile use.
