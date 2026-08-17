@@ -456,6 +456,53 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+  {
+    id: "jwt-decoder",
+    name: "JWT Decoder",
+    slug: "jwt-decoder",
+    description:
+      "Decode JWT headers and payloads instantly in your browser. Inspect claims and common token timestamps without sending your token to a server.",
+    longDescription:
+      "The JWT Decoder reads the Base64URL-encoded header and payload sections of a JSON Web Token and displays them as formatted JSON. It also converts common exp, iat, and nbf Unix timestamp claims into readable UTC dates. Decoding happens locally in your browser. This tool does not verify JWT signatures and should not be used as proof that a token is authentic or trusted.",
+    keywords: [
+      "jwt decoder",
+      "decode jwt",
+      "json web token decoder",
+      "jwt payload decoder",
+      "jwt claims",
+    ],
+    category: "Developer",
+    icon: "KeyRound",
+    howToUse: [
+      "Paste a JSON Web Token into the input field.",
+      "Click 'Decode JWT' to decode the token header and payload.",
+      "Review the formatted JSON and any recognized exp, iat, or nbf timestamps.",
+      "Copy the decoded sections when needed. Remember that decoding does not verify the JWT signature.",
+    ],
+    faq: [
+      {
+        question: "What is a JWT?",
+        answer:
+          "A JSON Web Token is a compact token format commonly used to transmit claims between systems. A typical JWT contains a header, payload, and signature section separated by periods.",
+      },
+      {
+        question: "Does this JWT Decoder verify signatures?",
+        answer:
+          "No. It only decodes the token contents. Signature verification requires the correct cryptographic key and algorithm and must be performed separately before a token is trusted.",
+      },
+      {
+        question: "What do exp, iat, and nbf mean?",
+        answer:
+          "exp is the expiration time, iat is the issued-at time, and nbf is the not-before time. JWT numeric date claims are generally represented as Unix timestamps in seconds.",
+      },
+      {
+        question: "Does Avorqin upload my JWT?",
+        answer:
+          "No. Decoding is performed locally in your browser. Even so, avoid sharing sensitive production tokens with other people or services.",
+      },
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
