@@ -1005,6 +1005,906 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+  {
+    id: "sha256-hash-generator",
+    name: "SHA-256 Hash Generator",
+    slug: "sha256-hash-generator",
+    description:
+      "Generate SHA-256 hashes from text directly in your browser.",
+    longDescription:
+      "Generate SHA-256 hashes from text directly in your browser. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["sha-256 hash generator", "sha256 hash generator", "online sha256 hash generator"],
+    category: "Developer",
+    icon: "Hash",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "sha1-hash-generator",
+    name: "SHA-1 Hash Generator",
+    slug: "sha1-hash-generator",
+    description:
+      "Generate SHA-1 hashes for checksums and legacy compatibility directly in your browser.",
+    longDescription:
+      "Generate SHA-1 hashes for checksums and legacy compatibility directly in your browser. Processing happens locally in your browser so the input does not need to be sent to an external conversion service. SHA-1 is considered legacy for security-sensitive uses; this page is intended for compatibility and checksum workflows.",
+    keywords: ["sha-1 hash generator", "sha1 hash generator", "online sha1 hash generator"],
+    category: "Developer",
+    icon: "Hash",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "sha512-hash-generator",
+    name: "SHA-512 Hash Generator",
+    slug: "sha512-hash-generator",
+    description:
+      "Generate SHA-512 hashes from text directly in your browser.",
+    longDescription:
+      "Generate SHA-512 hashes from text directly in your browser. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["sha-512 hash generator", "sha512 hash generator", "online sha512 hash generator"],
+    category: "Developer",
+    icon: "Hash",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "hmac-generator",
+    name: "HMAC Generator",
+    slug: "hmac-generator",
+    description:
+      "Generate keyed HMAC signatures with SHA-256 or SHA-512 directly in your browser.",
+    longDescription:
+      "Generate keyed HMAC signatures with SHA-256 or SHA-512 directly in your browser. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["hmac generator", "hmac generator", "online hmac generator"],
+    category: "Developer",
+    icon: "KeyRound",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "random-string-generator",
+    name: "Random String Generator",
+    slug: "random-string-generator",
+    description:
+      "Generate secure random strings with letters, numbers, and symbols.",
+    longDescription:
+      "Generate secure random strings with letters, numbers, and symbols. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["random string generator", "random string generator", "online random string generator"],
+    category: "Developer",
+    icon: "Shuffle",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "password-generator",
+    name: "Password Generator",
+    slug: "password-generator",
+    description:
+      "Generate strong random passwords locally in your browser.",
+    longDescription:
+      "Generate strong random passwords locally in your browser. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["password generator", "password generator", "online password generator"],
+    category: "Developer",
+    icon: "KeyRound",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "lorem-ipsum-generator",
+    name: "Lorem Ipsum Generator",
+    slug: "lorem-ipsum-generator",
+    description:
+      "Generate placeholder words, sentences, or paragraphs instantly.",
+    longDescription:
+      "Generate placeholder words, sentences, or paragraphs instantly. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["lorem ipsum generator", "lorem ipsum generator", "online lorem ipsum generator"],
+    category: "Developer",
+    icon: "FileText",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "slug-generator",
+    name: "Slug Generator",
+    slug: "slug-generator",
+    description:
+      "Turn titles and text into clean URL-friendly slugs.",
+    longDescription:
+      "Turn titles and text into clean URL-friendly slugs. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["slug generator", "slug generator", "online slug generator"],
+    category: "Developer",
+    icon: "Link",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "text-case-converter",
+    name: "Text Case Converter",
+    slug: "text-case-converter",
+    description:
+      "Convert text between uppercase, lowercase, title case, camelCase, PascalCase, snake_case, and kebab-case.",
+    longDescription:
+      "Convert text between uppercase, lowercase, title case, camelCase, PascalCase, snake_case, and kebab-case. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["text case converter", "text case converter", "online text case converter"],
+    category: "Developer",
+    icon: "CaseSensitive",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "word-character-counter",
+    name: "Word & Character Counter",
+    slug: "word-character-counter",
+    description:
+      "Count words, characters, lines, and sentences instantly.",
+    longDescription:
+      "Count words, characters, lines, and sentences instantly. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["word & character counter", "word character counter", "online word character counter"],
+    category: "Developer",
+    icon: "TextCursorInput",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "line-sorter",
+    name: "Line Sorter",
+    slug: "line-sorter",
+    description:
+      "Sort lines alphabetically or in reverse order directly in your browser.",
+    longDescription:
+      "Sort lines alphabetically or in reverse order directly in your browser. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["line sorter", "line sorter", "online line sorter"],
+    category: "Developer",
+    icon: "ArrowDownAZ",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "duplicate-line-remover",
+    name: "Duplicate Line Remover",
+    slug: "duplicate-line-remover",
+    description:
+      "Remove duplicate lines while preserving the original order.",
+    longDescription:
+      "Remove duplicate lines while preserving the original order. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["duplicate line remover", "duplicate line remover", "online duplicate line remover"],
+    category: "Developer",
+    icon: "ListX",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "whitespace-cleaner",
+    name: "Whitespace Cleaner",
+    slug: "whitespace-cleaner",
+    description:
+      "Trim lines, collapse repeated spaces, and remove empty lines.",
+    longDescription:
+      "Trim lines, collapse repeated spaces, and remove empty lines. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["whitespace cleaner", "whitespace cleaner", "online whitespace cleaner"],
+    category: "Developer",
+    icon: "Eraser",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "text-reverser",
+    name: "Text Reverser",
+    slug: "text-reverser",
+    description:
+      "Reverse text by characters, words, or lines.",
+    longDescription:
+      "Reverse text by characters, words, or lines. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["text reverser", "text reverser", "online text reverser"],
+    category: "Developer",
+    icon: "Undo2",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "text-diff-checker",
+    name: "Text Diff Checker",
+    slug: "text-diff-checker",
+    description:
+      "Compare two text blocks line by line and identify additions, removals, and changes.",
+    longDescription:
+      "Compare two text blocks line by line and identify additions, removals, and changes. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["text diff checker", "text diff checker", "online text diff checker"],
+    category: "Developer",
+    icon: "GitCompare",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "query-string-parser",
+    name: "Query String Parser",
+    slug: "query-string-parser",
+    description:
+      "Parse URL query strings into readable key-value data.",
+    longDescription:
+      "Parse URL query strings into readable key-value data. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["query string parser", "query string parser", "online query string parser"],
+    category: "Developer",
+    icon: "ListTree",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "query-string-builder",
+    name: "Query String Builder",
+    slug: "query-string-builder",
+    description:
+      "Build encoded URL query strings from key-value pairs.",
+    longDescription:
+      "Build encoded URL query strings from key-value pairs. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["query string builder", "query string builder", "online query string builder"],
+    category: "Developer",
+    icon: "ListPlus",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "url-parser",
+    name: "URL Parser",
+    slug: "url-parser",
+    description:
+      "Break a URL into protocol, host, path, query, hash, and other components.",
+    longDescription:
+      "Break a URL into protocol, host, path, query, hash, and other components. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["url parser", "url parser", "online url parser"],
+    category: "Developer",
+    icon: "ScanSearch",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "regex-tester",
+    name: "Regex Tester",
+    slug: "regex-tester",
+    description:
+      "Test JavaScript regular expressions against text and inspect matches.",
+    longDescription:
+      "Test JavaScript regular expressions against text and inspect matches. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["regex tester", "regex tester", "online regex tester"],
+    category: "Developer",
+    icon: "Regex",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "cron-expression-helper",
+    name: "Cron Expression Helper",
+    slug: "cron-expression-helper",
+    description:
+      "Inspect common five-field cron expressions and understand each schedule field.",
+    longDescription:
+      "Inspect common five-field cron expressions and understand each schedule field. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["cron expression helper", "cron expression helper", "online cron expression helper"],
+    category: "Developer",
+    icon: "CalendarClock",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "number-base-converter",
+    name: "Number Base Converter",
+    slug: "number-base-converter",
+    description:
+      "Convert integers between binary, octal, decimal, and hexadecimal.",
+    longDescription:
+      "Convert integers between binary, octal, decimal, and hexadecimal. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["number base converter", "number base converter", "online number base converter"],
+    category: "Developer",
+    icon: "Binary",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "binary-to-text",
+    name: "Binary to Text Converter",
+    slug: "binary-to-text",
+    description:
+      "Convert 8-bit binary byte sequences into readable UTF-8 text.",
+    longDescription:
+      "Convert 8-bit binary byte sequences into readable UTF-8 text. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["binary to text converter", "binary to text", "online binary to text"],
+    category: "Developer",
+    icon: "Binary",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "text-to-binary",
+    name: "Text to Binary Converter",
+    slug: "text-to-binary",
+    description:
+      "Convert text into 8-bit binary byte sequences.",
+    longDescription:
+      "Convert text into 8-bit binary byte sequences. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["text to binary converter", "text to binary", "online text to binary"],
+    category: "Developer",
+    icon: "Binary",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "hex-to-text",
+    name: "Hex to Text Converter",
+    slug: "hex-to-text",
+    description:
+      "Convert hexadecimal byte strings into readable UTF-8 text.",
+    longDescription:
+      "Convert hexadecimal byte strings into readable UTF-8 text. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["hex to text converter", "hex to text", "online hex to text"],
+    category: "Developer",
+    icon: "Braces",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
+  {
+    id: "text-to-hex",
+    name: "Text to Hex Converter",
+    slug: "text-to-hex",
+    description:
+      "Convert text into hexadecimal UTF-8 bytes.",
+    longDescription:
+      "Convert text into hexadecimal UTF-8 bytes. Processing happens locally in your browser so the input does not need to be sent to an external conversion service.",
+    keywords: ["text to hex converter", "text to hex", "online text to hex"],
+    category: "Developer",
+    icon: "Braces",
+    howToUse: [
+      "Enter or paste the input into the tool.",
+      "Choose any available options for the transformation.",
+      "Run the tool and review the result.",
+      "Copy the result when finished.",
+    ],
+    faq: [
+      {
+        question: "Does this tool send my data to a server?",
+        answer:
+          "No. Processing is performed locally in your browser.",
+      },
+      {
+        question: "Do I need to install anything?",
+        answer:
+          "No. The tool runs directly in a modern web browser.",
+      },
+      {
+        question: "Can I use this for development work?",
+        answer:
+          "Yes. It is designed for quick developer, debugging, formatting, conversion, and testing workflows.",
+      },
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {

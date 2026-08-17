@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { reverseText } from "@/lib/tool-utils/text-tool-utils";
+export function TextReverserTool(){const[input,setInput]=useState("Avorqin developer tools");const[mode,setMode]=useState<"characters"|"words"|"lines">("characters");const output=reverseText(input,mode);return <div className="space-y-4"><textarea value={input} onChange={e=>setInput(e.target.value)} rows={8} className="w-full rounded-lg border p-3"/><select value={mode} onChange={e=>setMode(e.target.value as any)} className="rounded-lg border p-3"><option value="characters">Characters</option><option value="words">Words</option><option value="lines">Lines</option></select><textarea value={output} readOnly rows={8} className="w-full rounded-lg border bg-slate-50 p-3"/></div>}

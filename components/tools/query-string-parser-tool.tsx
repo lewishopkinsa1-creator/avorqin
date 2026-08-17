@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { parseQueryString } from "@/lib/tool-utils/web-tool-utils";
+export function QueryStringParserTool(){const[input,setInput]=useState("?q=avorqin&lang=en&tag=tools&tag=dev");const[error,setError]=useState("");let rows:{key:string;value:string}[]=[];try{rows=parseQueryString(input)}catch(e){setError(e instanceof Error?e.message:"Parse failed")}return <div className="space-y-4"><textarea value={input} onChange={e=>{setInput(e.target.value);setError("")}} rows={5} className="w-full rounded-lg border p-3 font-mono"/>{error&&<p className="text-red-600 text-sm">{error}</p>}<div className="space-y-2">{rows.map((r,i)=><div key={i} className="grid grid-cols-2 gap-3 rounded-lg border p-3"><code>{r.key}</code><code>{r.value}</code></div>)}</div></div>}

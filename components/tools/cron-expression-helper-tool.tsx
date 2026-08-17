@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { explainCron } from "@/lib/tool-utils/web-tool-utils";
+export function CronExpressionHelperTool(){const[input,setInput]=useState("*/15 9-17 * * 1-5"),[rows,setRows]=useState<{field:string;value:string;meaning:string}[]>([]),[error,setError]=useState("");const run=()=>{try{setRows(explainCron(input));setError("")}catch(e){setError(e instanceof Error?e.message:"Invalid cron");setRows([])}};return <div className="space-y-4"><input value={input} onChange={e=>setInput(e.target.value)} className="w-full rounded-lg border p-3 font-mono"/><button onClick={run} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Explain Cron</button>{error&&<p className="text-red-600 text-sm">{error}</p>}<div className="space-y-2">{rows.map(r=><div key={r.field} className="grid gap-2 rounded-lg border p-3 md:grid-cols-3"><strong>{r.field}</strong><code>{r.value}</code><span>{r.meaning}</span></div>)}</div></div>}

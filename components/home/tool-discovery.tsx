@@ -34,16 +34,11 @@ const categories: Category[] = [
   {
     id: "json-data",
     label: "JSON & Data",
-    description: "Work with JSON, CSV, YAML, and XML data.",
+    description: "Work with JSON, CSV, YAML, XML, and structured data.",
     slugs: [
-      "json-formatter",
-      "json-validator",
-      "csv-to-json",
-      "json-to-csv",
-      "json-to-yaml",
-      "yaml-to-json",
-      "json-to-xml",
-      "xml-to-json",
+      "json-formatter", "json-validator", "csv-to-json", "json-to-csv",
+      "json-to-yaml", "yaml-to-json", "json-to-xml", "xml-to-json",
+      "yaml-formatter", "xml-formatter"
     ],
   },
   {
@@ -51,62 +46,51 @@ const categories: Category[] = [
     label: "Formatters",
     description: "Clean up code and structured data for easier reading.",
     slugs: [
-      "json-formatter",
-      "html-formatter",
-      "css-formatter",
-      "xml-formatter",
-      "sql-formatter",
-      "yaml-formatter",
+      "json-formatter", "html-formatter", "css-formatter", "xml-formatter",
+      "sql-formatter", "yaml-formatter", "whitespace-cleaner", "line-sorter"
     ],
   },
   {
     id: "converters",
     label: "Converters",
-    description: "Convert data, timestamps, markup, and colors.",
+    description: "Convert data, text, numbers, timestamps, markup, and colors.",
     slugs: [
-      "timestamp-converter",
-      "csv-to-json",
-      "json-to-csv",
-      "yaml-to-json",
-      "json-to-yaml",
-      "xml-to-json",
-      "json-to-xml",
-      "hex-to-rgb",
-      "rgb-to-hex",
+      "timestamp-converter", "csv-to-json", "json-to-csv", "yaml-to-json",
+      "json-to-yaml", "xml-to-json", "json-to-xml", "hex-to-rgb",
+      "rgb-to-hex", "number-base-converter", "binary-to-text",
+      "text-to-binary", "hex-to-text", "text-to-hex"
     ],
   },
   {
     id: "encoding",
     label: "Encode & Decode",
-    description: "Encode, decode, and inspect common web formats.",
+    description: "Encode, decode, hash, sign, and inspect common web formats.",
     slugs: [
-      "base64-encoder",
-      "base64-decoder",
-      "url-encoder",
-      "url-decoder",
-      "html-encoder",
-      "html-decoder",
-      "jwt-decoder",
+      "base64-encoder", "base64-decoder", "url-encoder", "url-decoder",
+      "html-encoder", "html-decoder", "jwt-decoder", "sha256-hash-generator",
+      "sha1-hash-generator", "sha512-hash-generator", "hmac-generator"
     ],
   },
   {
     id: "generators",
     label: "Generators",
-    description: "Generate useful development values instantly.",
-    slugs: ["uuid-generator"],
+    description: "Generate useful development values and placeholder content.",
+    slugs: [
+      "uuid-generator", "random-string-generator", "password-generator",
+      "lorem-ipsum-generator", "slug-generator"
+    ],
   },
   {
     id: "web-code",
     label: "Web & Code",
-    description: "Utilities for markup, SQL, Markdown, and developer workflows.",
+    description: "Utilities for URLs, regex, cron, markup, SQL, Markdown, and developer workflows.",
     slugs: [
-      "html-formatter",
-      "css-formatter",
-      "sql-formatter",
-      "markdown-previewer",
-      "jwt-decoder",
-      "url-encoder",
-      "url-decoder",
+      "html-formatter", "css-formatter", "sql-formatter", "markdown-previewer",
+      "jwt-decoder", "url-encoder", "url-decoder", "slug-generator",
+      "query-string-parser", "query-string-builder", "url-parser",
+      "regex-tester", "cron-expression-helper", "text-case-converter",
+      "word-character-counter", "duplicate-line-remover", "text-reverser",
+      "text-diff-checker"
     ],
   },
   {

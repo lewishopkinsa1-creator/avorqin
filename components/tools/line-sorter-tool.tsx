@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { sortLines } from "@/lib/tool-utils/text-tool-utils";
+export function LineSorterTool(){const[input,setInput]=useState("banana\napple\ncherry");const[reverse,setReverse]=useState(false);const output=sortLines(input,reverse);return <div className="space-y-4"><textarea value={input} onChange={e=>setInput(e.target.value)} rows={10} className="w-full rounded-lg border p-3 font-mono"/><label className="flex gap-2"><input type="checkbox" checked={reverse} onChange={e=>setReverse(e.target.checked)}/> Reverse order</label><textarea value={output} readOnly rows={10} className="w-full rounded-lg border bg-slate-50 p-3 font-mono"/></div>}

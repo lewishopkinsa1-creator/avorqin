@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { lorem } from "@/lib/tool-utils/lorem-utils";
+export function LoremIpsumGeneratorTool(){const[mode,setMode]=useState<"words"|"sentences"|"paragraphs">("paragraphs"),[count,setCount]=useState(3),[output,setOutput]=useState("");return <div className="space-y-4"><div className="flex gap-3"><select value={mode} onChange={e=>setMode(e.target.value as any)} className="rounded-lg border p-3"><option value="words">Words</option><option value="sentences">Sentences</option><option value="paragraphs">Paragraphs</option></select><input type="number" min={1} max={50} value={count} onChange={e=>setCount(Number(e.target.value))} className="w-28 rounded-lg border p-3"/></div><button onClick={()=>setOutput(lorem(mode,count))} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Generate Lorem Ipsum</button><textarea value={output} readOnly rows={12} className="w-full rounded-lg border bg-slate-50 p-3"/></div>}

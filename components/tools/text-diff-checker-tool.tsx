@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { lineDiff } from "@/lib/tool-utils/text-tool-utils";
+export function TextDiffCheckerTool(){const[left,setLeft]=useState("alpha\nbeta\ngamma"),[right,setRight]=useState("alpha\nbeta changed\ngamma\ndelta");const rows=lineDiff(left,right);return <div className="space-y-4"><div className="grid gap-4 md:grid-cols-2"><textarea value={left} onChange={e=>setLeft(e.target.value)} rows={10} className="w-full rounded-lg border p-3 font-mono"/><textarea value={right} onChange={e=>setRight(e.target.value)} rows={10} className="w-full rounded-lg border p-3 font-mono"/></div><div className="space-y-2">{rows.map((row,i)=><div key={i} className="grid grid-cols-2 gap-3 rounded-lg border p-2 font-mono text-sm"><span>{row.type==="removed"?"- ":row.type==="changed"?"~ ":"  "}{row.left}</span><span>{row.type==="added"?"+ ":row.type==="changed"?"~ ":"  "}{row.right}</span></div>)}</div></div>}

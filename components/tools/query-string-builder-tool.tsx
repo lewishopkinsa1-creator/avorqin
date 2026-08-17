@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { buildQueryString } from "@/lib/tool-utils/web-tool-utils";
+export function QueryStringBuilderTool(){const[input,setInput]=useState("q=avorqin\nlang=en\ntag=developer tools");const[output,setOutput]=useState("");const[error,setError]=useState("");const run=()=>{try{setOutput(buildQueryString(input));setError("")}catch(e){setError(e instanceof Error?e.message:"Build failed")}};return <div className="space-y-4"><textarea value={input} onChange={e=>setInput(e.target.value)} rows={8} className="w-full rounded-lg border p-3 font-mono"/><button onClick={run} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Build Query String</button>{error&&<p className="text-red-600 text-sm">{error}</p>}<textarea value={output} readOnly rows={5} className="w-full rounded-lg border bg-slate-50 p-3 font-mono"/></div>}

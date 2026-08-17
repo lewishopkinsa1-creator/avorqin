@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { secureRandomString } from "@/lib/tool-utils/random-utils";
+export function PasswordGeneratorTool(){const[length,setLength]=useState(20),[output,setOutput]=useState("");const run=()=>setOutput(secureRandomString(length,{lower:true,upper:true,numbers:true,symbols:true}));return <div className="space-y-4"><label className="text-sm font-medium">Password length<input type="number" min={8} max={128} value={length} onChange={e=>setLength(Number(e.target.value))} className="mt-1 block rounded-lg border p-3"/></label><button onClick={run} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Generate Password</button><input value={output} readOnly className="w-full rounded-lg border bg-slate-50 p-3 font-mono"/>{output&&<button onClick={()=>navigator.clipboard.writeText(output)} className="rounded-lg border px-4 py-2">Copy</button>}</div>}

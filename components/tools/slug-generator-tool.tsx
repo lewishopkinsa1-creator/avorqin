@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { slugify } from "@/lib/tool-utils/text-tool-utils";
+export function SlugGeneratorTool(){const[input,setInput]=useState("Simple Tools. Done Right.");const output=slugify(input);return <div className="space-y-4"><textarea value={input} onChange={e=>setInput(e.target.value)} rows={7} className="w-full rounded-lg border p-3"/><input value={output} readOnly className="w-full rounded-lg border bg-slate-50 p-3 font-mono"/><button onClick={()=>navigator.clipboard.writeText(output)} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Copy Slug</button></div>}

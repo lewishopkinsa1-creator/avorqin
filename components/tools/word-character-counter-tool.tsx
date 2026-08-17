@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { countText } from "@/lib/tool-utils/text-tool-utils";
+export function WordCharacterCounterTool(){const[input,setInput]=useState("");const c=countText(input);return <div className="space-y-4"><textarea value={input} onChange={e=>setInput(e.target.value)} rows={14} className="w-full rounded-lg border p-3"/><div className="grid grid-cols-2 gap-3 md:grid-cols-5">{[["Words",c.wordCount],["Characters",c.chars],["No spaces",c.charsNoSpaces],["Lines",c.lines],["Sentences",c.sentences]].map(([l,v])=><div key={String(l)} className="rounded-lg border p-4"><div className="text-sm text-slate-500">{l}</div><div className="text-2xl font-bold">{v}</div></div>)}</div></div>}

@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { parseUrl } from "@/lib/tool-utils/web-tool-utils";
+export function URLParserTool(){const[input,setInput]=useState("https://avorqin.com/tools/json-formatter/?ref=home#about");const[output,setOutput]=useState("");const[error,setError]=useState("");const run=()=>{try{setOutput(JSON.stringify(parseUrl(input),null,2));setError("")}catch(e){setError(e instanceof Error?e.message:"Invalid URL");setOutput("")}};return <div className="space-y-4"><input value={input} onChange={e=>setInput(e.target.value)} className="w-full rounded-lg border p-3 font-mono"/><button onClick={run} className="rounded-lg bg-slate-950 px-4 py-2 text-white">Parse URL</button>{error&&<p className="text-red-600 text-sm">{error}</p>}<textarea value={output} readOnly rows={12} className="w-full rounded-lg border bg-slate-50 p-3 font-mono"/></div>}
