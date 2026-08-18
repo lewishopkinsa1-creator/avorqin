@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <main>
       <section className="border-b bg-gradient-to-b from-muted/40 to-background">
-        <div className="container px-4 py-16 text-center md:px-6 md:py-24">
+        <div className="container mx-auto px-4 py-16 text-center md:px-6 md:py-24">
           <div className="mx-auto max-w-4xl">
             <div className="mb-6 inline-flex items-center rounded-full border bg-background px-3 py-1 text-sm text-muted-foreground shadow-sm">
               {tools.length} free browser-based utility tools
@@ -67,7 +67,7 @@ export default function HomePage() {
       <ToolDiscovery tools={tools} />
 
       <section className="border-t bg-muted/30">
-        <div className="container px-4 py-16 md:px-6">
+        <div className="container mx-auto px-4 py-16 md:px-6">
           <div className="mx-auto max-w-5xl">
             <div className="mb-10 text-center">
               <h2 className="text-3xl font-bold tracking-tight">
