@@ -1905,6 +1905,431 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+  {
+    id: "qr-code-generator",
+    name: "QR Code Generator",
+    slug: "qr-code-generator",
+    description: "Generate QR codes from text or URLs directly in your browser.",
+    longDescription: "Generate QR codes from text or URLs directly in your browser. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["qr code generator", "qr code generator", "online qr code generator"],
+    category: "Developer",
+    icon: "QrCode",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "json-minifier",
+    name: "JSON Minifier",
+    slug: "json-minifier",
+    description: "Minify JSON by removing unnecessary whitespace while validating syntax.",
+    longDescription: "Minify JSON by removing unnecessary whitespace while validating syntax. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["json minifier", "json minifier", "online json minifier"],
+    category: "Developer",
+    icon: "Braces",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "css-minifier",
+    name: "CSS Minifier",
+    slug: "css-minifier",
+    description: "Minify CSS by removing comments and unnecessary whitespace.",
+    longDescription: "Minify CSS by removing comments and unnecessary whitespace. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["css minifier", "css minifier", "online css minifier"],
+    category: "Developer",
+    icon: "Palette",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "html-minifier",
+    name: "HTML Minifier",
+    slug: "html-minifier",
+    description: "Minify HTML markup by removing comments and unnecessary whitespace.",
+    longDescription: "Minify HTML markup by removing comments and unnecessary whitespace. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["html minifier", "html minifier", "online html minifier"],
+    category: "Developer",
+    icon: "Code2",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "javascript-minifier",
+    name: "JavaScript Minifier",
+    slug: "javascript-minifier",
+    description: "Compact JavaScript with conservative whitespace and comment cleanup.",
+    longDescription: "Compact JavaScript with conservative whitespace and comment cleanup. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["javascript minifier", "javascript minifier", "online javascript minifier"],
+    category: "Developer",
+    icon: "FileCode2",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "unix-timestamp-generator",
+    name: "Unix Timestamp Generator",
+    slug: "unix-timestamp-generator",
+    description: "Generate the current Unix timestamp in seconds and milliseconds.",
+    longDescription: "Generate the current Unix timestamp in seconds and milliseconds. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["unix timestamp generator", "unix timestamp generator", "online unix timestamp generator"],
+    category: "Developer",
+    icon: "Clock3",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "unix-timestamp-to-date",
+    name: "Unix Timestamp to Date",
+    slug: "unix-timestamp-to-date",
+    description: "Convert Unix timestamps into readable dates.",
+    longDescription: "Convert Unix timestamps into readable dates. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["unix timestamp to date", "unix timestamp to date", "online unix timestamp to date"],
+    category: "Developer",
+    icon: "CalendarDays",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "date-difference-calculator",
+    name: "Date Difference Calculator",
+    slug: "date-difference-calculator",
+    description: "Calculate the difference between two dates.",
+    longDescription: "Calculate the difference between two dates. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["date difference calculator", "date difference calculator", "online date difference calculator"],
+    category: "Developer",
+    icon: "CalendarRange",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "age-calculator",
+    name: "Age Calculator",
+    slug: "age-calculator",
+    description: "Calculate age from a birth date to another date.",
+    longDescription: "Calculate age from a birth date to another date. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["age calculator", "age calculator", "online age calculator"],
+    category: "Developer",
+    icon: "Cake",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "percentage-calculator",
+    name: "Percentage Calculator",
+    slug: "percentage-calculator",
+    description: "Calculate percentages quickly.",
+    longDescription: "Calculate percentages quickly. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["percentage calculator", "percentage calculator", "online percentage calculator"],
+    category: "Developer",
+    icon: "Percent",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "percentage-change-calculator",
+    name: "Percentage Change Calculator",
+    slug: "percentage-change-calculator",
+    description: "Calculate percentage increase or decrease.",
+    longDescription: "Calculate percentage increase or decrease. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["percentage change calculator", "percentage change calculator", "online percentage change calculator"],
+    category: "Developer",
+    icon: "TrendingUp",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "aspect-ratio-calculator",
+    name: "Aspect Ratio Calculator",
+    slug: "aspect-ratio-calculator",
+    description: "Calculate aspect ratios and proportional dimensions.",
+    longDescription: "Calculate aspect ratios and proportional dimensions. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["aspect ratio calculator", "aspect ratio calculator", "online aspect ratio calculator"],
+    category: "Developer",
+    icon: "Ratio",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "screen-resolution-calculator",
+    name: "Screen Resolution Calculator",
+    slug: "screen-resolution-calculator",
+    description: "Calculate total pixels and megapixels from width and height.",
+    longDescription: "Calculate total pixels and megapixels from width and height. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["screen resolution calculator", "screen resolution calculator", "online screen resolution calculator"],
+    category: "Developer",
+    icon: "Monitor",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "rem-to-px-converter",
+    name: "REM to PX Converter",
+    slug: "rem-to-px-converter",
+    description: "Convert rem units to pixels.",
+    longDescription: "Convert rem units to pixels. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["rem to px converter", "rem to px converter", "online rem to px converter"],
+    category: "Developer",
+    icon: "Ruler",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "px-to-rem-converter",
+    name: "PX to REM Converter",
+    slug: "px-to-rem-converter",
+    description: "Convert pixels to rem units.",
+    longDescription: "Convert pixels to rem units. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["px to rem converter", "px to rem converter", "online px to rem converter"],
+    category: "Developer",
+    icon: "Ruler",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "em-to-px-converter",
+    name: "EM to PX Converter",
+    slug: "em-to-px-converter",
+    description: "Convert em units to pixels.",
+    longDescription: "Convert em units to pixels. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["em to px converter", "em to px converter", "online em to px converter"],
+    category: "Developer",
+    icon: "Ruler",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "bytes-converter",
+    name: "Bytes Converter",
+    slug: "bytes-converter",
+    description: "Convert between byte units.",
+    longDescription: "Convert between byte units. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["bytes converter", "bytes converter", "online bytes converter"],
+    category: "Developer",
+    icon: "Database",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "data-transfer-time-calculator",
+    name: "Data Transfer Time Calculator",
+    slug: "data-transfer-time-calculator",
+    description: "Estimate transfer time from file size and network speed.",
+    longDescription: "Estimate transfer time from file size and network speed. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["data transfer time calculator", "data transfer time calculator", "online data transfer time calculator"],
+    category: "Developer",
+    icon: "Gauge",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "url-slug-decoder",
+    name: "URL Slug Decoder",
+    slug: "url-slug-decoder",
+    description: "Convert URL slugs into readable text.",
+    longDescription: "Convert URL slugs into readable text. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["url slug decoder", "url slug decoder", "online url slug decoder"],
+    category: "Developer",
+    icon: "Link2",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "http-status-code-lookup",
+    name: "HTTP Status Code Lookup",
+    slug: "http-status-code-lookup",
+    description: "Look up common HTTP status codes.",
+    longDescription: "Look up common HTTP status codes. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["http status code lookup", "http status code lookup", "online http status code lookup"],
+    category: "Developer",
+    icon: "ServerCog",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "mime-type-lookup",
+    name: "MIME Type Lookup",
+    slug: "mime-type-lookup",
+    description: "Look up common MIME types.",
+    longDescription: "Look up common MIME types. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["mime type lookup", "mime type lookup", "online mime type lookup"],
+    category: "Developer",
+    icon: "FileSearch",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "user-agent-parser",
+    name: "User Agent Parser",
+    slug: "user-agent-parser",
+    description: "Inspect browser, OS, and device clues in user agent strings.",
+    longDescription: "Inspect browser, OS, and device clues in user agent strings. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["user agent parser", "user agent parser", "online user agent parser"],
+    category: "Developer",
+    icon: "ScanSearch",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "ip-subnet-calculator",
+    name: "IP Subnet Calculator",
+    slug: "ip-subnet-calculator",
+    description: "Calculate IPv4 subnet details from CIDR notation.",
+    longDescription: "Calculate IPv4 subnet details from CIDR notation. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["ip subnet calculator", "ip subnet calculator", "online ip subnet calculator"],
+    category: "Developer",
+    icon: "Network",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "mac-address-generator",
+    name: "MAC Address Generator",
+    slug: "mac-address-generator",
+    description: "Generate random locally administered MAC addresses.",
+    longDescription: "Generate random locally administered MAC addresses. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["mac address generator", "mac address generator", "online mac address generator"],
+    category: "Developer",
+    icon: "Network",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
+  {
+    id: "uuid-validator",
+    name: "UUID Validator",
+    slug: "uuid-validator",
+    description: "Validate UUID/GUID strings and identify versions.",
+    longDescription: "Validate UUID/GUID strings and identify versions. This tool is designed for fast browser-based use within Avorqin.",
+    keywords: ["uuid validator", "uuid validator", "online uuid validator"],
+    category: "Developer",
+    icon: "BadgeCheck",
+    howToUse: ["Enter the required values or text.","Choose any available options.","Run the tool and review the result.","Copy the result when needed."],
+    faq: [
+      { question: "Do I need an account?", answer: "No. Avorqin tools work without an account." },
+      { question: "Does this run in my browser?", answer: "Yes. The calculation or transformation runs in your browser unless the tool clearly states otherwise." },
+      { question: "Can I use this for everyday development work?", answer: "Yes. It is designed for quick calculations, conversions, inspection, and developer workflows." }
+    ],
+  },
+
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {

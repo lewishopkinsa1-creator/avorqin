@@ -134,7 +134,7 @@ export const toolCategories: ToolCategoryConfig[] = [
       "slug generator"
     ],
     "toolSlugs": [
-      "uuid-generator",
+      "uuid-generator","qr-code-generator","mac-address-generator",
       "sha256-hash-generator",
       "sha1-hash-generator",
       "sha512-hash-generator",

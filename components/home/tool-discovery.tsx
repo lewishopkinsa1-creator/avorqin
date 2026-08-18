@@ -21,7 +21,8 @@ type CategoryId =
   | "encoding"
   | "generators"
   | "web-code"
-  | "colors";
+  | "colors"
+  | "calculators";
 
 type Category = {
   id: CategoryId;
@@ -47,7 +48,8 @@ const categories: Category[] = [
     description: "Clean up code and structured data for easier reading.",
     slugs: [
       "json-formatter", "html-formatter", "css-formatter", "xml-formatter",
-      "sql-formatter", "yaml-formatter", "whitespace-cleaner", "line-sorter"
+      "sql-formatter", "yaml-formatter", "whitespace-cleaner", "line-sorter",
+      "json-minifier", "css-minifier", "html-minifier", "javascript-minifier"
     ],
   },
   {
@@ -58,7 +60,9 @@ const categories: Category[] = [
       "timestamp-converter", "csv-to-json", "json-to-csv", "yaml-to-json",
       "json-to-yaml", "xml-to-json", "json-to-xml", "hex-to-rgb",
       "rgb-to-hex", "number-base-converter", "binary-to-text",
-      "text-to-binary", "hex-to-text", "text-to-hex"
+      "text-to-binary", "hex-to-text", "text-to-hex", "unix-timestamp-generator",
+      "unix-timestamp-to-date", "rem-to-px-converter", "px-to-rem-converter",
+      "em-to-px-converter", "bytes-converter"
     ],
   },
   {
@@ -77,7 +81,7 @@ const categories: Category[] = [
     description: "Generate useful development values and placeholder content.",
     slugs: [
       "uuid-generator", "random-string-generator", "password-generator",
-      "lorem-ipsum-generator", "slug-generator"
+      "lorem-ipsum-generator", "slug-generator", "mac-address-generator", "qr-code-generator"
     ],
   },
   {
@@ -90,7 +94,19 @@ const categories: Category[] = [
       "query-string-parser", "query-string-builder", "url-parser",
       "regex-tester", "cron-expression-helper", "text-case-converter",
       "word-character-counter", "duplicate-line-remover", "text-reverser",
-      "text-diff-checker"
+      "text-diff-checker", "url-slug-decoder", "http-status-code-lookup",
+      "mime-type-lookup", "user-agent-parser", "uuid-validator"
+    ],
+  },
+  {
+    id: "calculators",
+    label: "Calculators",
+    description: "Quick calculators for dates, percentages, dimensions, networking, and transfer estimates.",
+    slugs: [
+      "date-difference-calculator", "age-calculator", "percentage-calculator",
+      "percentage-change-calculator", "aspect-ratio-calculator",
+      "screen-resolution-calculator", "data-transfer-time-calculator",
+      "ip-subnet-calculator"
     ],
   },
   {
@@ -228,7 +244,7 @@ export function ToolDiscovery({ tools }: { tools: ToolConfig[] }) {
   return (
     <section
       id="tools"
-      className="container mx-auto scroll-mt-24 px-4 py-14 md:px-6 md:py-20"
+      className="container scroll-mt-24 px-4 py-14 md:px-6 md:py-20"
     >
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-2 text-sm font-medium uppercase tracking-wider text-muted-foreground">
