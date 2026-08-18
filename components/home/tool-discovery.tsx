@@ -228,7 +228,7 @@ export function ToolDiscovery({ tools }: { tools: ToolConfig[] }) {
   return (
     <section
       id="tools"
-      className="container scroll-mt-24 px-4 py-14 md:px-6 md:py-20"
+      className="container mx-auto scroll-mt-24 px-4 py-14 md:px-6 md:py-20"
     >
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-2 text-sm font-medium uppercase tracking-wider text-muted-foreground">
