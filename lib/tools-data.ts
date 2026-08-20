@@ -1,6 +1,7 @@
 import { ToolConfig } from "@/types";
+import { batch6Tools } from "@/lib/tools-data-batch-6";
 
-export const tools: ToolConfig[] = [
+const existingTools: ToolConfig[] = [
   {
     id: "json-formatter",
     name: "JSON Formatter",
@@ -2330,6 +2331,11 @@ export const tools: ToolConfig[] = [
     ],
   },
 
+];
+
+export const tools: ToolConfig[] = [
+  ...existingTools,
+  ...batch6Tools,
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
