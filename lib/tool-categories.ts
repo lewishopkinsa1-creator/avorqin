@@ -318,6 +318,47 @@ export const toolCategories: ToolCategoryConfig[] = [
       "rgb-to-hex",
     ],
   },
+
+  {
+    slug: "pdf",
+    name: "PDF & Document Tools",
+    description:
+      "Merge, split, rotate, inspect, edit, and convert PDF documents and images directly in your browser.",
+    intro:
+      "Avorqin's PDF and document tools help you combine, split, extract, organize, inspect, and modify PDF files without installing desktop software. Supported files are processed directly in your browser rather than intentionally uploaded to Avorqin for processing.",
+    keywords: [
+      "PDF tools",
+      "PDF converter",
+      "merge PDF",
+      "split PDF",
+      "rotate PDF",
+      "PDF page extractor",
+      "PDF metadata",
+      "PDF page counter",
+      "image to PDF",
+      "JPG to PDF",
+      "PNG to PDF",
+    ],
+    toolSlugs: [
+      "merge-pdf",
+      "split-pdf",
+      "extract-pdf-pages",
+      "remove-pdf-pages",
+      "reorder-pdf-pages",
+      "rotate-pdf",
+      "pdf-page-counter",
+      "pdf-metadata-viewer",
+      "pdf-metadata-remover",
+      "pdf-page-size-checker",
+      "pdf-orientation-checker",
+      "pdf-info",
+      "add-page-numbers-to-pdf",
+      "add-watermark-to-pdf",
+      "images-to-pdf",
+      "jpg-to-pdf",
+      "png-to-pdf",
+    ],
+  },
 ];
 
 export function getToolCategory(

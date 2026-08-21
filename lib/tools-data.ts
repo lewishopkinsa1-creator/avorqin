@@ -1,5 +1,6 @@
 import { ToolConfig } from "@/types";
 import { batch6Tools } from "@/lib/tools-data-batch-6";
+import { pdfTools } from "@/lib/tools-data-pdf";
 
 const existingTools: ToolConfig[] = [
   {
@@ -2336,6 +2337,7 @@ const existingTools: ToolConfig[] = [
 export const tools: ToolConfig[] = [
   ...existingTools,
   ...batch6Tools,
+  ...pdfTools,
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {

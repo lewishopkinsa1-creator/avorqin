@@ -23,7 +23,8 @@ type CategoryId =
   | "generators"
   | "web-code"
   | "calculators"
-  | "colors";
+  | "colors"
+  | "pdf";
 
 type DiscoveryCategory = {
   id: Exclude<CategoryId, "all">;
@@ -44,6 +45,7 @@ const categoryOrder: Array<{
   { id: "web-code", label: "Web & Code" },
   { id: "calculators", label: "Calculators" },
   { id: "colors", label: "Colors" },
+  { id: "pdf", label: "PDF & Documents" },
 ];
 
 const categories: DiscoveryCategory[] = categoryOrder
