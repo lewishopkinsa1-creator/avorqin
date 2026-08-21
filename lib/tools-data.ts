@@ -3,6 +3,7 @@ import { batch6Tools } from "@/lib/tools-data-batch-6";
 import { pdfTools } from "@/lib/tools-data-pdf";
 import { imageTools } from "@/lib/tools-data-images";
 import { seoTools } from "@/lib/tools-data-seo";
+import { colorTools } from "@/lib/tools-data-colors";
 
 const existingTools: ToolConfig[] = [
   {
@@ -2342,6 +2343,7 @@ export const tools: ToolConfig[] = [
   ...pdfTools,
   ...imageTools,
   ...seoTools,
+  ...colorTools,
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {

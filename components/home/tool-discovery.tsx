@@ -47,7 +47,7 @@ const categoryOrder: Array<{
   { id: "web-code", label: "Web & Code" },
   { id: "seo", label: "SEO & Marketing" },
   { id: "calculators", label: "Calculators" },
-  { id: "colors", label: "Colors" },
+  { id: "colors", label: "Color & Design" },
   { id: "pdf", label: "PDF & Documents" },
   { id: "images", label: "Images" },
 ];
