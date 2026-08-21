@@ -22,6 +22,7 @@ type CategoryId =
   | "encode-decode"
   | "generators"
   | "web-code"
+  | "seo"
   | "calculators"
   | "colors"
   | "pdf"
@@ -44,6 +45,7 @@ const categoryOrder: Array<{
   { id: "encode-decode", label: "Encode & Decode" },
   { id: "generators", label: "Generators" },
   { id: "web-code", label: "Web & Code" },
+  { id: "seo", label: "SEO & Marketing" },
   { id: "calculators", label: "Calculators" },
   { id: "colors", label: "Colors" },
   { id: "pdf", label: "PDF & Documents" },

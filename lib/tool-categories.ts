@@ -252,6 +252,44 @@ export const toolCategories: ToolCategoryConfig[] = [
   },
 
   {
+    slug: "seo",
+    name: "SEO & Marketing Tools",
+    description:
+      "Generate and inspect meta tags, search snippets, Open Graph metadata, robots.txt rules, sitemaps, schema markup, UTM links, keywords, and headings.",
+    intro:
+      "Avorqin's SEO and marketing tools help site owners, developers, marketers, and content teams create and inspect common technical SEO and campaign data directly in the browser. Generate metadata, structured data, robots.txt rules, XML sitemaps, hreflang tags, tracking URLs, and content checks without installing software.",
+    keywords: [
+      "SEO tools",
+      "meta tag generator",
+      "SERP preview",
+      "Open Graph preview",
+      "robots.txt generator",
+      "robots.txt tester",
+      "XML sitemap generator",
+      "schema markup generator",
+      "FAQ schema generator",
+      "hreflang generator",
+      "UTM builder",
+      "keyword density checker",
+      "heading structure analyzer",
+    ],
+    toolSlugs: [
+      "meta-tag-generator",
+      "serp-preview",
+      "open-graph-preview",
+      "robots-txt-generator",
+      "robots-txt-tester",
+      "xml-sitemap-generator",
+      "schema-markup-generator",
+      "faq-schema-generator",
+      "hreflang-generator",
+      "utm-builder",
+      "keyword-density-checker",
+      "heading-structure-analyzer",
+    ],
+  },
+
+  {
     slug: "calculators",
     name: "Developer Calculators",
     description:
