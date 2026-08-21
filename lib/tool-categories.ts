@@ -359,6 +359,45 @@ export const toolCategories: ToolCategoryConfig[] = [
       "png-to-pdf",
     ],
   },
+
+  {
+    slug: "images",
+    name: "Image Tools",
+    description:
+      "Compress, resize, crop, rotate, inspect, encode, and convert JPG, PNG, WebP, and SVG images directly in your browser.",
+    intro:
+      "Avorqin's image tools help you resize, compress, crop, rotate, inspect, encode, and convert common image formats without installing desktop software. Supported images are processed directly in your browser rather than intentionally uploaded to Avorqin for processing.",
+    keywords: [
+      "image tools",
+      "image converter",
+      "image compressor",
+      "image resizer",
+      "image cropper",
+      "JPG to PNG",
+      "PNG to JPG",
+      "WebP converter",
+      "SVG to PNG",
+      "image dimensions",
+      "image DPI calculator",
+      "image to Base64",
+    ],
+    toolSlugs: [
+      "image-compressor",
+      "image-resizer",
+      "image-cropper",
+      "image-rotator",
+      "jpg-to-png",
+      "png-to-jpg",
+      "webp-to-png",
+      "png-to-webp",
+      "jpg-to-webp",
+      "webp-to-jpg",
+      "svg-to-png",
+      "image-dimensions-checker",
+      "image-dpi-calculator",
+      "image-to-base64",
+    ],
+  },
 ];
 
 export function getToolCategory(
