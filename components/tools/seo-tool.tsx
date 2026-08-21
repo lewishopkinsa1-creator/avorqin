@@ -34,6 +34,8 @@ type SeoToolProps = {
   kind: SeoToolKind;
 };
 
+type PreviewData = Record<string, unknown>;
+
 const inputClass =
   "w-full rounded-lg border bg-background px-3 py-2.5 text-sm text-foreground placeholder:text-muted-foreground";
 
@@ -59,15 +61,10 @@ function Field({
 }) {
   return (
     <label className="block space-y-2">
-      <span className="text-sm font-medium">
-        {label}
-      </span>
-
+      <span className="text-sm font-medium">{label}</span>
       <input
         value={value}
-        onChange={(event) =>
-          onChange(event.target.value)
-        }
+        onChange={(event) => onChange(event.target.value)}
         placeholder={placeholder}
         className={inputClass}
       />
@@ -90,15 +87,10 @@ function TextAreaField({
 }) {
   return (
     <label className="block space-y-2">
-      <span className="text-sm font-medium">
-        {label}
-      </span>
-
+      <span className="text-sm font-medium">{label}</span>
       <textarea
         value={value}
-        onChange={(event) =>
-          onChange(event.target.value)
-        }
+        onChange={(event) => onChange(event.target.value)}
         placeholder={placeholder}
         rows={rows}
         className={textareaClass}
@@ -107,26 +99,20 @@ function TextAreaField({
   );
 }
 
-export function SeoTool({
-  kind,
-}: SeoToolProps) {
+function previewText(preview: PreviewData, key: string): string {
+  return String(preview[key] ?? "");
+}
+
+export function SeoTool({ kind }: SeoToolProps) {
   const [a, setA] = useState("");
   const [b, setB] = useState("");
   const [c, setC] = useState("");
   const [d, setD] = useState("");
   const [e, setE] = useState("");
 
-  const [output, setOutput] =
-    useState("");
-
-  const [error, setError] =
-    useState("");
-
-  const [preview, setPreview] =
-    useState<Record<
-      string,
-      unknown
-    > | null>(null);
+  const [output, setOutput] = useState("");
+  const [error, setError] = useState("");
+  const [preview, setPreview] = useState<PreviewData | null>(null);
 
   const clearResult = () => {
     setOutput("");
@@ -139,9 +125,7 @@ export function SeoTool({
       return;
     }
 
-    await navigator.clipboard.writeText(
-      output
-    );
+    await navigator.clipboard.writeText(output);
   };
 
   const run = () => {
@@ -155,79 +139,64 @@ export function SeoTool({
               title: a,
               description: b,
               canonicalUrl: c,
-              robots:
-                d || "index, follow",
+              robots: d || "index, follow",
               author: e,
             })
           );
-
           break;
         }
 
         case "serp-preview": {
-          const result =
+          setPreview(
             getSerpPreview({
               title: a,
               description: b,
-              url:
-                c ||
-                "https://example.com/page",
-            });
-
-          setPreview(result);
-
+              url: c || "https://example.com/page",
+            })
+          );
           break;
         }
 
         case "open-graph-preview": {
-          const tags =
+          const url = c || "https://example.com/page";
+
+          setOutput(
             generateOpenGraphTags({
               title: a,
               description: b,
-              url:
-                c ||
-                "https://example.com/page",
+              url,
               imageUrl: d,
               siteName: e,
               type: "website",
-            });
-
-          setOutput(tags);
+            })
+          );
 
           setPreview({
             title: a,
             description: b,
-            url:
-              c ||
-              "https://example.com/page",
+            url,
             imageUrl: d,
             siteName: e,
           });
-
           break;
         }
 
         case "robots-txt-generator": {
           const disallow = a
             .split(/\r?\n/)
-            .map((value) =>
-              value.trim()
-            )
+            .map((value) => value.trim())
             .filter(Boolean);
 
           const allow = b
             .split(/\r?\n/)
-            .map((value) =>
-              value.trim()
-            )
+            .map((value) => value.trim())
             .filter(Boolean);
 
           setOutput(
             generateRobotsTxt(
               [
                 {
-                  userAgent:
-                    c || "*",
+                  userAgent: c || "*",
                   allow,
                   disallow,
                 },
@@ -235,70 +204,48 @@ export function SeoTool({
               d
             )
           );
-
           break;
         }
 
         case "robots-txt-tester": {
-          const result =
-            testRobotsTxt(
-              a,
-              b || "/",
-              c || "*"
-            );
-
-          setPreview(result);
-
+          setPreview(testRobotsTxt(a, b || "/", c || "*"));
           break;
         }
 
         case "xml-sitemap-generator": {
           const urls = a
             .split(/\r?\n/)
-            .map((value) =>
-              value.trim()
-            )
+            .map((value) => value.trim())
             .filter(Boolean);
 
           setOutput(
             generateXmlSitemap(
               urls.map((url) => ({
                 url,
-                changeFrequency:
-                  (b ||
-                    "weekly") as
-                    | "always"
-                    | "hourly"
-                    | "daily"
-                    | "weekly"
-                    | "monthly"
-                    | "yearly"
-                    | "never",
-                priority:
-                  c.trim() !== ""
-                    ? Number(c)
-                    : 0.8,
+                changeFrequency: (b || "weekly") as
+                  | "always"
+                  | "hourly"
+                  | "daily"
+                  | "weekly"
+                  | "monthly"
+                  | "yearly"
+                  | "never",
+                priority: c.trim() !== "" ? Number(c) : 0.8,
               }))
             )
           );
-
           break;
         }
 
         case "schema-markup-generator": {
-          let properties: Record<
-            string,
-            unknown
-          > = {};
+          let properties: Record<string, unknown> = {};
 
           if (b.trim()) {
-            const parsed =
-              JSON.parse(b);
+            const parsed: unknown = JSON.parse(b);
 
             if (
               !parsed ||
-              typeof parsed !==
-                "object" ||
+              typeof parsed !== "object" ||
               Array.isArray(parsed)
             ) {
               throw new Error(
@@ -306,149 +253,84 @@ export function SeoTool({
               );
             }
 
-            properties =
-              parsed as Record<
-                string,
-                unknown
-              >;
+            properties = parsed as Record<string, unknown>;
           }
 
           setOutput(
-            generateSchemaMarkup(
-              a || "WebPage",
-              properties
-            )
+            generateSchemaMarkup(a || "WebPage", properties)
           );
-
           break;
         }
 
         case "faq-schema-generator": {
-          const items = a
-            .split(/\r?\n/)
-            .map((line) => {
-              const separator =
-                line.indexOf("|");
+          const items = a.split(/\r?\n/).map((line) => {
+            const separator = line.indexOf("|");
 
-              if (
-                separator === -1
-              ) {
-                return {
-                  question: "",
-                  answer: "",
-                };
-              }
-
+            if (separator === -1) {
               return {
-                question: line
-                  .slice(
-                    0,
-                    separator
-                  )
-                  .trim(),
-
-                answer: line
-                  .slice(
-                    separator + 1
-                  )
-                  .trim(),
+                question: "",
+                answer: "",
               };
-            });
+            }
 
-          setOutput(
-            generateFaqSchema(items)
-          );
+            return {
+              question: line.slice(0, separator).trim(),
+              answer: line.slice(separator + 1).trim(),
+            };
+          });
 
+          setOutput(generateFaqSchema(items));
           break;
         }
 
         case "hreflang-generator": {
-          const entries = a
-            .split(/\r?\n/)
-            .map((line) => {
-              const separator =
-                line.indexOf("|");
+          const entries = a.split(/\r?\n/).map((line) => {
+            const separator = line.indexOf("|");
 
-              if (
-                separator === -1
-              ) {
-                return {
-                  language: "",
-                  url: "",
-                };
-              }
-
+            if (separator === -1) {
               return {
-                language: line
-                  .slice(
-                    0,
-                    separator
-                  )
-                  .trim(),
-
-                url: line
-                  .slice(
-                    separator + 1
-                  )
-                  .trim(),
+                language: "",
+                url: "",
               };
-            });
+            }
 
-          setOutput(
-            generateHreflangTags(
-              entries
-            )
-          );
+            return {
+              language: line.slice(0, separator).trim(),
+              url: line.slice(separator + 1).trim(),
+            };
+          });
 
+          setOutput(generateHreflangTags(entries));
           break;
         }
 
         case "utm-builder": {
           setOutput(
             buildUtmUrl({
-              url:
-                a ||
-                "https://example.com",
+              url: a || "https://example.com",
               source: b,
               medium: c,
               campaign: d,
               content: e,
             })
           );
-
           break;
         }
 
         case "keyword-density-checker": {
-          const result =
-            calculateKeywordDensity(
-              a,
-              b
-            );
-
-          setPreview(result);
-
+          setPreview(calculateKeywordDensity(a, b));
           break;
         }
 
         case "heading-structure-analyzer": {
-          const result =
-            analyzeHeadings(a);
-
           setPreview(
-            result as unknown as Record<
-              string,
-              unknown
-            >
+            analyzeHeadings(a) as unknown as PreviewData
           );
-
           break;
         }
 
         default:
-          throw new Error(
-            "This SEO tool is not configured."
-          );
+          throw new Error("This SEO tool is not configured.");
       }
     } catch (caught) {
       setError(
@@ -461,8 +343,7 @@ export function SeoTool({
 
   return (
     <div className="space-y-5">
-      {kind ===
-        "meta-tag-generator" && (
+      {kind === "meta-tag-generator" && (
         <>
           <Field
             label="Page title"
@@ -528,8 +409,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "open-graph-preview" && (
+      {kind === "open-graph-preview" && (
         <>
           <Field
             label="Open Graph title"
@@ -569,8 +449,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "robots-txt-generator" && (
+      {kind === "robots-txt-generator" && (
         <>
           <TextAreaField
             label="Disallow paths"
@@ -604,8 +483,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "robots-txt-tester" && (
+      {kind === "robots-txt-tester" && (
         <>
           <TextAreaField
             label="robots.txt"
@@ -633,8 +511,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "xml-sitemap-generator" && (
+      {kind === "xml-sitemap-generator" && (
         <>
           <TextAreaField
             label="URLs — one per line"
@@ -653,34 +530,16 @@ export function SeoTool({
 
             <select
               value={b || "weekly"}
-              onChange={(event) =>
-                setB(
-                  event.target.value
-                )
-              }
+              onChange={(event) => setB(event.target.value)}
               className={inputClass}
             >
-              <option value="always">
-                Always
-              </option>
-              <option value="hourly">
-                Hourly
-              </option>
-              <option value="daily">
-                Daily
-              </option>
-              <option value="weekly">
-                Weekly
-              </option>
-              <option value="monthly">
-                Monthly
-              </option>
-              <option value="yearly">
-                Yearly
-              </option>
-              <option value="never">
-                Never
-              </option>
+              <option value="always">Always</option>
+              <option value="hourly">Hourly</option>
+              <option value="daily">Daily</option>
+              <option value="weekly">Weekly</option>
+              <option value="monthly">Monthly</option>
+              <option value="yearly">Yearly</option>
+              <option value="never">Never</option>
             </select>
           </label>
 
@@ -693,8 +552,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "schema-markup-generator" && (
+      {kind === "schema-markup-generator" && (
         <>
           <Field
             label="Schema type"
@@ -716,8 +574,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "faq-schema-generator" && (
+      {kind === "faq-schema-generator" && (
         <TextAreaField
           label="FAQ entries"
           value={a}
@@ -729,8 +586,7 @@ export function SeoTool({
         />
       )}
 
-      {kind ===
-        "hreflang-generator" && (
+      {kind === "hreflang-generator" && (
         <TextAreaField
           label="Languages and URLs"
           value={a}
@@ -781,8 +637,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "keyword-density-checker" && (
+      {kind === "keyword-density-checker" && (
         <>
           <TextAreaField
             label="Text to analyze"
@@ -801,8 +656,7 @@ export function SeoTool({
         </>
       )}
 
-      {kind ===
-        "heading-structure-analyzer" && (
+      {kind === "heading-structure-analyzer" && (
         <TextAreaField
           label="HTML"
           value={a}
@@ -823,15 +677,11 @@ export function SeoTool({
           Run Tool
         </button>
 
-        {(output ||
-          preview ||
-          error) && (
+        {(output || preview || error) && (
           <button
             type="button"
             onClick={clearResult}
-            className={
-              secondaryButtonClass
-            }
+            className={secondaryButtonClass}
           >
             Clear result
           </button>
@@ -847,129 +697,84 @@ export function SeoTool({
         </div>
       )}
 
-      {kind === "serp-preview" &&
-        preview && (
-          <div className="rounded-xl border bg-background p-5">
-            <div className="mb-1 truncate text-sm text-muted-foreground">
-              {String(
-                preview.url ?? ""
-              )}
+      {kind === "serp-preview" && preview && (
+        <div className="rounded-xl border bg-background p-5">
+          <div className="mb-1 truncate text-sm text-muted-foreground">
+            {previewText(preview, "url")}
+          </div>
+
+          <div className="text-xl font-medium text-blue-700">
+            {previewText(preview, "title")}
+          </div>
+
+          <div className="mt-1 max-w-2xl text-sm leading-6 text-muted-foreground">
+            {previewText(preview, "description")}
+          </div>
+
+          <div className="mt-4 grid gap-2 text-xs text-muted-foreground sm:grid-cols-2">
+            <div>
+              Title: {previewText(preview, "titleLength")} characters —{" "}
+              {previewText(preview, "titleGuidance")}
             </div>
 
-            <div className="text-xl font-medium text-blue-700">
-              {String(
-                preview.title ?? ""
-              )}
-            </div>
-
-            <div className="mt-1 max-w-2xl text-sm leading-6 text-muted-foreground">
-              {String(
-                preview.description ??
-                  ""
-              )}
-            </div>
-
-            <div className="mt-4 grid gap-2 text-xs text-muted-foreground sm:grid-cols-2">
-              <div>
-                Title:{" "}
-                {String(
-                  preview.titleLength ??
-                    ""
-                )}{" "}
-                characters —{" "}
-                {String(
-                  preview.titleGuidance ??
-                    ""
-                )}
-              </div>
-
-              <div>
-                Description:{" "}
-                {String(
-                  preview.descriptionLength ??
-                    ""
-                )}{" "}
-                characters —{" "}
-                {String(
-                  preview.descriptionGuidance ??
-                    ""
-                )}
-              </div>
+            <div>
+              Description:{" "}
+              {previewText(preview, "descriptionLength")} characters —{" "}
+              {previewText(preview, "descriptionGuidance")}
             </div>
           </div>
-        )}
+        </div>
+      )}
 
-      {kind ===
-        "open-graph-preview" &&
-        preview && (
-          <div className="overflow-hidden rounded-xl border bg-background">
-            {preview.imageUrl && (
-              <div className="aspect-[1.91/1] bg-muted">
-                <img
-                  src={String(
-                    preview.imageUrl
-                  )}
-                  alt="Open Graph preview"
-                  className="h-full w-full object-cover"
-                />
+      {kind === "open-graph-preview" && preview && (
+        <div className="overflow-hidden rounded-xl border bg-background">
+          {Boolean(preview.imageUrl) && (
+            <div className="aspect-[1.91/1] bg-muted">
+              <img
+                src={previewText(preview, "imageUrl")}
+                alt="Open Graph preview"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          )}
+
+          <div className="p-5">
+            {Boolean(preview.siteName) && (
+              <div className="text-xs uppercase tracking-wide text-muted-foreground">
+                {previewText(preview, "siteName")}
               </div>
             )}
 
-            <div className="p-5">
-              {preview.siteName && (
-                <div className="text-xs uppercase tracking-wide text-muted-foreground">
-                  {String(
-                    preview.siteName
-                  )}
-                </div>
-              )}
+            <div className="mt-1 text-lg font-semibold">
+              {previewText(preview, "title")}
+            </div>
 
-              <div className="mt-1 text-lg font-semibold">
-                {String(
-                  preview.title ?? ""
-                )}
-              </div>
+            <p className="mt-2 text-sm text-muted-foreground">
+              {previewText(preview, "description")}
+            </p>
 
-              <p className="mt-2 text-sm text-muted-foreground">
-                {String(
-                  preview.description ??
-                    ""
-                )}
-              </p>
-
-              <div className="mt-3 truncate text-xs text-muted-foreground">
-                {String(
-                  preview.url ?? ""
-                )}
-              </div>
+            <div className="mt-3 truncate text-xs text-muted-foreground">
+              {previewText(preview, "url")}
             </div>
           </div>
-        )}
+        </div>
+      )}
 
       {preview &&
         kind !== "serp-preview" &&
-        kind !==
-          "open-graph-preview" && (
+        kind !== "open-graph-preview" && (
           <div className="space-y-2">
-            <h3 className="font-semibold">
-              Result
-            </h3>
+            <h3 className="font-semibold">Result</h3>
 
             <pre className="max-h-[500px] overflow-auto rounded-xl border bg-muted/30 p-4 text-sm">
-              {JSON.stringify(
-                preview,
-                null,
-                2
-              )}
+              {JSON.stringify(preview, null, 2)}
             </pre>
           </div>
         )}
 
       {output && (
         <div className="space-y-3">
-          <h3 className="font-semibold">
-            Generated output
-          </h3>
+          <h3 className="font-semibold">Generated output</h3>
 
           <textarea
             value={output}
@@ -981,9 +786,7 @@ export function SeoTool({
           <button
             type="button"
             onClick={copyOutput}
-            className={
-              secondaryButtonClass
-            }
+            className={secondaryButtonClass}
           >
             Copy output
           </button>
