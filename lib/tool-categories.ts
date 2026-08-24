@@ -289,6 +289,77 @@ export const toolCategories: ToolCategoryConfig[] = [
     ],
   },
 
+
+  {
+    slug: "finance",
+    name: "Finance & Business Tools",
+    description:
+      "Calculate mortgages, loans, interest, ROI, margins, markup, break-even points, commissions, salary conversions, growth rates, and savings goals.",
+    intro:
+      "Avorqin's finance and business tools provide quick browser-based estimates for borrowing, saving, pricing, profitability, compensation, and business planning. Enter your own values to calculate mortgage and loan payments, interest, ROI, margins, markup, break-even points, commissions, salary conversions, CAGR, and savings targets.",
+    keywords: [
+      "finance tools",
+      "business calculators",
+      "mortgage calculator",
+      "loan calculator",
+      "compound interest calculator",
+      "simple interest calculator",
+      "ROI calculator",
+      "profit margin calculator",
+      "markup calculator",
+      "break even calculator",
+      "commission calculator",
+      "CAGR calculator",
+      "salary calculator",
+      "savings goal calculator",
+    ],
+    toolSlugs: [
+      "mortgage-calculator",
+      "loan-calculator",
+      "compound-interest-calculator",
+      "simple-interest-calculator",
+      "roi-calculator",
+      "profit-margin-calculator",
+      "markup-calculator",
+      "break-even-calculator",
+      "gross-profit-calculator",
+      "commission-calculator",
+      "cagr-calculator",
+      "hourly-to-salary-calculator",
+      "salary-to-hourly-calculator",
+      "savings-goal-calculator",
+    ],
+  },
+
+
+  {
+    slug: "date-time",
+    name: "Date & Time Tools",
+    description:
+      "Calculate business days, working hours, date adjustments, time-zone conversions, and durations between dates and times.",
+    intro:
+      "Avorqin's date and time tools help you count working days, calculate hours, add or subtract calendar time, convert between common time zones, and measure elapsed time between dates and times directly in your browser.",
+    keywords: [
+      "date and time tools",
+      "business days calculator",
+      "working days calculator",
+      "hours calculator",
+      "date calculator",
+      "add days to date",
+      "timezone converter",
+      "time zone converter",
+      "time duration calculator",
+      "elapsed time calculator",
+    ],
+    toolSlugs: [
+      "business-days-calculator",
+      "hours-calculator",
+      "date-add-subtract-calculator",
+      "timezone-converter",
+      "time-duration-calculator",
+    ],
+  },
+
   {
     slug: "calculators",
     name: "Developer Calculators",

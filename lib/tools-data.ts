@@ -4,6 +4,8 @@ import { pdfTools } from "@/lib/tools-data-pdf";
 import { imageTools } from "@/lib/tools-data-images";
 import { seoTools } from "@/lib/tools-data-seo";
 import { colorTools } from "@/lib/tools-data-colors";
+import { financeTools } from "@/lib/tools-data-finance";
+import { dateTimeTools } from "@/lib/tools-data-date-time";
 
 const existingTools: ToolConfig[] = [
   {
@@ -2344,6 +2346,8 @@ export const tools: ToolConfig[] = [
   ...imageTools,
   ...seoTools,
   ...colorTools,
+  ...financeTools,
+  ...dateTimeTools,
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {

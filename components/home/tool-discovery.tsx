@@ -23,6 +23,8 @@ type CategoryId =
   | "generators"
   | "web-code"
   | "seo"
+  | "finance"
+  | "date-time"
   | "calculators"
   | "colors"
   | "pdf"
@@ -46,6 +48,8 @@ const categoryOrder: Array<{
   { id: "generators", label: "Generators" },
   { id: "web-code", label: "Web & Code" },
   { id: "seo", label: "SEO & Marketing" },
+  { id: "finance", label: "Finance & Business" },
+  { id: "date-time", label: "Date & Time" },
   { id: "calculators", label: "Calculators" },
   { id: "colors", label: "Color & Design" },
   { id: "pdf", label: "PDF & Documents" },
