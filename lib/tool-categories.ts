@@ -290,6 +290,45 @@ export const toolCategories: ToolCategoryConfig[] = [
   },
 
 
+
+  {
+    slug: "math",
+    name: "Math Tools",
+    description:
+      "Solve scientific expressions, fractions, statistics, number theory, equations, coordinate geometry, triangles, and random-number problems.",
+    intro:
+      "Avorqin's math tools help students, developers, professionals, and everyday users solve common calculations directly in the browser. Evaluate scientific expressions, work with fractions and statistics, calculate GCD and LCM, solve quadratic equations, analyze coordinate geometry, use the Pythagorean theorem, and generate random numbers.",
+    keywords: [
+      "math tools",
+      "scientific calculator",
+      "fraction calculator",
+      "standard deviation calculator",
+      "mean median mode calculator",
+      "GCD calculator",
+      "LCM calculator",
+      "quadratic formula calculator",
+      "slope calculator",
+      "midpoint calculator",
+      "distance formula calculator",
+      "pythagorean theorem calculator",
+      "random number generator",
+    ],
+    toolSlugs: [
+      "scientific-calculator",
+      "fraction-calculator",
+      "standard-deviation-calculator",
+      "mean-median-mode-calculator",
+      "gcd-calculator",
+      "lcm-calculator",
+      "quadratic-formula-calculator",
+      "slope-calculator",
+      "midpoint-calculator",
+      "distance-formula-calculator",
+      "pythagorean-theorem-calculator",
+      "random-number-generator",
+    ],
+  },
+
   {
     slug: "finance",
     name: "Finance & Business Tools",
