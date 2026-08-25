@@ -28,20 +28,24 @@ const themeScript = `
 
 export const metadata: Metadata = {
   title: {
-    default: "Avorqin — Free Online Utility Tools",
+    default: "Avorqin — Free Online Tools & Calculators",
     template: "%s — Avorqin",
   },
   description:
-    "Fast, free browser-based tools for formatting, encoding, validating, converting, calculating, and everyday technical tasks. No signup. No clutter.",
+    "Free browser-based tools for calculators, finance, PDFs, images, SEO, data, conversions, development, design, and everyday tasks. No signup. No clutter.",
   keywords: [
     "online tools",
-    "developer tools",
-    "utility tools",
-    "json formatter",
-    "base64 encoder",
-    "url encoder",
-    "timestamp converter",
+    "free online tools",
     "online calculators",
+    "finance calculators",
+    "PDF tools",
+    "image tools",
+    "SEO tools",
+    "developer tools",
+    "data tools",
+    "conversion tools",
+    "color tools",
+    "utility tools",
   ],
   authors: [{ name: "Avorqin" }],
   creator: "Avorqin",
@@ -50,16 +54,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Avorqin",
-    title: "Avorqin — Free Online Utility Tools",
+    title: "Avorqin — Free Online Tools & Calculators",
     description:
-      "Fast, free browser-based tools for formatting, encoding, validating, converting, calculating, and everyday technical tasks.",
+      "Free browser-based tools for calculators, finance, PDFs, images, SEO, data, conversions, development, design, and everyday tasks.",
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Avorqin — Free Online Utility Tools",
+    title: "Avorqin — Free Online Tools & Calculators",
     description:
-      "Fast, free browser-based tools for formatting, encoding, validating, converting, calculating, and everyday technical tasks.",
+      "Free browser-based tools for calculators, finance, PDFs, images, SEO, data, conversions, development, design, and everyday tasks.",
   },
   robots: {
     index: true,
