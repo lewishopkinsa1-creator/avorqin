@@ -37,6 +37,9 @@ export const toolCategories: ToolCategoryConfig[] = [
       "json-to-yaml",
       "xml-to-json",
       "json-to-xml",
+      "json-to-typescript",
+      "jsonpath-tester",
+      "json-diff",
     ],
   },
 
@@ -248,6 +251,8 @@ export const toolCategories: ToolCategoryConfig[] = [
       "mime-type-lookup",
       "user-agent-parser",
       "ip-subnet-calculator",
+      "markdown-to-html",
+      "html-to-markdown",
     ],
   },
 

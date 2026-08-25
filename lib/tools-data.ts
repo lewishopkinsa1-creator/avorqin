@@ -8,6 +8,7 @@ import { financeTools } from "@/lib/tools-data-finance";
 import { dateTimeTools } from "@/lib/tools-data-date-time";
 import { mathTools } from "@/lib/tools-data-math";
 import { pdfExpansionTools } from "@/lib/tools-data-pdf-expansion";
+import { devDataTools } from "@/lib/tools-data-dev-data";
 
 const existingTools: ToolConfig[] = [
   {
@@ -2352,6 +2353,7 @@ export const tools: ToolConfig[] = [
   ...dateTimeTools,
   ...mathTools,
   ...pdfExpansionTools,
+  ...devDataTools,
 ];
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
