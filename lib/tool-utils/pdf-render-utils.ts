@@ -182,6 +182,7 @@ async function renderPageToCanvas(
   context.restore();
 
   await page.render({
+    canvas,
     canvasContext: context,
     viewport,
   }).promise;
