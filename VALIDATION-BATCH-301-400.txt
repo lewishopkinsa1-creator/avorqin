@@ -1,0 +1,37 @@
+AVO RQIN BATCH 301-400 VALIDATION
+Generated: 2026-08-28
+
+Package scope
+- 100 new tool routes
+- 301-350: Construction & Home (50)
+- 351-380: Electrical & Electronics (30)
+- 381-390: Education & Grades (10)
+- 391-400: Math expansion (10)
+- 3 new category landing-page collections: construction, electrical, education
+
+Validation completed
+- 100 unique new slugs
+- 0 duplicate slugs within Batch 301-400
+- 0 slug overlaps with Batch 201-250
+- 0 slug overlaps with Batch 251-300
+- 103 TypeScript/TSX files parsed with 0 syntax errors at ES2017 target
+- Construction shared implementation: 50/50 default-input runtime smoke tests passed
+- Electrical/Education/Math shared implementation: 50/50 default-input runtime smoke tests passed
+- Targeted formula checks passed for square footage, paint, pool volume, watts-to-amps, mAh-to-Wh, grade percentage, square root, and factorial
+- No BigInt literals or BigInt usage in the package
+
+Installer behavior
+- Adds batch301To400Tools to lib/tools-data.ts
+- Adds new construction, electrical, and education category objects to lib/tool-categories.ts
+- Adds all 100 tools to the existing calculators collection
+- Adds the final 10 math tools to the existing math collection
+- Adds the 3 new categories to the current tool-discovery.tsx category IDs and display order
+- Installer is designed to be safe to rerun and avoids duplicate entries
+
+Final environment check still required
+- The full production build must run against the user's current Avorqin repository on Cloudflare, because the complete live repository and installed dependency graph are not mounted in this environment.
+
+Important calculation notes
+- Construction quantities are estimates. Actual product coverage, waste, density, joint dimensions, site conditions, and installation practices vary.
+- Electrical calculators are planning/relationship tools and are not substitutes for electrical code requirements or a qualified electrician.
+- Grade/GPA policies and weighting rules vary by school.

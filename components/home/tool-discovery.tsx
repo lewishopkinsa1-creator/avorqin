@@ -26,6 +26,9 @@ type CategoryId =
   | "math"
   | "finance"
   | "date-time"
+  | "construction"
+  | "electrical"
+  | "education"
   | "calculators"
   | "colors"
   | "pdf"
@@ -52,6 +55,9 @@ const categoryOrder: Array<{
   { id: "math", label: "Math" },
   { id: "finance", label: "Finance & Business" },
   { id: "date-time", label: "Date & Time" },
+  { id: "construction", label: "Construction & Home" },
+  { id: "electrical", label: "Electrical" },
+  { id: "education", label: "Education & Grades" },
   { id: "calculators", label: "Calculators" },
   { id: "colors", label: "Color & Design" },
   { id: "pdf", label: "PDF & Documents" },

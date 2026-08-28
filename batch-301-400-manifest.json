@@ -1,0 +1,606 @@
+{
+  "batch": "301-400",
+  "count": 100,
+  "tools": [
+    {
+      "number": 301,
+      "slug": "square-footage-calculator",
+      "name": "Square Footage Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 302,
+      "slug": "concrete-calculator",
+      "name": "Concrete Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 303,
+      "slug": "concrete-slab-calculator",
+      "name": "Concrete Slab Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 304,
+      "slug": "concrete-bag-calculator",
+      "name": "Concrete Bag Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 305,
+      "slug": "cubic-yard-calculator",
+      "name": "Cubic Yard Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 306,
+      "slug": "gravel-calculator",
+      "name": "Gravel Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 307,
+      "slug": "mulch-calculator",
+      "name": "Mulch Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 308,
+      "slug": "topsoil-calculator",
+      "name": "Topsoil Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 309,
+      "slug": "sand-calculator",
+      "name": "Sand Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 310,
+      "slug": "brick-calculator",
+      "name": "Brick Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 311,
+      "slug": "concrete-block-calculator",
+      "name": "Concrete Block Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 312,
+      "slug": "drywall-calculator",
+      "name": "Drywall Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 313,
+      "slug": "paint-calculator",
+      "name": "Paint Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 314,
+      "slug": "wallpaper-calculator",
+      "name": "Wallpaper Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 315,
+      "slug": "flooring-calculator",
+      "name": "Flooring Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 316,
+      "slug": "tile-calculator",
+      "name": "Tile Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 317,
+      "slug": "carpet-calculator",
+      "name": "Carpet Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 318,
+      "slug": "decking-calculator",
+      "name": "Decking Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 319,
+      "slug": "fence-calculator",
+      "name": "Fence Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 320,
+      "slug": "roofing-calculator",
+      "name": "Roofing Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 321,
+      "slug": "roof-pitch-calculator",
+      "name": "Roof Pitch Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 322,
+      "slug": "rafter-length-calculator",
+      "name": "Rafter Length Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 323,
+      "slug": "roof-shingle-calculator",
+      "name": "Roof Shingle Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 324,
+      "slug": "stair-calculator",
+      "name": "Stair Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 325,
+      "slug": "board-foot-calculator",
+      "name": "Board Foot Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 326,
+      "slug": "lumber-calculator",
+      "name": "Lumber Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 327,
+      "slug": "stud-calculator",
+      "name": "Stud Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 328,
+      "slug": "insulation-calculator",
+      "name": "Insulation Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 329,
+      "slug": "paver-calculator",
+      "name": "Paver Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 330,
+      "slug": "asphalt-calculator",
+      "name": "Asphalt Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 331,
+      "slug": "room-area-calculator",
+      "name": "Room Area Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 332,
+      "slug": "wall-area-calculator",
+      "name": "Wall Area Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 333,
+      "slug": "ceiling-area-calculator",
+      "name": "Ceiling Area Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 334,
+      "slug": "cubic-feet-calculator",
+      "name": "Cubic Feet Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 335,
+      "slug": "square-feet-to-cubic-yards-calculator",
+      "name": "Square Feet to Cubic Yards Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 336,
+      "slug": "grout-calculator",
+      "name": "Grout Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 337,
+      "slug": "mortar-calculator",
+      "name": "Mortar Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 338,
+      "slug": "thinset-calculator",
+      "name": "Thinset Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 339,
+      "slug": "rebar-calculator",
+      "name": "Rebar Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 340,
+      "slug": "pool-volume-calculator",
+      "name": "Pool Volume Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 341,
+      "slug": "tank-volume-calculator",
+      "name": "Tank Volume Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 342,
+      "slug": "pipe-volume-calculator",
+      "name": "Pipe Volume Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 343,
+      "slug": "gpm-calculator",
+      "name": "GPM Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 344,
+      "slug": "flow-rate-calculator",
+      "name": "Flow Rate Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 345,
+      "slug": "deck-stain-calculator",
+      "name": "Deck Stain Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 346,
+      "slug": "epoxy-calculator",
+      "name": "Epoxy Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 347,
+      "slug": "crushed-stone-calculator",
+      "name": "Crushed Stone Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 348,
+      "slug": "road-base-calculator",
+      "name": "Road Base Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 349,
+      "slug": "gravel-driveway-calculator",
+      "name": "Gravel Driveway Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 350,
+      "slug": "fence-post-depth-calculator",
+      "name": "Fence Post Depth Calculator",
+      "category": "Construction & Home"
+    },
+    {
+      "number": 351,
+      "slug": "watts-to-amps-calculator",
+      "name": "Watts to Amps Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 352,
+      "slug": "amps-to-watts-calculator",
+      "name": "Amps to Watts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 353,
+      "slug": "volts-to-watts-calculator",
+      "name": "Volts to Watts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 354,
+      "slug": "watts-to-volts-calculator",
+      "name": "Watts to Volts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 355,
+      "slug": "amps-to-volts-calculator",
+      "name": "Amps to Volts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 356,
+      "slug": "volts-to-amps-calculator",
+      "name": "Volts to Amps Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 357,
+      "slug": "kw-to-amps-calculator",
+      "name": "kW to Amps Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 358,
+      "slug": "amps-to-kw-calculator",
+      "name": "Amps to kW Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 359,
+      "slug": "kw-to-kwh-calculator",
+      "name": "kW to kWh Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 360,
+      "slug": "kwh-to-kw-calculator",
+      "name": "kWh to kW Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 361,
+      "slug": "watts-to-kwh-calculator",
+      "name": "Watts to kWh Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 362,
+      "slug": "kwh-to-watts-calculator",
+      "name": "kWh to Watts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 363,
+      "slug": "mah-to-wh-calculator",
+      "name": "mAh to Wh Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 364,
+      "slug": "wh-to-mah-calculator",
+      "name": "Wh to mAh Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 365,
+      "slug": "battery-life-calculator",
+      "name": "Battery Life Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 366,
+      "slug": "battery-capacity-calculator",
+      "name": "Battery Capacity Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 367,
+      "slug": "power-factor-calculator",
+      "name": "Power Factor Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 368,
+      "slug": "voltage-drop-calculator",
+      "name": "Voltage Drop Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 369,
+      "slug": "wire-gauge-calculator",
+      "name": "Wire Gauge Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 370,
+      "slug": "series-resistor-calculator",
+      "name": "Series Resistor Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 371,
+      "slug": "parallel-resistor-calculator",
+      "name": "Parallel Resistor Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 372,
+      "slug": "capacitor-series-calculator",
+      "name": "Capacitor Series Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 373,
+      "slug": "capacitor-parallel-calculator",
+      "name": "Capacitor Parallel Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 374,
+      "slug": "rc-time-constant-calculator",
+      "name": "RC Time Constant Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 375,
+      "slug": "transformer-calculator",
+      "name": "Transformer Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 376,
+      "slug": "joules-to-watts-calculator",
+      "name": "Joules to Watts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 377,
+      "slug": "watts-to-joules-calculator",
+      "name": "Watts to Joules Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 378,
+      "slug": "lumens-to-watts-calculator",
+      "name": "Lumens to Watts Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 379,
+      "slug": "watts-to-lumens-calculator",
+      "name": "Watts to Lumens Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 380,
+      "slug": "lux-to-lumens-calculator",
+      "name": "Lux to Lumens Calculator",
+      "category": "Electrical & Electronics"
+    },
+    {
+      "number": 381,
+      "slug": "gpa-calculator",
+      "name": "GPA Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 382,
+      "slug": "weighted-gpa-calculator",
+      "name": "Weighted GPA Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 383,
+      "slug": "high-school-gpa-calculator",
+      "name": "High School GPA Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 384,
+      "slug": "college-gpa-calculator",
+      "name": "College GPA Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 385,
+      "slug": "grade-calculator",
+      "name": "Grade Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 386,
+      "slug": "final-grade-calculator",
+      "name": "Final Grade Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 387,
+      "slug": "weighted-grade-calculator",
+      "name": "Weighted Grade Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 388,
+      "slug": "test-grade-calculator",
+      "name": "Test Grade Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 389,
+      "slug": "semester-gpa-calculator",
+      "name": "Semester GPA Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 390,
+      "slug": "cumulative-gpa-calculator",
+      "name": "Cumulative GPA Calculator",
+      "category": "Education & Grades"
+    },
+    {
+      "number": 391,
+      "slug": "matrix-determinant-calculator",
+      "name": "Matrix Determinant Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 392,
+      "slug": "matrix-multiplication-calculator",
+      "name": "Matrix Multiplication Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 393,
+      "slug": "matrix-inverse-calculator",
+      "name": "Matrix Inverse Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 394,
+      "slug": "linear-equation-solver",
+      "name": "Linear Equation Solver",
+      "category": "Math"
+    },
+    {
+      "number": 395,
+      "slug": "system-of-equations-solver",
+      "name": "System of Equations Solver",
+      "category": "Math"
+    },
+    {
+      "number": 396,
+      "slug": "logarithm-calculator",
+      "name": "Logarithm Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 397,
+      "slug": "exponent-calculator",
+      "name": "Exponent Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 398,
+      "slug": "square-root-calculator",
+      "name": "Square Root Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 399,
+      "slug": "cube-root-calculator",
+      "name": "Cube Root Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 400,
+      "slug": "factorial-calculator",
+      "name": "Factorial Calculator",
+      "category": "Math"
+    }
+  ]
+}
