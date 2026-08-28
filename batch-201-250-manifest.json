@@ -1,0 +1,352 @@
+[
+  {
+    "number": 201,
+    "slug": "auto-loan-calculator",
+    "name": "Auto Loan Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate estimated auto loan payments, financed amount, and total interest from vehicle price, down payment, trade-in, tax, APR, and term."
+  },
+  {
+    "number": 202,
+    "slug": "credit-card-payoff-calculator",
+    "name": "Credit Card Payoff Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate how long it will take to pay off a credit card balance and how much interest you may pay."
+  },
+  {
+    "number": 203,
+    "slug": "debt-payoff-calculator",
+    "name": "Debt Payoff Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate a payoff timeline, total interest, and total payments for a debt using a fixed monthly payment."
+  },
+  {
+    "number": 204,
+    "slug": "debt-snowball-calculator",
+    "name": "Debt Snowball Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate a debt snowball payoff plan by targeting the smallest balance first while rolling freed payments forward."
+  },
+  {
+    "number": 205,
+    "slug": "debt-avalanche-calculator",
+    "name": "Debt Avalanche Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate a debt avalanche payoff plan by targeting the highest APR first while rolling freed payments forward."
+  },
+  {
+    "number": 206,
+    "slug": "apr-calculator",
+    "name": "APR Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate annual percentage rate from net loan proceeds, monthly payment, and repayment term."
+  },
+  {
+    "number": 207,
+    "slug": "apy-calculator",
+    "name": "APY Calculator",
+    "category": "Finance & Business",
+    "description": "Convert a stated annual interest rate and compounding frequency into annual percentage yield."
+  },
+  {
+    "number": 208,
+    "slug": "debt-to-income-ratio-calculator",
+    "name": "Debt-to-Income Ratio Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate debt-to-income ratio from gross monthly income and recurring monthly debt payments."
+  },
+  {
+    "number": 209,
+    "slug": "loan-amortization-calculator",
+    "name": "Loan Amortization Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate fixed loan payments, total interest, and first-payment principal and interest amounts."
+  },
+  {
+    "number": 210,
+    "slug": "rule-of-72-calculator",
+    "name": "Rule of 72 Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate how many years it may take money to double at a fixed annual growth rate using the Rule of 72."
+  },
+  {
+    "number": 211,
+    "slug": "rent-vs-buy-calculator",
+    "name": "Rent vs Buy Calculator",
+    "category": "Finance & Business",
+    "description": "Compare a simplified estimated cost of renting with buying a home over a selected time horizon."
+  },
+  {
+    "number": 212,
+    "slug": "down-payment-calculator",
+    "name": "Down Payment Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate down payment amount and estimated loan amount from a purchase price and down payment percentage."
+  },
+  {
+    "number": 213,
+    "slug": "mortgage-refinance-calculator",
+    "name": "Mortgage Refinance Calculator",
+    "category": "Finance & Business",
+    "description": "Compare current and refinance mortgage payments and estimate monthly savings and closing-cost break-even time."
+  },
+  {
+    "number": 214,
+    "slug": "biweekly-mortgage-calculator",
+    "name": "Biweekly Mortgage Calculator",
+    "category": "Finance & Business",
+    "description": "Compare standard monthly mortgage payments with a biweekly payment schedule and estimate interest savings."
+  },
+  {
+    "number": 215,
+    "slug": "credit-card-interest-calculator",
+    "name": "Credit Card Interest Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate monthly and daily credit card interest from a balance and annual percentage rate."
+  },
+  {
+    "number": 216,
+    "slug": "credit-card-minimum-payment-calculator",
+    "name": "Credit Card Minimum Payment Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate a credit card minimum payment using a percentage of balance, a minimum floor, and accrued interest."
+  },
+  {
+    "number": 217,
+    "slug": "pay-raise-calculator",
+    "name": "Pay Raise Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate a new salary, annual increase, and monthly increase from a current salary and raise percentage."
+  },
+  {
+    "number": 218,
+    "slug": "overtime-pay-calculator",
+    "name": "Overtime Pay Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate regular pay, overtime pay, and total gross pay from hours, hourly rate, and overtime multiplier."
+  },
+  {
+    "number": 219,
+    "slug": "freelance-rate-calculator",
+    "name": "Freelance Rate Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate an hourly freelance rate from target income, billable hours, working weeks, overhead, and tax reserve."
+  },
+  {
+    "number": 220,
+    "slug": "cost-per-unit-calculator",
+    "name": "Cost Per Unit Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate cost per unit by dividing total cost by the number of units produced or purchased."
+  },
+  {
+    "number": 221,
+    "slug": "unit-price-calculator",
+    "name": "Unit Price Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate unit price from package price and quantity for easier product and purchasing comparisons."
+  },
+  {
+    "number": 222,
+    "slug": "price-per-square-foot-calculator",
+    "name": "Price Per Square Foot Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate price per square foot from total price and property or project area."
+  },
+  {
+    "number": 223,
+    "slug": "revenue-growth-calculator",
+    "name": "Revenue Growth Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate revenue growth or decline between an earlier period and a later period."
+  },
+  {
+    "number": 224,
+    "slug": "customer-acquisition-cost-calculator",
+    "name": "Customer Acquisition Cost Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate customer acquisition cost from sales and marketing spend and the number of new customers acquired."
+  },
+  {
+    "number": 225,
+    "slug": "customer-lifetime-value-calculator",
+    "name": "Customer Lifetime Value Calculator",
+    "category": "Finance & Business",
+    "description": "Estimate customer lifetime value from order value, purchase frequency, customer lifespan, and gross margin."
+  },
+  {
+    "number": 226,
+    "slug": "roas-calculator",
+    "name": "ROAS Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate return on ad spend from advertising revenue and advertising cost."
+  },
+  {
+    "number": 227,
+    "slug": "cpm-calculator",
+    "name": "CPM Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate advertising cost per thousand impressions from spend and impression count."
+  },
+  {
+    "number": 228,
+    "slug": "cpc-calculator",
+    "name": "CPC Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate average cost per click from advertising spend and click count."
+  },
+  {
+    "number": 229,
+    "slug": "cpa-calculator",
+    "name": "CPA Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate cost per acquisition from advertising spend and conversion count."
+  },
+  {
+    "number": 230,
+    "slug": "conversion-rate-calculator",
+    "name": "Conversion Rate Calculator",
+    "category": "Finance & Business",
+    "description": "Calculate conversion rate from total visitors or sessions and completed conversions."
+  },
+  {
+    "number": 231,
+    "slug": "title-tag-length-checker",
+    "name": "Title Tag Length Checker",
+    "category": "Developer",
+    "description": "Check title tag character length and get a quick indication of whether the title falls within a common SEO length range."
+  },
+  {
+    "number": 232,
+    "slug": "meta-description-length-checker",
+    "name": "Meta Description Length Checker",
+    "category": "Developer",
+    "description": "Check meta description character length and compare it with a common search-snippet length range."
+  },
+  {
+    "number": 233,
+    "slug": "canonical-tag-generator",
+    "name": "Canonical Tag Generator",
+    "category": "Developer",
+    "description": "Generate a canonical link tag from an absolute webpage URL directly in your browser."
+  },
+  {
+    "number": 234,
+    "slug": "meta-robots-tag-generator",
+    "name": "Meta Robots Tag Generator",
+    "category": "Developer",
+    "description": "Generate a meta robots tag from index, follow, snippet, preview, and other robots directives."
+  },
+  {
+    "number": 235,
+    "slug": "hreflang-validator",
+    "name": "Hreflang Validator",
+    "category": "Developer",
+    "description": "Check common hreflang language-region codes, URLs, duplicates, and x-default entries from a pasted list."
+  },
+  {
+    "number": 236,
+    "slug": "json-ld-validator",
+    "name": "JSON-LD Validator",
+    "category": "Developer",
+    "description": "Validate JSON-LD syntax and inspect common structured-data fields such as @context and @type."
+  },
+  {
+    "number": 237,
+    "slug": "xml-sitemap-validator",
+    "name": "XML Sitemap Validator",
+    "category": "Developer",
+    "description": "Validate XML sitemap syntax, identify sitemap type, count URL locations, and flag malformed location URLs."
+  },
+  {
+    "number": 238,
+    "slug": "sitemap-url-extractor",
+    "name": "Sitemap URL Extractor",
+    "category": "Developer",
+    "description": "Extract every loc URL from an XML sitemap or sitemap index into a clean copyable list."
+  },
+  {
+    "number": 239,
+    "slug": "redirect-rule-generator",
+    "name": "Redirect Rule Generator",
+    "category": "Developer",
+    "description": "Generate common Apache and Nginx redirect rules from a source path, destination URL, and redirect status."
+  },
+  {
+    "number": 240,
+    "slug": "utm-decoder",
+    "name": "UTM Decoder",
+    "category": "Developer",
+    "description": "Decode UTM campaign parameters from a URL and inspect source, medium, campaign, term, content, and other parameters."
+  },
+  {
+    "number": 241,
+    "slug": "json-schema-validator",
+    "name": "JSON Schema Validator",
+    "category": "JSON & Data",
+    "description": "Validate JSON data against common JSON Schema rules including types, required fields, properties, arrays, enums, and ranges."
+  },
+  {
+    "number": 242,
+    "slug": "json-escape-unescape",
+    "name": "JSON Escape / Unescape Tool",
+    "category": "JSON & Data",
+    "description": "Escape text for use inside a JSON string or unescape JSON string content directly in your browser."
+  },
+  {
+    "number": 243,
+    "slug": "json-string-converter",
+    "name": "JSON String Converter",
+    "category": "JSON & Data",
+    "description": "Convert JSON into an escaped JSON string or decode a JSON string back into formatted JSON."
+  },
+  {
+    "number": 244,
+    "slug": "csv-formatter",
+    "name": "CSV Formatter",
+    "category": "JSON & Data",
+    "description": "Parse and reformat CSV data with consistent quoting while preserving rows, columns, commas, and embedded line breaks."
+  },
+  {
+    "number": 245,
+    "slug": "csv-column-extractor",
+    "name": "CSV Column Extractor",
+    "category": "JSON & Data",
+    "description": "Extract one CSV column by header name or 1-based column number and copy the resulting values."
+  },
+  {
+    "number": 246,
+    "slug": "csv-duplicate-remover",
+    "name": "CSV Duplicate Remover",
+    "category": "JSON & Data",
+    "description": "Remove exact duplicate CSV rows while preserving the first occurrence and the original header row."
+  },
+  {
+    "number": 247,
+    "slug": "csv-sorter",
+    "name": "CSV Sorter",
+    "category": "JSON & Data",
+    "description": "Sort CSV rows by a selected header or column number in ascending or descending order."
+  },
+  {
+    "number": 248,
+    "slug": "tsv-to-csv",
+    "name": "TSV to CSV Converter",
+    "category": "JSON & Data",
+    "description": "Convert tab-separated values to standards-friendly comma-separated values with quoting when needed."
+  },
+  {
+    "number": 249,
+    "slug": "csv-to-tsv",
+    "name": "CSV to TSV Converter",
+    "category": "JSON & Data",
+    "description": "Convert comma-separated values to tab-separated values while preserving quoted fields and embedded text."
+  },
+  {
+    "number": 250,
+    "slug": "yaml-validator",
+    "name": "YAML Validator",
+    "category": "JSON & Data",
+    "description": "Check common YAML syntax issues including tabs, indentation consistency, unbalanced quotes, and bracket mismatches."
+  }
+]

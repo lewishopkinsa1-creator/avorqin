@@ -1,0 +1,18 @@
+Avorqin Batch 201-250 validation
+
+Generated package checks completed before handoff:
+- 50 unique metadata slugs found.
+- 50 unique route folders found; no missing or extra routes.
+- TypeScript syntactic transpile check passed for 52 TS/TSX files.
+- 30/30 finance and business calculators completed representative-input smoke tests.
+- 18/18 non-XML SEO/data utilities completed representative-input smoke tests.
+- XML tools use the browser DOMParser API and were syntax-reviewed; the Node smoke-test environment does not provide DOMParser.
+- Installer tested against a representative consolidated Avorqin registry/category structure.
+- Installer tested twice to confirm it does not duplicate the registry spread or category slug entries.
+- Verification script confirmed all 50 routes + metadata + registry hook + category links after mock installation.
+
+Important intentional limits:
+- Financial tools are estimates, not financial/tax/lending/investment/legal advice.
+- Rent vs Buy is a simplified comparison and labels itself accordingly.
+- JSON Schema Validator implements common everyday schema keywords, not every feature of every JSON Schema draft.
+- YAML Validator checks common syntax/indentation issues without introducing a new package dependency; complex YAML should be checked with a full YAML parser.
