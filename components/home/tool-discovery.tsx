@@ -29,6 +29,7 @@ type CategoryId =
   | "construction"
   | "electrical"
   | "education"
+  | "ecommerce"
   | "calculators"
   | "colors"
   | "pdf"
@@ -58,6 +59,7 @@ const categoryOrder: Array<{
   { id: "construction", label: "Construction & Home" },
   { id: "electrical", label: "Electrical" },
   { id: "education", label: "Education & Grades" },
+  { id: "ecommerce", label: "Ecommerce & SaaS" },
   { id: "calculators", label: "Calculators" },
   { id: "colors", label: "Color & Design" },
   { id: "pdf", label: "PDF & Documents" },

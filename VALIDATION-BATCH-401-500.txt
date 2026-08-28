@@ -1,0 +1,27 @@
+Avorqin Batch 401-500 validation report
+
+Generated tool routes: 100
+Unique batch slugs: 100 / 100
+Overlap with Batches 201-250, 251-300, and 301-400: 0
+TypeScript/TSX files parsed at ES2017 target: 105 / 105
+Files with syntax diagnostics: 0
+BigInt literals in code: 0
+Targeted runtime smoke checks passed: 41 / 41
+
+Tool groups:
+- 401-430 Ecommerce & SaaS: 30
+- 431-450 Date & Time: 20
+- 451-470 Exact-intent converters: 20
+- 471-485 Math & statistics: 15
+- 486-500 Image & SVG: 15
+
+Integration:
+- Adds new ecommerce category
+- Expands finance, date-time, converters, math, images, and calculators
+- Adds ecommerce to homepage tool discovery
+- Header category dropdown should populate ecommerce automatically from tool-categories.ts
+
+Image notes:
+- PNG to ICO scales images down to a maximum 256px dimension when needed.
+- ICO to PNG supports ICO entries that contain PNG-compressed image data.
+- Browser/canvas image operations receive final runtime validation in the deployed browser environment.

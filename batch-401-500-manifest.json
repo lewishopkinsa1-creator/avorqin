@@ -1,0 +1,606 @@
+{
+  "batch": "401-500",
+  "count": 100,
+  "tools": [
+    {
+      "number": 401,
+      "slug": "average-order-value-calculator",
+      "name": "Average Order Value Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 402,
+      "slug": "click-through-rate-calculator",
+      "name": "Click-Through Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 403,
+      "slug": "cost-per-lead-calculator",
+      "name": "Cost Per Lead Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 404,
+      "slug": "lead-conversion-rate-calculator",
+      "name": "Lead Conversion Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 405,
+      "slug": "email-open-rate-calculator",
+      "name": "Email Open Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 406,
+      "slug": "email-click-through-rate-calculator",
+      "name": "Email Click-Through Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 407,
+      "slug": "ecommerce-profit-calculator",
+      "name": "Ecommerce Profit Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 408,
+      "slug": "gmroi-calculator",
+      "name": "GMROI Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 409,
+      "slug": "inventory-turnover-calculator",
+      "name": "Inventory Turnover Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 410,
+      "slug": "reorder-point-calculator",
+      "name": "Reorder Point Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 411,
+      "slug": "safety-stock-calculator",
+      "name": "Safety Stock Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 412,
+      "slug": "economic-order-quantity-calculator",
+      "name": "Economic Order Quantity Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 413,
+      "slug": "sell-through-rate-calculator",
+      "name": "Sell-Through Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 414,
+      "slug": "cart-abandonment-rate-calculator",
+      "name": "Cart Abandonment Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 415,
+      "slug": "engagement-rate-calculator",
+      "name": "Engagement Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 416,
+      "slug": "churn-rate-calculator",
+      "name": "Churn Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 417,
+      "slug": "retention-rate-calculator",
+      "name": "Retention Rate Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 418,
+      "slug": "mrr-calculator",
+      "name": "MRR Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 419,
+      "slug": "arr-calculator",
+      "name": "ARR Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 420,
+      "slug": "mrr-growth-calculator",
+      "name": "MRR Growth Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 421,
+      "slug": "ltv-to-cac-ratio-calculator",
+      "name": "LTV to CAC Ratio Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 422,
+      "slug": "cac-payback-period-calculator",
+      "name": "CAC Payback Period Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 423,
+      "slug": "payback-period-calculator",
+      "name": "Payback Period Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 424,
+      "slug": "contribution-margin-calculator",
+      "name": "Contribution Margin Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 425,
+      "slug": "operating-margin-calculator",
+      "name": "Operating Margin Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 426,
+      "slug": "ebitda-margin-calculator",
+      "name": "EBITDA Margin Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 427,
+      "slug": "cost-of-goods-sold-calculator",
+      "name": "Cost of Goods Sold Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 428,
+      "slug": "average-revenue-per-user-calculator",
+      "name": "Average Revenue Per User Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 429,
+      "slug": "ad-spend-calculator",
+      "name": "Ad Spend Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 430,
+      "slug": "target-roas-calculator",
+      "name": "Target ROAS Calculator",
+      "category": "Ecommerce & SaaS"
+    },
+    {
+      "number": 431,
+      "slug": "days-from-today-calculator",
+      "name": "Days From Today Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 432,
+      "slug": "weeks-from-today-calculator",
+      "name": "Weeks From Today Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 433,
+      "slug": "months-from-today-calculator",
+      "name": "Months From Today Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 434,
+      "slug": "hours-from-now-calculator",
+      "name": "Hours From Now Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 435,
+      "slug": "minutes-from-now-calculator",
+      "name": "Minutes From Now Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 436,
+      "slug": "week-number-calculator",
+      "name": "Week Number Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 437,
+      "slug": "day-of-week-calculator",
+      "name": "Day of Week Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 438,
+      "slug": "day-of-year-calculator",
+      "name": "Day of Year Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 439,
+      "slug": "leap-year-calculator",
+      "name": "Leap Year Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 440,
+      "slug": "business-date-calculator",
+      "name": "Business Date Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 441,
+      "slug": "time-zone-difference-calculator",
+      "name": "Time Zone Difference Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 442,
+      "slug": "meeting-time-planner",
+      "name": "Meeting Time Planner",
+      "category": "Date & Time"
+    },
+    {
+      "number": 443,
+      "slug": "iso-week-date-converter",
+      "name": "ISO Week Date Converter",
+      "category": "Date & Time"
+    },
+    {
+      "number": 444,
+      "slug": "julian-date-converter",
+      "name": "Julian Date Converter",
+      "category": "Date & Time"
+    },
+    {
+      "number": 445,
+      "slug": "epoch-milliseconds-converter",
+      "name": "Epoch Milliseconds Converter",
+      "category": "Date & Time"
+    },
+    {
+      "number": 446,
+      "slug": "unix-time-to-iso-8601-converter",
+      "name": "Unix Time to ISO 8601 Converter",
+      "category": "Date & Time"
+    },
+    {
+      "number": 447,
+      "slug": "iso-8601-to-unix-time-converter",
+      "name": "ISO 8601 to Unix Time Converter",
+      "category": "Date & Time"
+    },
+    {
+      "number": 448,
+      "slug": "time-zone-offset-converter",
+      "name": "Time Zone Offset Converter",
+      "category": "Date & Time"
+    },
+    {
+      "number": 449,
+      "slug": "working-days-from-today-calculator",
+      "name": "Working Days From Today Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 450,
+      "slug": "weekend-days-calculator",
+      "name": "Weekend Days Calculator",
+      "category": "Date & Time"
+    },
+    {
+      "number": 451,
+      "slug": "inches-to-centimeters-converter",
+      "name": "Inches to Centimeters Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 452,
+      "slug": "centimeters-to-inches-converter",
+      "name": "Centimeters to Inches Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 453,
+      "slug": "feet-to-meters-converter",
+      "name": "Feet to Meters Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 454,
+      "slug": "meters-to-feet-converter",
+      "name": "Meters to Feet Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 455,
+      "slug": "miles-to-kilometers-converter",
+      "name": "Miles to Kilometers Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 456,
+      "slug": "kilometers-to-miles-converter",
+      "name": "Kilometers to Miles Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 457,
+      "slug": "pounds-to-kilograms-converter",
+      "name": "Pounds to Kilograms Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 458,
+      "slug": "kilograms-to-pounds-converter",
+      "name": "Kilograms to Pounds Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 459,
+      "slug": "ounces-to-grams-converter",
+      "name": "Ounces to Grams Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 460,
+      "slug": "grams-to-ounces-converter",
+      "name": "Grams to Ounces Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 461,
+      "slug": "cups-to-milliliters-converter",
+      "name": "Cups to Milliliters Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 462,
+      "slug": "milliliters-to-cups-converter",
+      "name": "Milliliters to Cups Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 463,
+      "slug": "gallons-to-liters-converter",
+      "name": "Gallons to Liters Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 464,
+      "slug": "liters-to-gallons-converter",
+      "name": "Liters to Gallons Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 465,
+      "slug": "celsius-to-fahrenheit-converter",
+      "name": "Celsius to Fahrenheit Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 466,
+      "slug": "fahrenheit-to-celsius-converter",
+      "name": "Fahrenheit to Celsius Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 467,
+      "slug": "mph-to-kmh-converter",
+      "name": "MPH to KMH Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 468,
+      "slug": "kmh-to-mph-converter",
+      "name": "KMH to MPH Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 469,
+      "slug": "mb-to-gb-converter",
+      "name": "MB to GB Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 470,
+      "slug": "gb-to-mb-converter",
+      "name": "GB to MB Converter",
+      "category": "Converters"
+    },
+    {
+      "number": 471,
+      "slug": "modulo-calculator",
+      "name": "Modulo Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 472,
+      "slug": "remainder-calculator",
+      "name": "Remainder Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 473,
+      "slug": "proportion-calculator",
+      "name": "Proportion Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 474,
+      "slug": "decimal-to-fraction-calculator",
+      "name": "Decimal to Fraction Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 475,
+      "slug": "mixed-number-calculator",
+      "name": "Mixed Number Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 476,
+      "slug": "fraction-simplifier",
+      "name": "Fraction Simplifier",
+      "category": "Math"
+    },
+    {
+      "number": 477,
+      "slug": "percent-difference-calculator",
+      "name": "Percent Difference Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 478,
+      "slug": "quartile-calculator",
+      "name": "Quartile Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 479,
+      "slug": "interquartile-range-calculator",
+      "name": "Interquartile Range Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 480,
+      "slug": "ratio-to-percentage-calculator",
+      "name": "Ratio to Percentage Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 481,
+      "slug": "linear-interpolation-calculator",
+      "name": "Linear Interpolation Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 482,
+      "slug": "standard-error-calculator",
+      "name": "Standard Error Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 483,
+      "slug": "variance-calculator",
+      "name": "Variance Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 484,
+      "slug": "coefficient-of-variation-calculator",
+      "name": "Coefficient of Variation Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 485,
+      "slug": "range-calculator",
+      "name": "Range Calculator",
+      "category": "Math"
+    },
+    {
+      "number": 486,
+      "slug": "base64-to-image-decoder",
+      "name": "Base64 to Image Decoder",
+      "category": "Images"
+    },
+    {
+      "number": 487,
+      "slug": "png-to-ico-converter",
+      "name": "PNG to ICO Converter",
+      "category": "Images"
+    },
+    {
+      "number": 488,
+      "slug": "ico-to-png-converter",
+      "name": "ICO to PNG Converter",
+      "category": "Images"
+    },
+    {
+      "number": 489,
+      "slug": "svg-viewer",
+      "name": "SVG Viewer",
+      "category": "Images"
+    },
+    {
+      "number": 490,
+      "slug": "svg-optimizer",
+      "name": "SVG Optimizer",
+      "category": "Images"
+    },
+    {
+      "number": 491,
+      "slug": "svg-to-base64-encoder",
+      "name": "SVG to Base64 Encoder",
+      "category": "Images"
+    },
+    {
+      "number": 492,
+      "slug": "base64-to-svg-decoder",
+      "name": "Base64 to SVG Decoder",
+      "category": "Images"
+    },
+    {
+      "number": 493,
+      "slug": "image-flipper",
+      "name": "Image Flipper",
+      "category": "Images"
+    },
+    {
+      "number": 494,
+      "slug": "image-grayscale-converter",
+      "name": "Image Grayscale Converter",
+      "category": "Images"
+    },
+    {
+      "number": 495,
+      "slug": "image-color-picker",
+      "name": "Image Color Picker",
+      "category": "Images"
+    },
+    {
+      "number": 496,
+      "slug": "image-palette-extractor",
+      "name": "Image Palette Extractor",
+      "category": "Images"
+    },
+    {
+      "number": 497,
+      "slug": "image-border-adder",
+      "name": "Image Border Adder",
+      "category": "Images"
+    },
+    {
+      "number": 498,
+      "slug": "image-rounded-corners",
+      "name": "Image Rounded Corners",
+      "category": "Images"
+    },
+    {
+      "number": 499,
+      "slug": "image-pixelate-tool",
+      "name": "Image Pixelate Tool",
+      "category": "Images"
+    },
+    {
+      "number": 500,
+      "slug": "image-blur-tool",
+      "name": "Image Blur Tool",
+      "category": "Images"
+    }
+  ]
+}
