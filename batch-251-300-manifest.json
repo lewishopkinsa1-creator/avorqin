@@ -1,0 +1,352 @@
+[
+  {
+    "number": 251,
+    "slug": "html-tag-stripper",
+    "name": "HTML Tag Stripper",
+    "category": "Developer",
+    "description": "Remove HTML tags from markup and extract readable plain text directly in your browser."
+  },
+  {
+    "number": 252,
+    "slug": "html-table-generator",
+    "name": "HTML Table Generator",
+    "category": "Developer",
+    "description": "Generate clean HTML table markup from rows of comma-, tab-, or pipe-separated data."
+  },
+  {
+    "number": 253,
+    "slug": "html-table-to-csv",
+    "name": "HTML Table to CSV Converter",
+    "category": "Developer",
+    "description": "Convert the first HTML table in pasted markup into properly escaped CSV data."
+  },
+  {
+    "number": 254,
+    "slug": "csv-to-html-table",
+    "name": "CSV to HTML Table Converter",
+    "category": "JSON & Data",
+    "description": "Convert CSV data into clean HTML table markup with an optional header row."
+  },
+  {
+    "number": 255,
+    "slug": "css-specificity-calculator",
+    "name": "CSS Specificity Calculator",
+    "category": "Developer",
+    "description": "Estimate CSS selector specificity using ID, class/attribute/pseudo-class, and element counts."
+  },
+  {
+    "number": 256,
+    "slug": "css-clamp-calculator",
+    "name": "CSS Clamp Calculator",
+    "category": "Developer",
+    "description": "Generate a responsive CSS clamp() expression from minimum and maximum sizes and viewport widths."
+  },
+  {
+    "number": 257,
+    "slug": "css-box-shadow-generator",
+    "name": "CSS Box Shadow Generator",
+    "category": "Developer",
+    "description": "Generate a CSS box-shadow declaration from offsets, blur, spread, opacity, color, and inset settings."
+  },
+  {
+    "number": 258,
+    "slug": "css-border-radius-generator",
+    "name": "CSS Border Radius Generator",
+    "category": "Developer",
+    "description": "Generate CSS border-radius values for each corner and preview the resulting declaration."
+  },
+  {
+    "number": 259,
+    "slug": "css-flexbox-generator",
+    "name": "CSS Flexbox Generator",
+    "category": "Developer",
+    "description": "Generate common CSS Flexbox container declarations from direction, alignment, wrapping, and gap options."
+  },
+  {
+    "number": 260,
+    "slug": "css-grid-generator",
+    "name": "CSS Grid Generator",
+    "category": "Developer",
+    "description": "Generate a responsive CSS Grid declaration with configurable columns, minimum width, and gap."
+  },
+  {
+    "number": 261,
+    "slug": "ipv4-to-integer",
+    "name": "IPv4 to Integer Converter",
+    "category": "Developer",
+    "description": "Convert a dotted IPv4 address into its unsigned 32-bit integer representation."
+  },
+  {
+    "number": 262,
+    "slug": "integer-to-ipv4",
+    "name": "Integer to IPv4 Converter",
+    "category": "Developer",
+    "description": "Convert an unsigned 32-bit integer into a dotted IPv4 address."
+  },
+  {
+    "number": 263,
+    "slug": "ipv6-compressor",
+    "name": "IPv6 Compressor",
+    "category": "Developer",
+    "description": "Compress a valid IPv6 address by removing leading zeroes and shortening the longest zero run."
+  },
+  {
+    "number": 264,
+    "slug": "ipv6-expander",
+    "name": "IPv6 Expander",
+    "category": "Developer",
+    "description": "Expand a compressed IPv6 address into eight four-digit hexadecimal groups."
+  },
+  {
+    "number": 265,
+    "slug": "mac-address-validator",
+    "name": "MAC Address Validator",
+    "category": "Developer",
+    "description": "Validate common MAC address formats and normalize a valid address to colon-separated uppercase notation."
+  },
+  {
+    "number": 266,
+    "slug": "domain-name-parser",
+    "name": "Domain Name Parser",
+    "category": "Developer",
+    "description": "Parse a URL or hostname into hostname labels, subdomain, registrable-domain estimate, and top-level domain."
+  },
+  {
+    "number": 267,
+    "slug": "port-number-lookup",
+    "name": "Port Number Lookup",
+    "category": "Developer",
+    "description": "Look up common TCP and UDP port numbers and the services typically associated with them."
+  },
+  {
+    "number": 268,
+    "slug": "http-header-parser",
+    "name": "HTTP Header Parser",
+    "category": "Developer",
+    "description": "Parse raw HTTP request or response header lines into a readable JSON object."
+  },
+  {
+    "number": 269,
+    "slug": "cookie-parser",
+    "name": "Cookie Parser",
+    "category": "Developer",
+    "description": "Parse a Cookie header string into individual cookie names and values."
+  },
+  {
+    "number": 270,
+    "slug": "csp-generator",
+    "name": "Content Security Policy Generator",
+    "category": "Developer",
+    "description": "Generate a starter Content-Security-Policy header from common source directives."
+  },
+  {
+    "number": 271,
+    "slug": "reading-time-calculator",
+    "name": "Reading Time Calculator",
+    "category": "Developer",
+    "description": "Estimate reading time from word count and a configurable words-per-minute reading speed."
+  },
+  {
+    "number": 272,
+    "slug": "speaking-time-calculator",
+    "name": "Speaking Time Calculator",
+    "category": "Developer",
+    "description": "Estimate speaking time for a script from word count and a configurable speaking speed."
+  },
+  {
+    "number": 273,
+    "slug": "word-frequency-counter",
+    "name": "Word Frequency Counter",
+    "category": "Developer",
+    "description": "Count how often each word appears in text and list the most frequent terms."
+  },
+  {
+    "number": 274,
+    "slug": "character-frequency-counter",
+    "name": "Character Frequency Counter",
+    "category": "Developer",
+    "description": "Count Unicode character frequencies in text with an option to ignore whitespace."
+  },
+  {
+    "number": 275,
+    "slug": "invisible-character-detector",
+    "name": "Invisible Character Detector",
+    "category": "Developer",
+    "description": "Find common invisible and zero-width Unicode characters and report their positions and code points."
+  },
+  {
+    "number": 276,
+    "slug": "unicode-character-inspector",
+    "name": "Unicode Character Inspector",
+    "category": "Developer",
+    "description": "Inspect text character by character and view Unicode code points, escape forms, and basic classifications."
+  },
+  {
+    "number": 277,
+    "slug": "unicode-escape-converter",
+    "name": "Unicode Escape Converter",
+    "category": "Developer",
+    "description": "Convert text to Unicode escape sequences or decode Unicode escapes back into readable text."
+  },
+  {
+    "number": 278,
+    "slug": "diacritic-remover",
+    "name": "Diacritic Remover",
+    "category": "Developer",
+    "description": "Remove common accents and combining diacritic marks from Unicode text."
+  },
+  {
+    "number": 279,
+    "slug": "add-line-numbers",
+    "name": "Add Line Numbers",
+    "category": "Developer",
+    "description": "Add sequential line numbers to multiline text with a configurable starting number."
+  },
+  {
+    "number": 280,
+    "slug": "remove-line-numbers",
+    "name": "Remove Line Numbers",
+    "category": "Developer",
+    "description": "Remove common leading line-number formats from multiline text."
+  },
+  {
+    "number": 281,
+    "slug": "prime-number-checker",
+    "name": "Prime Number Checker",
+    "category": "Math",
+    "description": "Check whether a whole number is prime and see the first divisor when it is composite."
+  },
+  {
+    "number": 282,
+    "slug": "prime-factorization-calculator",
+    "name": "Prime Factorization Calculator",
+    "category": "Math",
+    "description": "Find the prime factorization of a positive whole number."
+  },
+  {
+    "number": 283,
+    "slug": "percentage-error-calculator",
+    "name": "Percentage Error Calculator",
+    "category": "Math",
+    "description": "Calculate absolute error and percentage error from an observed value and a true or accepted value."
+  },
+  {
+    "number": 284,
+    "slug": "permutation-calculator",
+    "name": "Permutation Calculator",
+    "category": "Math",
+    "description": "Calculate the number of ordered selections nPr using exact whole-number arithmetic."
+  },
+  {
+    "number": 285,
+    "slug": "combination-calculator",
+    "name": "Combination Calculator",
+    "category": "Math",
+    "description": "Calculate the number of unordered selections nCr using exact whole-number arithmetic."
+  },
+  {
+    "number": 286,
+    "slug": "probability-calculator",
+    "name": "Probability Calculator",
+    "category": "Math",
+    "description": "Calculate probability, percentage, and simple odds from favorable and total outcomes."
+  },
+  {
+    "number": 287,
+    "slug": "z-score-calculator",
+    "name": "Z Score Calculator",
+    "category": "Math",
+    "description": "Calculate a z-score from a value, population mean, and standard deviation."
+  },
+  {
+    "number": 288,
+    "slug": "weighted-average-calculator",
+    "name": "Weighted Average Calculator",
+    "category": "Math",
+    "description": "Calculate a weighted average from comma-separated values and corresponding weights."
+  },
+  {
+    "number": 289,
+    "slug": "geometric-mean-calculator",
+    "name": "Geometric Mean Calculator",
+    "category": "Math",
+    "description": "Calculate the geometric mean of positive numeric values."
+  },
+  {
+    "number": 290,
+    "slug": "harmonic-mean-calculator",
+    "name": "Harmonic Mean Calculator",
+    "category": "Math",
+    "description": "Calculate the harmonic mean of non-zero numeric values."
+  },
+  {
+    "number": 291,
+    "slug": "triangle-calculator",
+    "name": "Triangle Calculator",
+    "category": "Math",
+    "description": "Calculate triangle perimeter, area, and angles from three side lengths."
+  },
+  {
+    "number": 292,
+    "slug": "circle-calculator",
+    "name": "Circle Calculator",
+    "category": "Math",
+    "description": "Calculate a circle diameter, circumference, and area from its radius."
+  },
+  {
+    "number": 293,
+    "slug": "rectangle-calculator",
+    "name": "Rectangle Calculator",
+    "category": "Math",
+    "description": "Calculate rectangle area, perimeter, and diagonal from length and width."
+  },
+  {
+    "number": 294,
+    "slug": "cylinder-volume-calculator",
+    "name": "Cylinder Volume Calculator",
+    "category": "Math",
+    "description": "Calculate cylinder volume, lateral area, and total surface area from radius and height."
+  },
+  {
+    "number": 295,
+    "slug": "sphere-volume-calculator",
+    "name": "Sphere Volume Calculator",
+    "category": "Math",
+    "description": "Calculate sphere volume, surface area, and diameter from radius."
+  },
+  {
+    "number": 296,
+    "slug": "cone-volume-calculator",
+    "name": "Cone Volume Calculator",
+    "category": "Math",
+    "description": "Calculate cone volume, slant height, lateral area, and total surface area from radius and height."
+  },
+  {
+    "number": 297,
+    "slug": "ohms-law-calculator",
+    "name": "Ohm's Law Calculator",
+    "category": "Math",
+    "description": "Calculate voltage, current, resistance, or power using common Ohm’s law relationships."
+  },
+  {
+    "number": 298,
+    "slug": "voltage-divider-calculator",
+    "name": "Voltage Divider Calculator",
+    "category": "Math",
+    "description": "Calculate output voltage and resistor currents for a basic two-resistor voltage divider."
+  },
+  {
+    "number": 299,
+    "slug": "resistor-color-code-calculator",
+    "name": "Resistor Color Code Calculator",
+    "category": "Math",
+    "description": "Decode a four-band resistor color code into resistance and tolerance."
+  },
+  {
+    "number": 300,
+    "slug": "led-resistor-calculator",
+    "name": "LED Resistor Calculator",
+    "category": "Math",
+    "description": "Calculate a suggested series resistor and resistor power for one or more LEDs."
+  }
+]
