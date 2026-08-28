@@ -14,36 +14,16 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-type CategoryId =
-  | "all"
-  | "json"
-  | "formatters"
-  | "converters"
-  | "encode-decode"
-  | "generators"
-  | "web-code"
-  | "seo"
-  | "math"
-  | "finance"
-  | "date-time"
-  | "construction"
-  | "electrical"
-  | "education"
-  | "ecommerce"
-  | "calculators"
-  | "colors"
-  | "pdf"
-  | "images";
-
 type DiscoveryCategory = {
-  id: Exclude<CategoryId, "all">;
+  id: string;
   label: string;
   description: string;
   slugs: string[];
+  href: string;
 };
 
-const categoryOrder: Array<{
-  id: Exclude<CategoryId, "all">;
+const preferredCategoryOrder: Array<{
+  id: string;
   label: string;
 }> = [
   { id: "json", label: "JSON & Data" },
@@ -66,30 +46,53 @@ const categoryOrder: Array<{
   { id: "images", label: "Images" },
 ];
 
-const categories: DiscoveryCategory[] = categoryOrder
-  .map(({ id, label }) => {
-    const source = toolCategories.find(
-      (category) => category.slug === id
-    );
+const preferredIds = new Set(
+  preferredCategoryOrder.map((category) => category.id)
+);
 
-    if (!source) {
-      return null;
-    }
+const orderedCategoryConfig = [
+  ...preferredCategoryOrder
+    .map(({ id, label }) => {
+      const source = toolCategories.find(
+        (category) => category.slug === id
+      );
 
-    return {
-      id,
-      label,
-      description: source.description,
-      slugs: source.toolSlugs,
-    };
-  })
-  .filter(
-    (category): category is DiscoveryCategory =>
-      category !== null
-  );
+      if (!source) {
+        return null;
+      }
+
+      return {
+        id,
+        label,
+        description: source.description,
+        slugs: source.toolSlugs,
+        href: `/tools/${source.slug}/`,
+      };
+    })
+    .filter(
+      (category): category is DiscoveryCategory =>
+        category !== null
+    ),
+
+  ...toolCategories
+    .filter(
+      (category) =>
+        !preferredIds.has(category.slug)
+    )
+    .map((category) => ({
+      id: category.slug,
+      label: category.name.replace(/\s+Tools$/, ""),
+      description: category.description,
+      slugs: category.toolSlugs,
+      href: `/tools/${category.slug}/`,
+    })),
+];
+
+const categories: DiscoveryCategory[] =
+  orderedCategoryConfig;
 
 const categoryTabs: Array<{
-  id: CategoryId;
+  id: string;
   label: string;
 }> = [
   { id: "all", label: "All" },
@@ -101,7 +104,7 @@ const categoryTabs: Array<{
 
 function getToolCategoryIds(
   slug: string
-): CategoryId[] {
+): string[] {
   return categories
     .filter((category) =>
       category.slugs.includes(slug)
@@ -174,7 +177,7 @@ export function ToolDiscovery({
 }) {
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] =
-    useState<CategoryId>("all");
+    useState("all");
 
   const filteredTools = useMemo(() => {
     const normalizedQuery = query
@@ -238,13 +241,14 @@ export function ToolDiscovery({
 
     if (uncategorized.length > 0) {
       groups.push({
-        id: "web-code",
+        id: "more-tools",
         label: "More Developer Tools",
         description:
           "Additional utilities for everyday technical work.",
         slugs: uncategorized.map(
           (tool) => tool.slug
         ),
+        href: "",
         tools: uncategorized,
       });
     }
@@ -256,6 +260,12 @@ export function ToolDiscovery({
     setQuery("");
     setActiveCategory("all");
   };
+
+  const activeCategoryConfig =
+    categories.find(
+      (category) =>
+        category.id === activeCategory
+    );
 
   const activeCategoryLabel =
     categoryTabs.find(
@@ -355,9 +365,19 @@ export function ToolDiscovery({
             <div>
               <h3 className="text-2xl font-bold tracking-tight">
                 {activeCategory ===
-                "all"
-                  ? "Search results"
-                  : activeCategoryLabel}
+                "all" ? (
+                  "Search results"
+                ) : activeCategoryConfig ? (
+                  <Link
+                    href={activeCategoryConfig.href}
+                    className="group inline-flex items-center gap-2 underline-offset-4 hover:underline"
+                  >
+                    {activeCategoryLabel}
+                    <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
+                  </Link>
+                ) : (
+                  activeCategoryLabel
+                )}
               </h3>
 
               <p className="mt-1 text-sm text-muted-foreground">
@@ -432,15 +452,36 @@ export function ToolDiscovery({
                   key={`${group.id}-${group.label}`}
                 >
                   <div className="mb-6">
-                    <h3 className="text-2xl font-bold tracking-tight">
-                      {group.label}
-                    </h3>
+                    {group.href ? (
+                      <Link
+                        href={group.href}
+                        className="group/category inline-flex items-center gap-2"
+                        aria-label={`View all ${group.label} tools`}
+                      >
+                        <h3 className="text-2xl font-bold tracking-tight underline-offset-4 group-hover/category:underline">
+                          {group.label}
+                        </h3>
+                        <ArrowRight className="h-5 w-5 text-muted-foreground transition-all group-hover/category:translate-x-0.5 group-hover/category:text-foreground" />
+                      </Link>
+                    ) : (
+                      <h3 className="text-2xl font-bold tracking-tight">
+                        {group.label}
+                      </h3>
+                    )}
 
                     <p className="mt-1 text-sm text-muted-foreground">
-                      {
-                        group.description
-                      }
+                      {group.description}
                     </p>
+
+                    {group.href && (
+                      <Link
+                        href={group.href}
+                        className="mt-2 inline-flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                      >
+                        View category
+                        <ArrowRight className="ml-1.5 h-4 w-4" />
+                      </Link>
+                    )}
                   </div>
 
                   <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
