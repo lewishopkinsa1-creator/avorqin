@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { ThemeToggle } from "@/components/shared/theme-toggle";
+import { toolCategories } from "@/lib/tool-categories";
 
 const primaryLinks = [
   { href: "/#tools", label: "All Tools" },
@@ -11,22 +12,16 @@ const primaryLinks = [
   { href: "/tools/seo/", label: "SEO" },
 ];
 
-const categoryLinks = [
-  { href: "/tools/json/", label: "JSON & Data" },
-  { href: "/tools/formatters/", label: "Formatters" },
-  { href: "/tools/converters/", label: "Converters" },
-  { href: "/tools/encode-decode/", label: "Encode & Decode" },
-  { href: "/tools/generators/", label: "Generators" },
-  { href: "/tools/web-code/", label: "Web & Code" },
-  { href: "/tools/calculators/", label: "Calculators" },
-  { href: "/tools/math/", label: "Math" },
-  { href: "/tools/finance/", label: "Finance & Business" },
-  { href: "/tools/date-time/", label: "Date & Time" },
-  { href: "/tools/seo/", label: "SEO & Marketing" },
-  { href: "/tools/colors/", label: "Color & Design" },
-  { href: "/tools/pdf/", label: "PDF & Documents" },
-  { href: "/tools/images/", label: "Images" },
-];
+const categoryLabelOverrides: Record<string, string> = {
+  calculators: "Calculators",
+};
+
+const categoryLinks = toolCategories.map((category) => ({
+  href: `/tools/${category.slug}/`,
+  label:
+    categoryLabelOverrides[category.slug] ??
+    category.name.replace(/\s+Tools$/, ""),
+}));
 
 export function Header() {
   return (
@@ -74,7 +69,7 @@ export function Header() {
                   <ChevronDown className="h-4 w-4 transition-transform group-open:rotate-180" />
                 </summary>
 
-                <div className="absolute right-0 top-full mt-2 w-[560px] rounded-2xl border bg-background p-3 shadow-xl">
+                <div className="absolute right-0 top-full mt-2 max-h-[70vh] w-[560px] overflow-y-auto rounded-2xl border bg-background p-3 shadow-xl">
                   <div className="grid grid-cols-2 gap-1">
                     {categoryLinks.map((link) => (
                       <Link
