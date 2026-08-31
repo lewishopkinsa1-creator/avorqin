@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState, type ComponentType } from "react";
 import * as LucideIcons from "lucide-react";
-import { ArrowRight, Search, X } from "lucide-react";
+import { ArrowRight, ChevronDown, Search, X } from "lucide-react";
 import type { ToolConfig } from "@/types";
 import { toolCategories } from "@/lib/tool-categories";
 import {
@@ -178,6 +178,8 @@ export function ToolDiscovery({
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] =
     useState("all");
+  const [expandedCategories, setExpandedCategories] =
+    useState<Set<string>>(() => new Set());
 
   const filteredTools = useMemo(() => {
     const normalizedQuery = query
@@ -259,6 +261,30 @@ export function ToolDiscovery({
   const clearSearch = () => {
     setQuery("");
     setActiveCategory("all");
+  };
+
+  const toggleCategory = (categoryId: string) => {
+    setExpandedCategories((current) => {
+      const next = new Set(current);
+
+      if (next.has(categoryId)) {
+        next.delete(categoryId);
+      } else {
+        next.add(categoryId);
+      }
+
+      return next;
+    });
+  };
+
+  const expandAll = () => {
+    setExpandedCategories(
+      new Set(groupedTools.map((group) => group.id))
+    );
+  };
+
+  const collapseAll = () => {
+    setExpandedCategories(new Set());
   };
 
   const activeCategoryConfig =
@@ -445,60 +471,112 @@ export function ToolDiscovery({
 
       {!query.trim() &&
         activeCategory === "all" && (
-          <div className="mt-14 space-y-14">
-            {groupedTools.map(
-              (group) => (
-                <div
-                  key={`${group.id}-${group.label}`}
+          <div className="mt-12">
+            <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <div>
+                <h3 className="text-xl font-semibold tracking-tight">
+                  Browse all categories
+                </h3>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Expand a category to browse its tools.
+                </p>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={expandAll}
+                  className="rounded-lg border px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground"
                 >
-                  <div className="mb-6">
-                    {group.href ? (
-                      <Link
-                        href={group.href}
-                        className="group/category inline-flex items-center gap-2"
-                        aria-label={`View all ${group.label} tools`}
+                  Expand all
+                </button>
+
+                <button
+                  type="button"
+                  onClick={collapseAll}
+                  className="rounded-lg border px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground"
+                >
+                  Collapse all
+                </button>
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              {groupedTools.map((group) => {
+                const isExpanded =
+                  expandedCategories.has(group.id);
+
+                return (
+                  <section
+                    key={`${group.id}-${group.label}`}
+                    className="overflow-hidden rounded-2xl border bg-background"
+                  >
+                    <div className="flex flex-col gap-3 px-5 py-4 sm:flex-row sm:items-center sm:justify-between md:px-6">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          toggleCategory(group.id)
+                        }
+                        aria-expanded={isExpanded}
+                        aria-controls={`category-tools-${group.id}`}
+                        className="group/toggle flex min-w-0 flex-1 items-center justify-between gap-4 text-left"
                       >
-                        <h3 className="text-2xl font-bold tracking-tight underline-offset-4 group-hover/category:underline">
-                          {group.label}
-                        </h3>
-                        <ArrowRight className="h-5 w-5 text-muted-foreground transition-all group-hover/category:translate-x-0.5 group-hover/category:text-foreground" />
-                      </Link>
-                    ) : (
-                      <h3 className="text-2xl font-bold tracking-tight">
-                        {group.label}
-                      </h3>
-                    )}
+                        <div className="min-w-0">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <h3 className="text-xl font-bold tracking-tight md:text-2xl">
+                              {group.label}
+                            </h3>
 
-                    <p className="mt-1 text-sm text-muted-foreground">
-                      {group.description}
-                    </p>
+                            <span className="rounded-full bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground">
+                              {group.tools.length}{" "}
+                              {group.tools.length === 1
+                                ? "tool"
+                                : "tools"}
+                            </span>
+                          </div>
 
-                    {group.href && (
-                      <Link
-                        href={group.href}
-                        className="mt-2 inline-flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-                      >
-                        View category
-                        <ArrowRight className="ml-1.5 h-4 w-4" />
-                      </Link>
-                    )}
-                  </div>
+                          <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
+                            {group.description}
+                          </p>
+                        </div>
 
-                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                    {group.tools.map(
-                      (tool) => (
-                        <ToolCard
-                          key={
-                            tool.slug
-                          }
-                          tool={tool}
+                        <ChevronDown
+                          className={`h-5 w-5 shrink-0 text-muted-foreground transition-transform group-hover/toggle:text-foreground ${
+                            isExpanded ? "rotate-180" : ""
+                          }`}
                         />
-                      )
+                      </button>
+
+                      {group.href && (
+                        <Link
+                          href={group.href}
+                          className="inline-flex shrink-0 items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                        >
+                          View category
+                          <ArrowRight className="ml-1.5 h-4 w-4" />
+                        </Link>
+                      )}
+                    </div>
+
+                    {isExpanded && (
+                      <div
+                        id={`category-tools-${group.id}`}
+                        className="border-t px-5 py-5 md:px-6 md:py-6"
+                      >
+                        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                          {group.tools.map((tool) => (
+                            <ToolCard
+                              key={tool.slug}
+                              tool={tool}
+                            />
+                          ))}
+                        </div>
+                      </div>
                     )}
-                  </div>
-                </div>
-              )
-            )}
+                  </section>
+                );
+              })}
+            </div>
           </div>
         )}
     </section>
