@@ -1,0 +1,258 @@
+{
+  "batch": "551-600",
+  "count": 50,
+  "category": "Electrical & Electronics",
+  "strategy": "Search Console-led Electrical/Power expansion",
+  "tools": [
+    {
+      "number": 551,
+      "slug": "ac-amps-to-watts-calculator",
+      "name": "AC Amps to Watts Calculator"
+    },
+    {
+      "number": 552,
+      "slug": "dc-amps-to-watts-calculator",
+      "name": "DC Amps to Watts Calculator"
+    },
+    {
+      "number": 553,
+      "slug": "single-phase-amps-to-watts-calculator",
+      "name": "Single Phase Amps to Watts Calculator"
+    },
+    {
+      "number": 554,
+      "slug": "three-phase-amps-to-watts-calculator",
+      "name": "Three Phase Amps to Watts Calculator"
+    },
+    {
+      "number": 555,
+      "slug": "12v-amps-to-watts-calculator",
+      "name": "12V Amps to Watts Calculator"
+    },
+    {
+      "number": 556,
+      "slug": "24v-amps-to-watts-calculator",
+      "name": "24V Amps to Watts Calculator"
+    },
+    {
+      "number": 557,
+      "slug": "48v-amps-to-watts-calculator",
+      "name": "48V Amps to Watts Calculator"
+    },
+    {
+      "number": 558,
+      "slug": "120v-amps-to-watts-calculator",
+      "name": "120V Amps to Watts Calculator"
+    },
+    {
+      "number": 559,
+      "slug": "230v-amps-to-watts-calculator",
+      "name": "230V Amps to Watts Calculator"
+    },
+    {
+      "number": 560,
+      "slug": "240v-amps-to-watts-calculator",
+      "name": "240V Amps to Watts Calculator"
+    },
+    {
+      "number": 561,
+      "slug": "12v-watts-to-amps-calculator",
+      "name": "12V Watts to Amps Calculator"
+    },
+    {
+      "number": 562,
+      "slug": "24v-watts-to-amps-calculator",
+      "name": "24V Watts to Amps Calculator"
+    },
+    {
+      "number": 563,
+      "slug": "48v-watts-to-amps-calculator",
+      "name": "48V Watts to Amps Calculator"
+    },
+    {
+      "number": 564,
+      "slug": "120v-watts-to-amps-calculator",
+      "name": "120V Watts to Amps Calculator"
+    },
+    {
+      "number": 565,
+      "slug": "230v-watts-to-amps-calculator",
+      "name": "230V Watts to Amps Calculator"
+    },
+    {
+      "number": 566,
+      "slug": "240v-watts-to-amps-calculator",
+      "name": "240V Watts to Amps Calculator"
+    },
+    {
+      "number": 567,
+      "slug": "watts-to-kwh-per-day-calculator",
+      "name": "Watts to kWh per Day Calculator"
+    },
+    {
+      "number": 568,
+      "slug": "monthly-electricity-usage-calculator",
+      "name": "Monthly Electricity Usage Calculator"
+    },
+    {
+      "number": 569,
+      "slug": "annual-electricity-cost-calculator",
+      "name": "Annual Electricity Cost Calculator"
+    },
+    {
+      "number": 570,
+      "slug": "energy-cost-per-hour-calculator",
+      "name": "Energy Cost per Hour Calculator"
+    },
+    {
+      "number": 571,
+      "slug": "solar-panel-output-calculator",
+      "name": "Solar Panel Output Calculator"
+    },
+    {
+      "number": 572,
+      "slug": "solar-panel-size-calculator",
+      "name": "Solar Panel Size Calculator"
+    },
+    {
+      "number": 573,
+      "slug": "solar-battery-size-calculator",
+      "name": "Solar Battery Size Calculator"
+    },
+    {
+      "number": 574,
+      "slug": "solar-battery-runtime-calculator",
+      "name": "Solar Battery Runtime Calculator"
+    },
+    {
+      "number": 575,
+      "slug": "solar-charge-time-calculator",
+      "name": "Solar Charge Time Calculator"
+    },
+    {
+      "number": 576,
+      "slug": "inverter-size-calculator",
+      "name": "Inverter Size Calculator"
+    },
+    {
+      "number": 577,
+      "slug": "inverter-battery-runtime-calculator",
+      "name": "Inverter Battery Runtime Calculator"
+    },
+    {
+      "number": 578,
+      "slug": "battery-charging-time-calculator",
+      "name": "Battery Charging Time Calculator"
+    },
+    {
+      "number": 579,
+      "slug": "battery-c-rate-calculator",
+      "name": "Battery C-Rate Calculator"
+    },
+    {
+      "number": 580,
+      "slug": "battery-energy-density-calculator",
+      "name": "Battery Energy Density Calculator"
+    },
+    {
+      "number": 581,
+      "slug": "capacitor-energy-calculator",
+      "name": "Capacitor Energy Calculator"
+    },
+    {
+      "number": 582,
+      "slug": "capacitor-charge-calculator",
+      "name": "Capacitor Charge Calculator"
+    },
+    {
+      "number": 583,
+      "slug": "capacitive-reactance-calculator",
+      "name": "Capacitive Reactance Calculator"
+    },
+    {
+      "number": 584,
+      "slug": "inductive-reactance-calculator",
+      "name": "Inductive Reactance Calculator"
+    },
+    {
+      "number": 585,
+      "slug": "resonant-frequency-calculator",
+      "name": "Resonant Frequency Calculator"
+    },
+    {
+      "number": 586,
+      "slug": "rl-time-constant-calculator",
+      "name": "RL Time Constant Calculator"
+    },
+    {
+      "number": 587,
+      "slug": "series-rlc-impedance-calculator",
+      "name": "Series RLC Impedance Calculator"
+    },
+    {
+      "number": 588,
+      "slug": "parallel-rlc-impedance-calculator",
+      "name": "Parallel RLC Impedance Calculator"
+    },
+    {
+      "number": 589,
+      "slug": "impedance-triangle-calculator",
+      "name": "Impedance Triangle Calculator"
+    },
+    {
+      "number": 590,
+      "slug": "phase-angle-calculator",
+      "name": "Phase Angle Calculator"
+    },
+    {
+      "number": 591,
+      "slug": "frequency-to-period-calculator",
+      "name": "Frequency to Period Calculator"
+    },
+    {
+      "number": 592,
+      "slug": "period-to-frequency-calculator",
+      "name": "Period to Frequency Calculator"
+    },
+    {
+      "number": 593,
+      "slug": "wavelength-calculator",
+      "name": "Wavelength Calculator"
+    },
+    {
+      "number": 594,
+      "slug": "dbm-to-watts-calculator",
+      "name": "dBm to Watts Calculator"
+    },
+    {
+      "number": 595,
+      "slug": "watts-to-dbm-calculator",
+      "name": "Watts to dBm Calculator"
+    },
+    {
+      "number": 596,
+      "slug": "dbw-to-watts-calculator",
+      "name": "dBW to Watts Calculator"
+    },
+    {
+      "number": 597,
+      "slug": "watts-to-dbw-calculator",
+      "name": "Watts to dBW Calculator"
+    },
+    {
+      "number": 598,
+      "slug": "rms-voltage-calculator",
+      "name": "RMS Voltage Calculator"
+    },
+    {
+      "number": 599,
+      "slug": "peak-voltage-calculator",
+      "name": "Peak Voltage Calculator"
+    },
+    {
+      "number": 600,
+      "slug": "peak-to-peak-voltage-calculator",
+      "name": "Peak-to-Peak Voltage Calculator"
+    }
+  ]
+}
