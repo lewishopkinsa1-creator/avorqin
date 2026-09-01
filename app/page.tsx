@@ -61,11 +61,11 @@ export default function HomePage() {
           <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
             <div>
               <div className="mb-5 inline-flex items-center rounded-full border bg-background px-3 py-1 text-sm text-muted-foreground shadow-sm">
-                {tools.length} free browser-based tools
+                500+ free browser-based tools
               </div>
 
               <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                {tools.length} free online tools.
+                500+ free online tools.
                 <span className="mt-1 block text-muted-foreground">
                   One clean place.
                 </span>

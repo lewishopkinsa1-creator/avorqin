@@ -314,8 +314,7 @@ export function ToolDiscovery({
         </h2>
 
         <p className="mt-3 text-muted-foreground">
-          Search all {tools.length} Avorqin
-          tools or browse by category.
+          Search 500+ Avorqin tools or browse by category.
         </p>
       </div>
 

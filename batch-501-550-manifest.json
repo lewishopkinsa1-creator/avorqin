@@ -1,0 +1,257 @@
+{
+  "batch": "501-550",
+  "count": 50,
+  "category": "Electrical & Electronics",
+  "tools": [
+    {
+      "number": 501,
+      "slug": "va-to-watts-calculator",
+      "name": "VA to Watts Calculator"
+    },
+    {
+      "number": 502,
+      "slug": "watts-to-va-calculator",
+      "name": "Watts to VA Calculator"
+    },
+    {
+      "number": 503,
+      "slug": "kva-to-amps-calculator",
+      "name": "kVA to Amps Calculator"
+    },
+    {
+      "number": 504,
+      "slug": "amps-to-kva-calculator",
+      "name": "Amps to kVA Calculator"
+    },
+    {
+      "number": 505,
+      "slug": "kva-to-watts-calculator",
+      "name": "kVA to Watts Calculator"
+    },
+    {
+      "number": 506,
+      "slug": "watts-to-kva-calculator",
+      "name": "Watts to kVA Calculator"
+    },
+    {
+      "number": 507,
+      "slug": "kva-to-kw-calculator",
+      "name": "kVA to kW Calculator"
+    },
+    {
+      "number": 508,
+      "slug": "kw-to-kva-calculator",
+      "name": "kW to kVA Calculator"
+    },
+    {
+      "number": 509,
+      "slug": "volts-to-kw-calculator",
+      "name": "Volts to kW Calculator"
+    },
+    {
+      "number": 510,
+      "slug": "kw-to-volts-calculator",
+      "name": "kW to Volts Calculator"
+    },
+    {
+      "number": 511,
+      "slug": "ohms-to-amps-calculator",
+      "name": "Ohms to Amps Calculator"
+    },
+    {
+      "number": 512,
+      "slug": "amps-to-ohms-calculator",
+      "name": "Amps to Ohms Calculator"
+    },
+    {
+      "number": 513,
+      "slug": "volts-to-ohms-calculator",
+      "name": "Volts to Ohms Calculator"
+    },
+    {
+      "number": 514,
+      "slug": "ohms-to-volts-calculator",
+      "name": "Ohms to Volts Calculator"
+    },
+    {
+      "number": 515,
+      "slug": "watts-to-ohms-calculator",
+      "name": "Watts to Ohms Calculator"
+    },
+    {
+      "number": 516,
+      "slug": "ohms-to-watts-calculator",
+      "name": "Ohms to Watts Calculator"
+    },
+    {
+      "number": 517,
+      "slug": "ah-to-wh-calculator",
+      "name": "Ah to Wh Calculator"
+    },
+    {
+      "number": 518,
+      "slug": "wh-to-ah-calculator",
+      "name": "Wh to Ah Calculator"
+    },
+    {
+      "number": 519,
+      "slug": "amp-hour-calculator",
+      "name": "Amp Hour Calculator"
+    },
+    {
+      "number": 520,
+      "slug": "battery-runtime-calculator",
+      "name": "Battery Runtime Calculator"
+    },
+    {
+      "number": 521,
+      "slug": "kwh-cost-calculator",
+      "name": "kWh Cost Calculator"
+    },
+    {
+      "number": 522,
+      "slug": "electricity-cost-calculator",
+      "name": "Electricity Cost Calculator"
+    },
+    {
+      "number": 523,
+      "slug": "appliance-energy-cost-calculator",
+      "name": "Appliance Energy Cost Calculator"
+    },
+    {
+      "number": 524,
+      "slug": "power-consumption-calculator",
+      "name": "Power Consumption Calculator"
+    },
+    {
+      "number": 525,
+      "slug": "generator-size-calculator",
+      "name": "Generator Size Calculator"
+    },
+    {
+      "number": 526,
+      "slug": "generator-wattage-calculator",
+      "name": "Generator Wattage Calculator"
+    },
+    {
+      "number": 527,
+      "slug": "generator-fuel-consumption-calculator",
+      "name": "Generator Fuel Consumption Calculator"
+    },
+    {
+      "number": 528,
+      "slug": "extension-cord-gauge-calculator",
+      "name": "Extension Cord Gauge Calculator"
+    },
+    {
+      "number": 529,
+      "slug": "cable-size-calculator",
+      "name": "Cable Size Calculator"
+    },
+    {
+      "number": 530,
+      "slug": "dc-wire-size-calculator",
+      "name": "DC Wire Size Calculator"
+    },
+    {
+      "number": 531,
+      "slug": "ac-wire-size-calculator",
+      "name": "AC Wire Size Calculator"
+    },
+    {
+      "number": 532,
+      "slug": "12v-wire-size-calculator",
+      "name": "12V Wire Size Calculator"
+    },
+    {
+      "number": 533,
+      "slug": "24v-wire-size-calculator",
+      "name": "24V Wire Size Calculator"
+    },
+    {
+      "number": 534,
+      "slug": "48v-wire-size-calculator",
+      "name": "48V Wire Size Calculator"
+    },
+    {
+      "number": 535,
+      "slug": "wire-resistance-calculator",
+      "name": "Wire Resistance Calculator"
+    },
+    {
+      "number": 536,
+      "slug": "breaker-size-calculator",
+      "name": "Breaker Size Calculator"
+    },
+    {
+      "number": 537,
+      "slug": "fuse-size-calculator",
+      "name": "Fuse Size Calculator"
+    },
+    {
+      "number": 538,
+      "slug": "transformer-sizing-calculator",
+      "name": "Transformer Sizing Calculator"
+    },
+    {
+      "number": 539,
+      "slug": "current-transformer-calculator",
+      "name": "Current Transformer Calculator"
+    },
+    {
+      "number": 540,
+      "slug": "transformer-turns-ratio-calculator",
+      "name": "Transformer Turns Ratio Calculator"
+    },
+    {
+      "number": 541,
+      "slug": "motor-full-load-amps-calculator",
+      "name": "Motor Full Load Amps Calculator"
+    },
+    {
+      "number": 542,
+      "slug": "motor-horsepower-to-amps-calculator",
+      "name": "Motor Horsepower to Amps Calculator"
+    },
+    {
+      "number": 543,
+      "slug": "horsepower-to-watts-calculator",
+      "name": "Horsepower to Watts Calculator"
+    },
+    {
+      "number": 544,
+      "slug": "watts-to-horsepower-calculator",
+      "name": "Watts to Horsepower Calculator"
+    },
+    {
+      "number": 545,
+      "slug": "ac-power-calculator",
+      "name": "AC Power Calculator"
+    },
+    {
+      "number": 546,
+      "slug": "dc-power-calculator",
+      "name": "DC Power Calculator"
+    },
+    {
+      "number": 547,
+      "slug": "three-phase-power-calculator",
+      "name": "Three Phase Power Calculator"
+    },
+    {
+      "number": 548,
+      "slug": "single-phase-power-calculator",
+      "name": "Single Phase Power Calculator"
+    },
+    {
+      "number": 549,
+      "slug": "reactive-power-calculator",
+      "name": "Reactive Power Calculator"
+    },
+    {
+      "number": 550,
+      "slug": "apparent-power-calculator",
+      "name": "Apparent Power Calculator"
+    }
+  ]
+}
