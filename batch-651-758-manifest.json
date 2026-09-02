@@ -1,0 +1,768 @@
+{
+  "publicBefore": 642,
+  "sourceBefore": 650,
+  "newTools": 108,
+  "publicAfter": 750,
+  "sourceAfter": 758,
+  "legacyConsolidatedCount": 8,
+  "sourceDefinitionRange": "651-758",
+  "homepageCountLabel": "500+ tools",
+  "tools": [
+    {
+      "index": 651,
+      "name": "PX to EM Converter",
+      "slug": "px-to-em-converter",
+      "category": "Developer",
+      "description": "Convert pixels to em units using the element's font size."
+    },
+    {
+      "index": 652,
+      "name": "REM to EM Converter",
+      "slug": "rem-to-em-converter",
+      "category": "Developer",
+      "description": "Convert rem units to em units using root and element font sizes."
+    },
+    {
+      "index": 653,
+      "name": "EM to REM Converter",
+      "slug": "em-to-rem-converter",
+      "category": "Developer",
+      "description": "Convert em units to rem units using element and root font sizes."
+    },
+    {
+      "index": 654,
+      "name": "PT to PX Converter",
+      "slug": "pt-to-px-converter",
+      "category": "Developer",
+      "description": "Convert CSS points to pixels using the standard 96 DPI CSS reference."
+    },
+    {
+      "index": 655,
+      "name": "PX to PT Converter",
+      "slug": "px-to-pt-converter",
+      "category": "Developer",
+      "description": "Convert CSS pixels to points using the standard 96 DPI CSS reference."
+    },
+    {
+      "index": 656,
+      "name": "VW to PX Converter",
+      "slug": "vw-to-px-converter",
+      "category": "Developer",
+      "description": "Convert viewport-width units to pixels for a chosen viewport width."
+    },
+    {
+      "index": 657,
+      "name": "PX to VW Converter",
+      "slug": "px-to-vw-converter",
+      "category": "Developer",
+      "description": "Convert pixels to viewport-width units for a chosen viewport width."
+    },
+    {
+      "index": 658,
+      "name": "VH to PX Converter",
+      "slug": "vh-to-px-converter",
+      "category": "Developer",
+      "description": "Convert viewport-height units to pixels for a chosen viewport height."
+    },
+    {
+      "index": 659,
+      "name": "PX to VH Converter",
+      "slug": "px-to-vh-converter",
+      "category": "Developer",
+      "description": "Convert pixels to viewport-height units for a chosen viewport height."
+    },
+    {
+      "index": 660,
+      "name": "Screen PPI Calculator",
+      "slug": "screen-ppi-calculator",
+      "category": "Developer",
+      "description": "Calculate display pixel density from resolution and diagonal screen size."
+    },
+    {
+      "index": 661,
+      "name": "Punycode Encoder",
+      "slug": "punycode-encoder",
+      "category": "Developer",
+      "description": "Convert an internationalized domain name to ASCII Punycode."
+    },
+    {
+      "index": 662,
+      "name": "Punycode Decoder",
+      "slug": "punycode-decoder",
+      "category": "Developer",
+      "description": "Decode Punycode domain labels to readable Unicode text."
+    },
+    {
+      "index": 663,
+      "name": "UTF-8 Byte Counter",
+      "slug": "utf8-byte-counter",
+      "category": "Developer",
+      "description": "Count UTF-8 bytes, Unicode code points, and JavaScript characters in text."
+    },
+    {
+      "index": 664,
+      "name": "CSV to SQL Converter",
+      "slug": "csv-to-sql-converter",
+      "category": "JSON & Data",
+      "description": "Convert CSV rows into SQL INSERT statements in your browser."
+    },
+    {
+      "index": 665,
+      "name": "JSON to SQL Converter",
+      "slug": "json-to-sql-converter",
+      "category": "JSON & Data",
+      "description": "Convert JSON objects or arrays into SQL INSERT statements."
+    },
+    {
+      "index": 666,
+      "name": "SQL to JSON Converter",
+      "slug": "sql-to-json-converter",
+      "category": "JSON & Data",
+      "description": "Convert common SQL INSERT statements into a JSON array."
+    },
+    {
+      "index": 667,
+      "name": "XML to CSV Converter",
+      "slug": "xml-to-csv-converter",
+      "category": "JSON & Data",
+      "description": "Convert repeated XML elements into CSV rows and columns."
+    },
+    {
+      "index": 668,
+      "name": "CSV to XML Converter",
+      "slug": "csv-to-xml-converter",
+      "category": "JSON & Data",
+      "description": "Convert CSV data into a simple XML document with configurable element names."
+    },
+    {
+      "index": 669,
+      "name": "JSON to TOML Converter",
+      "slug": "json-to-toml-converter",
+      "category": "JSON & Data",
+      "description": "Convert common JSON objects into readable TOML."
+    },
+    {
+      "index": 670,
+      "name": "TOML to JSON Converter",
+      "slug": "toml-to-json-converter",
+      "category": "JSON & Data",
+      "description": "Convert common TOML keys and tables into formatted JSON."
+    },
+    {
+      "index": 671,
+      "name": "YAML to TOML Converter",
+      "slug": "yaml-to-toml-converter",
+      "category": "JSON & Data",
+      "description": "Convert common YAML mappings into TOML."
+    },
+    {
+      "index": 672,
+      "name": "TOML to YAML Converter",
+      "slug": "toml-to-yaml-converter",
+      "category": "JSON & Data",
+      "description": "Convert common TOML keys and tables into YAML."
+    },
+    {
+      "index": 673,
+      "name": "JSON Flattener",
+      "slug": "json-flattener",
+      "category": "JSON & Data",
+      "description": "Flatten nested JSON objects into dot-notation keys."
+    },
+    {
+      "index": 674,
+      "name": "JSON Unflattener",
+      "slug": "json-unflattener",
+      "category": "JSON & Data",
+      "description": "Expand dot-notation JSON keys back into nested objects."
+    },
+    {
+      "index": 675,
+      "name": "CSV Delimiter Converter",
+      "slug": "csv-delimiter-converter",
+      "category": "JSON & Data",
+      "description": "Convert CSV-style data between comma, tab, semicolon, and pipe delimiters."
+    },
+    {
+      "index": 676,
+      "name": "CSV Row Filter",
+      "slug": "csv-row-filter",
+      "category": "JSON & Data",
+      "description": "Filter CSV rows by a selected column and text match."
+    },
+    {
+      "index": 677,
+      "name": "CSV Column Remover",
+      "slug": "csv-column-remover",
+      "category": "JSON & Data",
+      "description": "Remove one or more named columns from CSV data."
+    },
+    {
+      "index": 678,
+      "name": "CSV Merge Tool",
+      "slug": "csv-merge-tool",
+      "category": "JSON & Data",
+      "description": "Merge two CSV datasets that share compatible column headers."
+    },
+    {
+      "index": 679,
+      "name": "XPath Tester",
+      "slug": "xpath-tester",
+      "category": "Developer",
+      "description": "Evaluate XPath expressions against XML and inspect matching nodes."
+    },
+    {
+      "index": 680,
+      "name": "SQL INSERT Generator",
+      "slug": "sql-insert-generator",
+      "category": "Developer",
+      "description": "Generate SQL INSERT statements from tabular CSV-style input."
+    },
+    {
+      "index": 681,
+      "name": "CHMOD Calculator",
+      "slug": "chmod-calculator",
+      "category": "Developer",
+      "description": "Convert Unix numeric file permissions such as 755 into symbolic rwx notation."
+    },
+    {
+      "index": 682,
+      "name": "INI to JSON Converter",
+      "slug": "ini-to-json-converter",
+      "category": "Developer",
+      "description": "Convert common INI configuration data into formatted JSON directly in your browser."
+    },
+    {
+      "index": 683,
+      "name": "Mortgage Extra Payment Calculator",
+      "slug": "mortgage-extra-payment-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate how extra monthly mortgage payments change payoff time and interest."
+    },
+    {
+      "index": 684,
+      "name": "PMI Calculator",
+      "slug": "pmi-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate private mortgage insurance from home value, down payment, and annual PMI rate."
+    },
+    {
+      "index": 685,
+      "name": "Mortgage Points Calculator",
+      "slug": "mortgage-points-calculator",
+      "category": "Finance & Business",
+      "description": "Compare the upfront cost of mortgage points with estimated payment savings."
+    },
+    {
+      "index": 686,
+      "name": "Closing Cost Calculator",
+      "slug": "closing-cost-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate home-purchase closing costs from a percentage of price plus fixed fees."
+    },
+    {
+      "index": 687,
+      "name": "Home Affordability Calculator",
+      "slug": "home-affordability-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate a home-price range from income, debts, down payment, rate, and DTI limits."
+    },
+    {
+      "index": 688,
+      "name": "HELOC Payment Calculator",
+      "slug": "heloc-payment-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate interest-only or amortized HELOC payments from balance and rate."
+    },
+    {
+      "index": 689,
+      "name": "Balloon Loan Calculator",
+      "slug": "balloon-loan-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate monthly payments and the remaining balloon balance on a partially amortizing loan."
+    },
+    {
+      "index": 690,
+      "name": "Interest-Only Loan Calculator",
+      "slug": "interest-only-loan-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate an interest-only monthly payment and interest over a selected period."
+    },
+    {
+      "index": 691,
+      "name": "Student Loan Calculator",
+      "slug": "student-loan-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate fixed student-loan payments, total repayment, and total interest."
+    },
+    {
+      "index": 692,
+      "name": "Car Lease Calculator",
+      "slug": "car-lease-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate a vehicle lease payment from price, residual value, money factor, term, and tax."
+    },
+    {
+      "index": 693,
+      "name": "Present Value Calculator",
+      "slug": "present-value-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate the present value of a future amount using a discount rate and compounding frequency."
+    },
+    {
+      "index": 694,
+      "name": "Annuity Payment Calculator",
+      "slug": "annuity-payment-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate the periodic payment for a fixed ordinary annuity or amortizing balance."
+    },
+    {
+      "index": 695,
+      "name": "Retirement Savings Calculator",
+      "slug": "retirement-savings-calculator",
+      "category": "Finance & Business",
+      "description": "Project retirement savings from a starting balance, monthly contributions, return, and time."
+    },
+    {
+      "index": 696,
+      "name": "401(k) Calculator",
+      "slug": "401k-calculator",
+      "category": "Finance & Business",
+      "description": "Project a 401(k) balance using salary contributions, employer match, growth, and time."
+    },
+    {
+      "index": 697,
+      "name": "Roth IRA Calculator",
+      "slug": "roth-ira-calculator",
+      "category": "Finance & Business",
+      "description": "Project Roth IRA growth from a current balance and annual contributions."
+    },
+    {
+      "index": 698,
+      "name": "Inflation Calculator",
+      "slug": "inflation-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate future prices and the future purchasing power of today's money."
+    },
+    {
+      "index": 699,
+      "name": "CD Calculator",
+      "slug": "cd-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate certificate-of-deposit maturity value from deposit, APY, and term."
+    },
+    {
+      "index": 700,
+      "name": "Net Worth Calculator",
+      "slug": "net-worth-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate net worth from total assets and liabilities."
+    },
+    {
+      "index": 701,
+      "name": "Emergency Fund Calculator",
+      "slug": "emergency-fund-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate an emergency-fund target from essential monthly expenses and desired coverage."
+    },
+    {
+      "index": 702,
+      "name": "Current Ratio Calculator",
+      "slug": "current-ratio-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate the current ratio from current assets and current liabilities."
+    },
+    {
+      "index": 703,
+      "name": "Business Burn Rate Calculator",
+      "slug": "business-burn-rate-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate average monthly cash burn from starting cash, ending cash, and elapsed months."
+    },
+    {
+      "index": 704,
+      "name": "Cash Runway Calculator",
+      "slug": "cash-runway-calculator",
+      "category": "Finance & Business",
+      "description": "Estimate how many months current cash can support a given monthly net burn."
+    },
+    {
+      "index": 705,
+      "name": "Working Capital Calculator",
+      "slug": "working-capital-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate working capital and current ratio from current assets and liabilities."
+    },
+    {
+      "index": 706,
+      "name": "Debt Service Coverage Ratio Calculator",
+      "slug": "debt-service-coverage-ratio-calculator",
+      "category": "Finance & Business",
+      "description": "Calculate DSCR from net operating income and annual debt service."
+    },
+    {
+      "index": 707,
+      "name": "Drywall Mud Calculator",
+      "slug": "drywall-mud-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate drywall joint compound from wall area, coats, coverage, and waste."
+    },
+    {
+      "index": 708,
+      "name": "Drywall Screw Calculator",
+      "slug": "drywall-screw-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate drywall screw quantity from area, sheet coverage, screws per sheet, and waste."
+    },
+    {
+      "index": 709,
+      "name": "Drywall Cost Calculator",
+      "slug": "drywall-cost-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate drywall sheets, material cost, and labor from project area."
+    },
+    {
+      "index": 710,
+      "name": "Paint Cost Calculator",
+      "slug": "paint-cost-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate paint gallons and material cost from area, coats, coverage, and price."
+    },
+    {
+      "index": 711,
+      "name": "Flooring Cost Calculator",
+      "slug": "flooring-cost-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate flooring material, waste, material cost, and labor cost."
+    },
+    {
+      "index": 712,
+      "name": "Tile Cost Calculator",
+      "slug": "tile-cost-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate tile coverage, waste, material cost, and installation cost."
+    },
+    {
+      "index": 713,
+      "name": "Fence Post Spacing Calculator",
+      "slug": "fence-post-spacing-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate fence post count and actual spacing across a fence run."
+    },
+    {
+      "index": 714,
+      "name": "Gutter Size Calculator",
+      "slug": "gutter-size-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate roof runoff flow and a planning gutter size from roof area and rainfall intensity."
+    },
+    {
+      "index": 715,
+      "name": "Gutter Slope Calculator",
+      "slug": "gutter-slope-calculator",
+      "category": "Construction & Home",
+      "description": "Calculate required gutter drop from run length and slope per ten feet."
+    },
+    {
+      "index": 716,
+      "name": "Downspout Calculator",
+      "slug": "downspout-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate the number of downspouts needed for roof runoff flow."
+    },
+    {
+      "index": 717,
+      "name": "Insulation R-Value Calculator",
+      "slug": "insulation-r-value-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate total insulation R-value from existing insulation and added thickness."
+    },
+    {
+      "index": 718,
+      "name": "Room BTU Calculator",
+      "slug": "room-btu-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate a room heating or cooling load in BTU per hour from area and adjustment factors."
+    },
+    {
+      "index": 719,
+      "name": "HVAC Tonnage Calculator",
+      "slug": "hvac-tonnage-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate HVAC cooling tonnage from floor area and a BTU-per-square-foot planning factor."
+    },
+    {
+      "index": 720,
+      "name": "CFM Calculator",
+      "slug": "cfm-calculator",
+      "category": "Construction & Home",
+      "description": "Calculate airflow in CFM from room volume and desired air changes per hour."
+    },
+    {
+      "index": 721,
+      "name": "Air Changes Per Hour Calculator",
+      "slug": "air-changes-per-hour-calculator",
+      "category": "Construction & Home",
+      "description": "Calculate air changes per hour from airflow and room volume."
+    },
+    {
+      "index": 722,
+      "name": "Duct Size Calculator",
+      "slug": "duct-size-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate round duct diameter from airflow and target air velocity."
+    },
+    {
+      "index": 723,
+      "name": "Pipe Slope Calculator",
+      "slug": "pipe-slope-calculator",
+      "category": "Construction & Home",
+      "description": "Calculate vertical pipe drop from horizontal run and slope percentage."
+    },
+    {
+      "index": 724,
+      "name": "Water Pressure Loss Calculator",
+      "slug": "water-pressure-loss-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate water head loss and pressure loss using the Hazen-Williams equation."
+    },
+    {
+      "index": 725,
+      "name": "Rainwater Harvesting Calculator",
+      "slug": "rainwater-harvesting-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate collectible rainwater from roof area, rainfall, and runoff coefficient."
+    },
+    {
+      "index": 726,
+      "name": "Lawn Seed Calculator",
+      "slug": "lawn-seed-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate grass seed required from lawn area and seeding rate."
+    },
+    {
+      "index": 727,
+      "name": "Sod Calculator",
+      "slug": "sod-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate sod coverage and piece count with a waste allowance."
+    },
+    {
+      "index": 728,
+      "name": "Concrete Weight Calculator",
+      "slug": "concrete-weight-calculator",
+      "category": "Construction & Home",
+      "description": "Estimate concrete weight from volume and material density."
+    },
+    {
+      "index": 729,
+      "name": "Fraction to Decimal Calculator",
+      "slug": "fraction-to-decimal-calculator",
+      "category": "Math",
+      "description": "Convert a numerator and denominator into a decimal value."
+    },
+    {
+      "index": 730,
+      "name": "Scientific Notation Calculator",
+      "slug": "scientific-notation-calculator",
+      "category": "Math",
+      "description": "Convert a number to normalized scientific notation."
+    },
+    {
+      "index": 731,
+      "name": "Significant Figures Calculator",
+      "slug": "significant-figures-calculator",
+      "category": "Math",
+      "description": "Round a number to a selected number of significant figures."
+    },
+    {
+      "index": 732,
+      "name": "Rounding Calculator",
+      "slug": "rounding-calculator",
+      "category": "Math",
+      "description": "Round a number to a chosen number of decimal places."
+    },
+    {
+      "index": 733,
+      "name": "Arithmetic Sequence Calculator",
+      "slug": "arithmetic-sequence-calculator",
+      "category": "Math",
+      "description": "Calculate the nth term and sum of an arithmetic sequence."
+    },
+    {
+      "index": 734,
+      "name": "Geometric Sequence Calculator",
+      "slug": "geometric-sequence-calculator",
+      "category": "Math",
+      "description": "Calculate the nth term and finite sum of a geometric sequence."
+    },
+    {
+      "index": 735,
+      "name": "Binomial Probability Calculator",
+      "slug": "binomial-probability-calculator",
+      "category": "Math",
+      "description": "Calculate an exact binomial probability for n trials and k successes."
+    },
+    {
+      "index": 736,
+      "name": "Expected Value Calculator",
+      "slug": "expected-value-calculator",
+      "category": "Math",
+      "description": "Calculate expected value from outcomes and their probabilities."
+    },
+    {
+      "index": 737,
+      "name": "Percentile Calculator",
+      "slug": "percentile-calculator",
+      "category": "Math",
+      "description": "Calculate a percentile value from a list of numbers using linear interpolation."
+    },
+    {
+      "index": 738,
+      "name": "Percentile Rank Calculator",
+      "slug": "percentile-rank-calculator",
+      "category": "Math",
+      "description": "Estimate the percentile rank of a value within a dataset."
+    },
+    {
+      "index": 739,
+      "name": "Normal Distribution Calculator",
+      "slug": "normal-distribution-calculator",
+      "category": "Math",
+      "description": "Calculate a z-score and cumulative normal probability for a value."
+    },
+    {
+      "index": 740,
+      "name": "Confidence Interval Calculator",
+      "slug": "confidence-interval-calculator",
+      "category": "Math",
+      "description": "Calculate a z-based confidence interval for a sample mean."
+    },
+    {
+      "index": 741,
+      "name": "Margin of Error Calculator",
+      "slug": "margin-of-error-calculator",
+      "category": "Math",
+      "description": "Calculate a z-based margin of error from sample standard deviation and sample size."
+    },
+    {
+      "index": 742,
+      "name": "Sample Size Calculator",
+      "slug": "sample-size-calculator",
+      "category": "Math",
+      "description": "Estimate sample size for a population proportion from confidence level and margin of error."
+    },
+    {
+      "index": 743,
+      "name": "Correlation Coefficient Calculator",
+      "slug": "correlation-coefficient-calculator",
+      "category": "Math",
+      "description": "Calculate the Pearson correlation coefficient for paired numeric data."
+    },
+    {
+      "index": 744,
+      "name": "Covariance Calculator",
+      "slug": "covariance-calculator",
+      "category": "Math",
+      "description": "Calculate sample or population covariance for paired numeric data."
+    },
+    {
+      "index": 745,
+      "name": "Linear Regression Calculator",
+      "slug": "linear-regression-calculator",
+      "category": "Math",
+      "description": "Calculate a least-squares regression line and coefficient of determination."
+    },
+    {
+      "index": 746,
+      "name": "Arc Length Calculator",
+      "slug": "arc-length-calculator",
+      "category": "Math",
+      "description": "Calculate circular arc length from radius and central angle."
+    },
+    {
+      "index": 747,
+      "name": "Sector Area Calculator",
+      "slug": "sector-area-calculator",
+      "category": "Math",
+      "description": "Calculate the area of a circular sector from radius and central angle."
+    },
+    {
+      "index": 748,
+      "name": "Ellipse Calculator",
+      "slug": "ellipse-calculator",
+      "category": "Math",
+      "description": "Calculate ellipse area, approximate circumference, and eccentricity."
+    },
+    {
+      "index": 749,
+      "name": "Trapezoid Calculator",
+      "slug": "trapezoid-calculator",
+      "category": "Math",
+      "description": "Calculate trapezoid area from the two parallel bases and height."
+    },
+    {
+      "index": 750,
+      "name": "Polygon Area Calculator",
+      "slug": "polygon-area-calculator",
+      "category": "Math",
+      "description": "Calculate polygon area and perimeter from Cartesian coordinate points."
+    },
+    {
+      "index": 751,
+      "name": "PCB Trace Width Calculator",
+      "slug": "pcb-trace-width-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Estimate external PCB trace width from current, copper thickness, and allowed temperature rise."
+    },
+    {
+      "index": 752,
+      "name": "Resistor Power Rating Calculator",
+      "slug": "resistor-power-rating-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Calculate resistor current and power from voltage and resistance and suggest design headroom."
+    },
+    {
+      "index": 753,
+      "name": "Capacitor Code Calculator",
+      "slug": "capacitor-code-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Decode common three-digit capacitor codes into pF, nF, and \u00b5F."
+    },
+    {
+      "index": 754,
+      "name": "Battery Pack Series/Parallel Calculator",
+      "slug": "battery-pack-series-parallel-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Calculate battery-pack voltage, capacity, energy, and cell count from series/parallel configuration."
+    },
+    {
+      "index": 755,
+      "name": "UPS Runtime Calculator",
+      "slug": "ups-runtime-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Estimate UPS battery runtime from battery energy, load, efficiency, and usable capacity."
+    },
+    {
+      "index": 756,
+      "name": "Motor Torque Calculator",
+      "slug": "motor-torque-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Calculate motor torque from shaft power and rotational speed."
+    },
+    {
+      "index": 757,
+      "name": "Current Density Calculator",
+      "slug": "current-density-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Calculate electrical current density from current and conductor cross-sectional area."
+    },
+    {
+      "index": 758,
+      "name": "Capacitor Discharge Time Calculator",
+      "slug": "capacitor-discharge-time-calculator",
+      "category": "Electrical & Electronics",
+      "description": "Calculate RC capacitor discharge time between two voltages."
+    }
+  ]
+}
