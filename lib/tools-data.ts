@@ -136,7 +136,7 @@ const existingTools: ToolConfig[] = [
       {
         question: "Is this tool secure for sensitive data?",
         answer:
-          "Base64 is not encryptionâ€”it is encoding. Anyone can decode it. Do not use Base64 to protect sensitive information.",
+          "Base64 is not encryptionÃ¢â‚¬â€it is encoding. Anyone can decode it. Do not use Base64 to protect sensitive information.",
       },
     ],
   },
@@ -2362,7 +2362,7 @@ const consolidatedToolSlugs = new Set<string>([
   "peak-to-peak-voltage-calculator",
 ]);
 
-export const tools: ToolConfig[] = [
+const allTools: ToolConfig[] = [
   ...existingTools,
   ...batch6Tools,
   ...pdfTools,
@@ -2381,10 +2381,14 @@ export const tools: ToolConfig[] = [
   ...batch501To550Tools,
   ...batch551To600Tools,
   ...batch601To650Tools,
-].filter((tool) => !consolidatedToolSlugs.has(tool.slug));
+];
+
+export const tools: ToolConfig[] = allTools.filter(
+  (tool) => !consolidatedToolSlugs.has(tool.slug)
+);
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
-  return tools.find((t) => t.slug === slug);
+  return allTools.find((t) => t.slug === slug);
 }
 
 export function getAllToolSlugs(): string[] {
