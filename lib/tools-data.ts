@@ -136,7 +136,7 @@ const existingTools: ToolConfig[] = [
       {
         question: "Is this tool secure for sensitive data?",
         answer:
-          "Base64 is not encryption—it is encoding. Anyone can decode it. Do not use Base64 to protect sensitive information.",
+          "Base64 is not encryptionâ€”it is encoding. Anyone can decode it. Do not use Base64 to protect sensitive information.",
       },
     ],
   },
@@ -2349,6 +2349,19 @@ const existingTools: ToolConfig[] = [
 
 ];
 
+// SEO consolidation: these same-intent URLs stay in source files for rollback,
+// but are excluded from the public registry, internal tool lists, and sitemap.
+const consolidatedToolSlugs = new Set<string>([
+  "block-wall-calculator",
+  "brick-wall-calculator",
+  "brick-mortar-calculator",
+  "asphalt-tonnage-calculator",
+  "battery-runtime-calculator",
+  "unix-timestamp-to-date",
+  "unix-timestamp-generator",
+  "peak-to-peak-voltage-calculator",
+]);
+
 export const tools: ToolConfig[] = [
   ...existingTools,
   ...batch6Tools,
@@ -2368,7 +2381,7 @@ export const tools: ToolConfig[] = [
   ...batch501To550Tools,
   ...batch551To600Tools,
   ...batch601To650Tools,
-];
+].filter((tool) => !consolidatedToolSlugs.has(tool.slug));
 
 export function getToolBySlug(slug: string): ToolConfig | undefined {
   return tools.find((t) => t.slug === slug);

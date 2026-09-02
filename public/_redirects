@@ -1,0 +1,18 @@
+# Avorqin SEO consolidation redirects
+# Static rules are intentionally kept above any existing dynamic redirects.
+/tools/block-wall-calculator /tools/concrete-block-calculator/ 301
+/tools/block-wall-calculator/ /tools/concrete-block-calculator/ 301
+/tools/brick-wall-calculator /tools/brick-calculator/ 301
+/tools/brick-wall-calculator/ /tools/brick-calculator/ 301
+/tools/brick-mortar-calculator /tools/mortar-calculator/ 301
+/tools/brick-mortar-calculator/ /tools/mortar-calculator/ 301
+/tools/asphalt-tonnage-calculator /tools/asphalt-calculator/ 301
+/tools/asphalt-tonnage-calculator/ /tools/asphalt-calculator/ 301
+/tools/battery-runtime-calculator /tools/battery-life-calculator/ 301
+/tools/battery-runtime-calculator/ /tools/battery-life-calculator/ 301
+/tools/unix-timestamp-to-date /tools/timestamp-converter/ 301
+/tools/unix-timestamp-to-date/ /tools/timestamp-converter/ 301
+/tools/unix-timestamp-generator /tools/timestamp-converter/ 301
+/tools/unix-timestamp-generator/ /tools/timestamp-converter/ 301
+/tools/peak-to-peak-voltage-calculator /tools/peak-voltage-calculator/ 301
+/tools/peak-to-peak-voltage-calculator/ /tools/peak-voltage-calculator/ 301
