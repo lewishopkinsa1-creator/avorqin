@@ -8,6 +8,7 @@ import { StructuredData } from "./structured-data";
 import { ToolNav } from "./tool-nav";
 import { CssUnitLinks } from "./css-unit-links";
 import { AsciiTextLinks } from "./ascii-text-links";
+import { ScreenDisplayLinks } from "./screen-display-links";
 
 interface ToolLayoutProps {
   tool: ToolConfig;
@@ -94,6 +95,7 @@ export function ToolLayout({ tool, children }: ToolLayoutProps) {
           <SEOContent tool={tool} />
             <CssUnitLinks currentSlug={tool.slug} />
             <AsciiTextLinks currentSlug={tool.slug} />
+            <ScreenDisplayLinks currentSlug={tool.slug} />
 
           <ToolNav currentSlug={tool.slug} />
         </div>
@@ -101,4 +103,6 @@ export function ToolLayout({ tool, children }: ToolLayoutProps) {
     </>
   );
 }
+
+
 
