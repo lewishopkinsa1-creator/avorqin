@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+﻿import { ReactNode } from "react";
 import { Metadata } from "next";
 import { ShieldCheck, Sparkles, Zap } from "lucide-react";
 import { ToolConfig } from "@/types";
@@ -6,6 +6,7 @@ import { SITE_URL } from "@/lib/config";
 import { SEOContent } from "./seo-content";
 import { StructuredData } from "./structured-data";
 import { ToolNav } from "./tool-nav";
+import { CssUnitLinks } from "./css-unit-links";
 
 interface ToolLayoutProps {
   tool: ToolConfig;
@@ -20,14 +21,14 @@ export function generateToolMetadata(tool: ToolConfig): Metadata {
       canonical: `/tools/${tool.slug}/`,
     },
     openGraph: {
-      title: `${tool.name} — Avorqin`,
+      title: `${tool.name} â€” Avorqin`,
       description: tool.description,
       type: "website",
       url: `/tools/${tool.slug}/`,
     },
     twitter: {
       card: "summary",
-      title: `${tool.name} — Avorqin`,
+      title: `${tool.name} â€” Avorqin`,
       description: tool.description,
     },
   };
@@ -83,13 +84,14 @@ export function ToolLayout({ tool, children }: ToolLayoutProps) {
                 className="flex h-4 w-4 items-center justify-center rounded-full border text-[10px] font-bold"
                 aria-hidden="true"
               >
-                ✓
+                âœ“
               </span>
               <span>No signup required</span>
             </div>
           </div>
 
           <SEOContent tool={tool} />
+            <CssUnitLinks currentSlug={tool.slug} />
 
           <ToolNav currentSlug={tool.slug} />
         </div>
