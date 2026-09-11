@@ -1,0 +1,21 @@
+Avorqin 750 -> 1,000 batch validation
+Date: 2026-09-10
+
+PASSED CHECKS
+- Manifest contains exactly 250 tools and 250 unique slugs.
+- Metadata file contains exactly 250 unique tool definitions.
+- Shared component contains exactly 250 tool kinds, 250 UI configs, and 250 calculation/conversion cases.
+- Every calculation case's referenced input keys are present in its UI configuration.
+- Exactly 250 static tool routes are included.
+- Every route is wired to its matching getToolBySlug() value and Batch7591008Tool kind.
+- Shared component passes a TypeScript parse/type check with DOM + ES2020 libraries using local React stubs.
+- No external runtime npm package was added by this batch.
+- Installer preserves the existing 8 consolidated legacy URL exclusions and does not re-add their slugs.
+- Verifier expects 1,008 total source definitions and exactly 1,000 public tools after the 8 exclusions.
+- Verifier checks all 8 existing redirects and getToolBySlug() -> allTools behavior.
+- New category definitions: Physics & Engineering, Automotive, Cooking & Baking, Photography & Video.
+- Current Avorqin repository structure was checked against the live main branch for the batch651To758Tools integration point, allTools registry, consolidatedToolSlugs, dynamic category routing, and existing redirect structure.
+- Homepage installer milestone changes 500+ to 1,000+.
+
+IMPORTANT
+Run install-batch-759-1008.ps1 and verify-batch-759-1008.ps1 from the Avorqin repository root before committing. Cloudflare remains the production Next.js build environment; no local Node/npm installation is required for this package workflow.

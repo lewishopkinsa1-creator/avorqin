@@ -1,0 +1,1259 @@
+{
+  "name": "Avorqin 750 to 1000 public tools",
+  "newTools": 250,
+  "expectedSourceDefinitions": 1008,
+  "expectedPublicTools": 1000,
+  "retainedConsolidatedLegacyDefinitions": 8,
+  "tools": [
+    {
+      "name": "JSON to PHP Array Converter",
+      "slug": "json-to-php-array-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "PHP Array to JSON Converter",
+      "slug": "php-array-to-json-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Python Dict Converter",
+      "slug": "json-to-python-dict-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "Python Dict to JSON Converter",
+      "slug": "python-dict-to-json-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to C# Class Generator",
+      "slug": "json-to-csharp-class-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Java Class Generator",
+      "slug": "json-to-java-class-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Go Struct Generator",
+      "slug": "json-to-go-struct-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Rust Struct Generator",
+      "slug": "json-to-rust-struct-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Kotlin Data Class Generator",
+      "slug": "json-to-kotlin-data-class-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Swift Codable Generator",
+      "slug": "json-to-swift-codable-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "CSV to Markdown Table Converter",
+      "slug": "csv-to-markdown-table-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "Markdown Table to CSV Converter",
+      "slug": "markdown-table-to-csv-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "HTML Table to Markdown Converter",
+      "slug": "html-table-to-markdown-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "Markdown Table to HTML Converter",
+      "slug": "markdown-table-to-html-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "SQL to CSV Converter",
+      "slug": "sql-to-csv-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "CSV to JSONL Converter",
+      "slug": "csv-to-jsonl-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSONL to CSV Converter",
+      "slug": "jsonl-to-csv-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSONL Formatter",
+      "slug": "jsonl-formatter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSONL Validator",
+      "slug": "jsonl-validator",
+      "category": "Developer"
+    },
+    {
+      "name": "YAML to XML Converter",
+      "slug": "yaml-to-xml-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "XML to YAML Converter",
+      "slug": "xml-to-yaml-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "ENV to JSON Converter",
+      "slug": "env-to-json-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to ENV Converter",
+      "slug": "json-to-env-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "Properties to JSON Converter",
+      "slug": "properties-to-json-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to Properties Converter",
+      "slug": "json-to-properties-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "Regex Escape Tool",
+      "slug": "regex-escape-tool",
+      "category": "Developer"
+    },
+    {
+      "name": "Cron Next Run Calculator",
+      "slug": "cron-next-run-calculator",
+      "category": "Developer"
+    },
+    {
+      "name": "Semantic Version Comparator",
+      "slug": "semantic-version-comparator",
+      "category": "Developer"
+    },
+    {
+      "name": "Semantic Version Bump Calculator",
+      "slug": "semantic-version-bump-calculator",
+      "category": "Developer"
+    },
+    {
+      "name": "Cache-Control Header Builder",
+      "slug": "cache-control-header-builder",
+      "category": "Developer"
+    },
+    {
+      "name": "CORS Header Generator",
+      "slug": "cors-header-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "CSP Header Parser",
+      "slug": "csp-header-parser",
+      "category": "Developer"
+    },
+    {
+      "name": "htaccess Redirect Generator",
+      "slug": "htaccess-redirect-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "Nginx Redirect Generator",
+      "slug": "nginx-redirect-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "IP Range Calculator",
+      "slug": "ip-range-calculator",
+      "category": "Developer"
+    },
+    {
+      "name": "CIDR to IP Range Converter",
+      "slug": "cidr-to-ip-range-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "IPv6 Subnet Calculator",
+      "slug": "ipv6-subnet-calculator",
+      "category": "Developer"
+    },
+    {
+      "name": "DNS TTL Converter",
+      "slug": "dns-ttl-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "DNS Record Parser",
+      "slug": "dns-record-parser",
+      "category": "Developer"
+    },
+    {
+      "name": "Base32 Encoder",
+      "slug": "base32-encoder",
+      "category": "Developer"
+    },
+    {
+      "name": "Base32 Decoder",
+      "slug": "base32-decoder",
+      "category": "Developer"
+    },
+    {
+      "name": "Base58 Encoder",
+      "slug": "base58-encoder",
+      "category": "Developer"
+    },
+    {
+      "name": "Base58 Decoder",
+      "slug": "base58-decoder",
+      "category": "Developer"
+    },
+    {
+      "name": "TSV to JSON Converter",
+      "slug": "tsv-to-json-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON to TSV Converter",
+      "slug": "json-to-tsv-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "CSV to YAML Converter",
+      "slug": "csv-to-yaml-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "YAML to CSV Converter",
+      "slug": "yaml-to-csv-converter",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON Pointer Tester",
+      "slug": "json-pointer-tester",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON Patch Generator",
+      "slug": "json-patch-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "JSON Merge Patch Tool",
+      "slug": "json-merge-patch-tool",
+      "category": "Developer"
+    },
+    {
+      "name": "HTTP Basic Auth Header Generator",
+      "slug": "http-basic-auth-header-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "Content-Disposition Header Generator",
+      "slug": "content-disposition-header-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "URL Query Parameter Sorter",
+      "slug": "url-query-parameter-sorter",
+      "category": "Developer"
+    },
+    {
+      "name": "URL Normalizer",
+      "slug": "url-normalizer",
+      "category": "Developer"
+    },
+    {
+      "name": "SQL CREATE TABLE Generator",
+      "slug": "sql-create-table-generator",
+      "category": "Developer"
+    },
+    {
+      "name": "Cap Rate Calculator",
+      "slug": "cap-rate-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Cash-on-Cash Return Calculator",
+      "slug": "cash-on-cash-return-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Rental Property ROI Calculator",
+      "slug": "rental-property-roi-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Rental Yield Calculator",
+      "slug": "rental-yield-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Gross Rent Multiplier Calculator",
+      "slug": "gross-rent-multiplier-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Loan-to-Value Calculator",
+      "slug": "loan-to-value-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Home Equity Calculator",
+      "slug": "home-equity-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Sinking Fund Calculator",
+      "slug": "sinking-fund-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Bond Yield Calculator",
+      "slug": "bond-yield-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Bond Price Calculator",
+      "slug": "bond-price-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Dividend Yield Calculator",
+      "slug": "dividend-yield-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Dividend Reinvestment Calculator",
+      "slug": "dividend-reinvestment-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Stock Average Calculator",
+      "slug": "stock-average-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Risk Reward Ratio Calculator",
+      "slug": "risk-reward-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "P/E Ratio Calculator",
+      "slug": "pe-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "PEG Ratio Calculator",
+      "slug": "peg-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Earnings Per Share Calculator",
+      "slug": "earnings-per-share-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Return on Assets Calculator",
+      "slug": "return-on-assets-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Return on Equity Calculator",
+      "slug": "return-on-equity-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "NPV Calculator",
+      "slug": "npv-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "IRR Calculator",
+      "slug": "irr-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "MIRR Calculator",
+      "slug": "mirr-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "WACC Calculator",
+      "slug": "wacc-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "CAPM Calculator",
+      "slug": "capm-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Sharpe Ratio Calculator",
+      "slug": "sharpe-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Sortino Ratio Calculator",
+      "slug": "sortino-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Cash Ratio Calculator",
+      "slug": "cash-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Interest Coverage Ratio Calculator",
+      "slug": "interest-coverage-ratio-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Asset Turnover Calculator",
+      "slug": "asset-turnover-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Cash Conversion Cycle Calculator",
+      "slug": "cash-conversion-cycle-calculator",
+      "category": "Finance"
+    },
+    {
+      "name": "Root Mean Square Calculator",
+      "slug": "root-mean-square-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Sum of Squares Calculator",
+      "slug": "sum-of-squares-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "T Statistic Calculator",
+      "slug": "t-statistic-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "P Value Calculator",
+      "slug": "p-value-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Chi Square Calculator",
+      "slug": "chi-square-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "One-Way ANOVA Calculator",
+      "slug": "one-way-anova-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Hypergeometric Calculator",
+      "slug": "hypergeometric-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Poisson Distribution Calculator",
+      "slug": "poisson-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Exponential Distribution Calculator",
+      "slug": "exponential-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Uniform Distribution Calculator",
+      "slug": "uniform-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Beta Distribution Calculator",
+      "slug": "beta-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Gamma Distribution Calculator",
+      "slug": "gamma-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Weibull Distribution Calculator",
+      "slug": "weibull-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Lognormal Distribution Calculator",
+      "slug": "lognormal-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Geometric Distribution Calculator",
+      "slug": "geometric-distribution-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Negative Binomial Calculator",
+      "slug": "negative-binomial-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Mean Absolute Deviation Calculator",
+      "slug": "mean-absolute-deviation-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Median Absolute Deviation Calculator",
+      "slug": "median-absolute-deviation-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Weighted Standard Deviation Calculator",
+      "slug": "weighted-standard-deviation-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Root Mean Square Error Calculator",
+      "slug": "root-mean-square-error-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Mean Absolute Error Calculator",
+      "slug": "mean-absolute-error-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "MAPE Calculator",
+      "slug": "mape-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "R Squared Calculator",
+      "slug": "r-squared-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Vector Magnitude Calculator",
+      "slug": "vector-magnitude-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Dot Product Calculator",
+      "slug": "dot-product-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Cross Product Calculator",
+      "slug": "cross-product-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Complex Number Calculator",
+      "slug": "complex-number-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Polynomial Degree Calculator",
+      "slug": "polynomial-degree-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Skewness Calculator",
+      "slug": "skewness-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Kurtosis Calculator",
+      "slug": "kurtosis-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Weighted Variance Calculator",
+      "slug": "weighted-variance-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Matrix Trace Calculator",
+      "slug": "matrix-trace-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Matrix Transpose Calculator",
+      "slug": "matrix-transpose-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Vector Angle Calculator",
+      "slug": "vector-angle-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Cosine Similarity Calculator",
+      "slug": "cosine-similarity-calculator",
+      "category": "Math"
+    },
+    {
+      "name": "Force Calculator",
+      "slug": "force-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Acceleration Calculator",
+      "slug": "acceleration-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Momentum Calculator",
+      "slug": "momentum-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Impulse Calculator",
+      "slug": "impulse-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Kinetic Energy Calculator",
+      "slug": "kinetic-energy-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Potential Energy Calculator",
+      "slug": "potential-energy-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Work Calculator",
+      "slug": "work-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Mechanical Power Calculator",
+      "slug": "mechanical-power-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Lever Torque Calculator",
+      "slug": "lever-torque-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Pressure Force Area Calculator",
+      "slug": "pressure-force-area-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Density Calculator",
+      "slug": "density-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Specific Gravity Calculator",
+      "slug": "specific-gravity-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Buoyancy Calculator",
+      "slug": "buoyancy-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Reynolds Number Calculator",
+      "slug": "reynolds-number-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Bernoulli Equation Calculator",
+      "slug": "bernoulli-equation-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Hydraulic Power Calculator",
+      "slug": "hydraulic-power-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Pump Power Calculator",
+      "slug": "pump-power-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Pipe Flow Rate Calculator",
+      "slug": "pipe-flow-rate-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Heat Transfer Calculator",
+      "slug": "heat-transfer-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Thermal Expansion Calculator",
+      "slug": "thermal-expansion-calculator",
+      "category": "Engineering"
+    },
+    {
+      "name": "Lumber Weight Calculator",
+      "slug": "lumber-weight-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Lumber Cost Calculator",
+      "slug": "lumber-cost-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Stair Stringer Calculator",
+      "slug": "stair-stringer-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Rebar Weight Calculator",
+      "slug": "rebar-weight-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Rebar Spacing Calculator",
+      "slug": "rebar-spacing-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Tile Layout Calculator",
+      "slug": "tile-layout-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Ceiling Tile Calculator",
+      "slug": "ceiling-tile-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Door Rough Opening Calculator",
+      "slug": "door-rough-opening-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Fence Picket Spacing Calculator",
+      "slug": "fence-picket-spacing-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Stair Baluster Spacing Calculator",
+      "slug": "stair-baluster-spacing-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Wheelchair Ramp Length Calculator",
+      "slug": "wheelchair-ramp-length-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Landscape Fabric Calculator",
+      "slug": "landscape-fabric-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Acoustic Panel Calculator",
+      "slug": "acoustic-panel-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Cabinet Linear Feet Calculator",
+      "slug": "cabinet-linear-feet-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Countertop Square Footage Calculator",
+      "slug": "countertop-square-footage-calculator",
+      "category": "Construction"
+    },
+    {
+      "name": "Grade Curve Calculator",
+      "slug": "grade-curve-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "Attendance Percentage Calculator",
+      "slug": "attendance-percentage-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "Credit Hour Calculator",
+      "slug": "credit-hour-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "Course Load Calculator",
+      "slug": "course-load-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "Study Time Calculator",
+      "slug": "study-time-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "Study Schedule Calculator",
+      "slug": "study-schedule-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "Reading Speed Calculator",
+      "slug": "reading-speed-calculator",
+      "category": "Education"
+    },
+    {
+      "name": "APA Citation Generator",
+      "slug": "apa-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "MLA Citation Generator",
+      "slug": "mla-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "Chicago Citation Generator",
+      "slug": "chicago-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "Harvard Citation Generator",
+      "slug": "harvard-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "IEEE Citation Generator",
+      "slug": "ieee-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "BibTeX Entry Generator",
+      "slug": "bibtex-entry-generator",
+      "category": "Education"
+    },
+    {
+      "name": "Vancouver Citation Generator",
+      "slug": "vancouver-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "AMA Citation Generator",
+      "slug": "ama-citation-generator",
+      "category": "Education"
+    },
+    {
+      "name": "Net Revenue Retention Calculator",
+      "slug": "net-revenue-retention-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Gross Revenue Retention Calculator",
+      "slug": "gross-revenue-retention-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Revenue Churn Calculator",
+      "slug": "revenue-churn-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Expansion MRR Calculator",
+      "slug": "expansion-mrr-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Contraction MRR Calculator",
+      "slug": "contraction-mrr-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Net New MRR Calculator",
+      "slug": "net-new-mrr-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "SaaS Magic Number Calculator",
+      "slug": "saas-magic-number-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Rule of 40 Calculator",
+      "slug": "rule-of-40-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "SaaS Quick Ratio Calculator",
+      "slug": "saas-quick-ratio-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Average Revenue Per Account Calculator",
+      "slug": "average-revenue-per-account-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Net Promoter Score Calculator",
+      "slug": "net-promoter-score-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Marketing Efficiency Ratio Calculator",
+      "slug": "marketing-efficiency-ratio-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "SaaS Burn Multiple Calculator",
+      "slug": "saas-burn-multiple-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Average Contract Value Calculator",
+      "slug": "average-contract-value-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Trial Conversion Rate Calculator",
+      "slug": "trial-conversion-rate-calculator",
+      "category": "Ecommerce"
+    },
+    {
+      "name": "Time Card Calculator",
+      "slug": "time-card-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Shift Length Calculator",
+      "slug": "shift-length-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Overtime Hours Calculator",
+      "slug": "overtime-hours-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Decimal Hours Calculator",
+      "slug": "decimal-hours-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Date Midpoint Calculator",
+      "slug": "date-midpoint-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Nth Weekday Calculator",
+      "slug": "nth-weekday-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Fiscal Quarter Calculator",
+      "slug": "fiscal-quarter-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Quarter End Date Calculator",
+      "slug": "quarter-end-date-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "Unix Nanoseconds Converter",
+      "slug": "unix-nanoseconds-converter",
+      "category": "Date & Time"
+    },
+    {
+      "name": "ISO Duration Calculator",
+      "slug": "iso-duration-calculator",
+      "category": "Date & Time"
+    },
+    {
+      "name": "MPG Calculator",
+      "slug": "mpg-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Fuel Cost Calculator",
+      "slug": "fuel-cost-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Cost Per Mile Calculator",
+      "slug": "cost-per-mile-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Tire Size Calculator",
+      "slug": "tire-size-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Speedometer Error Calculator",
+      "slug": "speedometer-error-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Wheel Offset Calculator",
+      "slug": "wheel-offset-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Wheel Backspacing Calculator",
+      "slug": "wheel-backspacing-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Gear Ratio Calculator",
+      "slug": "gear-ratio-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "RPM Speed Calculator",
+      "slug": "rpm-speed-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Engine Displacement Calculator",
+      "slug": "engine-displacement-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Compression Ratio Calculator",
+      "slug": "compression-ratio-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Horsepower to Weight Ratio Calculator",
+      "slug": "horsepower-to-weight-ratio-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Torque to Horsepower Calculator",
+      "slug": "torque-to-horsepower-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Horsepower to Torque Calculator",
+      "slug": "horsepower-to-torque-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Quarter Mile Horsepower Calculator",
+      "slug": "quarter-mile-horsepower-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Vehicle Depreciation Calculator",
+      "slug": "vehicle-depreciation-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Lease Mileage Calculator",
+      "slug": "lease-mileage-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "EV Charging Time Calculator",
+      "slug": "ev-charging-time-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "EV Charging Cost Calculator",
+      "slug": "ev-charging-cost-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "EV Range Calculator",
+      "slug": "ev-range-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Piston Speed Calculator",
+      "slug": "piston-speed-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Wheel Torque Calculator",
+      "slug": "wheel-torque-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Stopping Distance Calculator",
+      "slug": "stopping-distance-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Vehicle Weight Distribution Calculator",
+      "slug": "vehicle-weight-distribution-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Trailer Tongue Weight Calculator",
+      "slug": "trailer-tongue-weight-calculator",
+      "category": "Automotive"
+    },
+    {
+      "name": "Recipe Scaling Calculator",
+      "slug": "recipe-scaling-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Recipe Cost Calculator",
+      "slug": "recipe-cost-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Baker's Percentage Calculator",
+      "slug": "bakers-percentage-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Dough Hydration Calculator",
+      "slug": "dough-hydration-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Pizza Dough Calculator",
+      "slug": "pizza-dough-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Bread Dough Calculator",
+      "slug": "bread-dough-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Sourdough Starter Feeding Calculator",
+      "slug": "sourdough-starter-feeding-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Coffee Ratio Calculator",
+      "slug": "coffee-ratio-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Cold Brew Ratio Calculator",
+      "slug": "cold-brew-ratio-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Rice Water Ratio Calculator",
+      "slug": "rice-water-ratio-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Brine Percentage Calculator",
+      "slug": "brine-percentage-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Food Cost Percentage Calculator",
+      "slug": "food-cost-percentage-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Yeast Conversion Calculator",
+      "slug": "yeast-conversion-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Dough Ball Weight Calculator",
+      "slug": "dough-ball-weight-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Cake Pan Conversion Calculator",
+      "slug": "cake-pan-conversion-calculator",
+      "category": "Cooking"
+    },
+    {
+      "name": "Crop Factor Calculator",
+      "slug": "crop-factor-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Equivalent Focal Length Calculator",
+      "slug": "equivalent-focal-length-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Field of View Calculator",
+      "slug": "field-of-view-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Hyperfocal Distance Calculator",
+      "slug": "hyperfocal-distance-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Depth of Field Calculator",
+      "slug": "depth-of-field-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Exposure Value Calculator",
+      "slug": "exposure-value-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Shutter Speed Stops Calculator",
+      "slug": "shutter-speed-stops-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "ND Filter Calculator",
+      "slug": "nd-filter-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Timelapse Calculator",
+      "slug": "timelapse-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Video Bitrate Calculator",
+      "slug": "video-bitrate-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Video File Size Calculator",
+      "slug": "video-file-size-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Audio File Size Calculator",
+      "slug": "audio-file-size-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Recording Time Calculator",
+      "slug": "recording-time-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Frame Count Calculator",
+      "slug": "frame-count-calculator",
+      "category": "Photography"
+    },
+    {
+      "name": "Frames to Timecode Converter",
+      "slug": "frames-to-timecode-converter",
+      "category": "Photography"
+    }
+  ]
+}

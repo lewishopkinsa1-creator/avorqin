@@ -1,3 +1,4 @@
+import { batch759To1008Tools } from "@/lib/tools-data-batch-759-1008";
 import { batch651To758Tools } from "@/lib/tools-data-batch-651-758";
 import { batch601To650Tools } from "@/lib/tools-data-batch-601-650";
 import { batch551To600Tools } from "@/lib/tools-data-batch-551-600";
@@ -2383,6 +2384,7 @@ const allTools: ToolConfig[] = [
   ...batch551To600Tools,
   ...batch601To650Tools,
   ...batch651To758Tools,
+  ...batch759To1008Tools,
 ];
 
 export const tools: ToolConfig[] = allTools.filter(
